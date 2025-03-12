@@ -1,0 +1,59 @@
+{
+  "name": "yamolodoe-project",
+  "version": "1.0.0",
+  "description": "Website of the facial and body massage studio Yablochko Molodilnoe",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --env mode=development",
+    "build:dev": "webpack --env mode=development",
+    "build:prod": "webpack --env mode=production",
+    "lint:js": "npx eslint \"**/*.js\"",
+    "lint:js:fix": "npx eslint \"**/*.js\" --fix",
+    "lint:css": "stylelint \"**/*.css\"",
+    "lint:css:fix": "stylelint \"**/*.css\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirill-io/yamolodoe-project.git"
+  },
+  "keywords": [
+    "website",
+    "facial",
+    "massage",
+    "body",
+    "cosmetology"
+  ],
+  "author": "Kirill Begej",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirill-io/yamolodoe-project/issues"
+  },
+  "homepage": "https://github.com/kirill-io/yamolodoe-project#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/eslint-parser": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.2",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-webpack-plugin": "^4.2.0",
+    "favicons": "^7.2.0",
+    "favicons-webpack-plugin": "^6.0.1",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss": "^8.5.3",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^10.1.5",
+    "style-loader": "^4.0.0",
+    "stylelint": "^16.10.0",
+    "stylelint-config-standard": "^36.0.1",
+    "terser-webpack-plugin": "^5.3.14",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
