@@ -1,0 +1,20 @@
+.header__column {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 65%;
+}
+
+.header__column:first-child {
+  justify-content: start;
+}
+
+.header__column:last-child {
+  justify-content: end;
+}
+
+
+
+.header__column:first-child, .header__column:last-child {
+  width: 17.5%;
+}

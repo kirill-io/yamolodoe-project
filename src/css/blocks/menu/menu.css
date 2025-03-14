@@ -1,0 +1,5 @@
+.menu {
+  color: var(--primary-font-color);
+  font: var(--primary-font-size-m) var(--primary-font-bold);
+  text-transform: uppercase;
+}

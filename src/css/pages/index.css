@@ -1,1 +1,15 @@
+@import url('../utils/fonts.css');
+@import url('../utils/variables.css');
 @import url('../utils/root.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/menu/__list/menu__list.css');
+@import url('../blocks/menu/__link/menu__link.css');
+@import url('../blocks/contacts/contacts.css');
+@import url('../blocks/contacts/__link/contacts__link.css');
+@import url('../blocks/contacts/__image/contacts__image.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__container/header__container.css');
+@import url('../blocks/header/__column/header__column.css');
+@import url('../blocks/contacts/__link/_type/contacts__link_type_phone.css');
+@import url('../blocks/contacts/__link/_type/contacts__link_type_image.css');

@@ -1,0 +1,6 @@
+.contacts__link {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+}

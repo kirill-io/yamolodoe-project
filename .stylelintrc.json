@@ -1,6 +1,9 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
-    "property-no-vendor-prefix": null
+    "property-no-vendor-prefix": null,
+    "selector-class-pattern": null,
+    "media-feature-range-notation": null,
+    "font-family-name-quotes": null
   }
 }

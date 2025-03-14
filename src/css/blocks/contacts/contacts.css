@@ -1,0 +1,7 @@
+.contacts {
+  align-items: center;
+  color: var(--primary-font-color);
+  display: flex;
+  font: var(--primary-font-size-l) var(--primary-font-bold);
+  gap: 20px;
+}

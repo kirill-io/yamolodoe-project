@@ -1,0 +1,20 @@
+.contacts__link_type_phone {
+  position: relative;
+}
+
+.contacts__link_type_phone::before {
+  background: var(--hover-color);
+  bottom: 0;
+  content: '';
+  height: 2px;
+  position: absolute;
+  right: 0;
+  transition: width .3s ease-out;
+  width: 0;
+
+}
+
+.contacts__link_type_phone:hover::before {
+  left: 0;
+  width: 100%;
+}

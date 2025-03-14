@@ -1,0 +1,11 @@
+.header__container {
+  display: flex;
+  max-width: 1780px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1919px) {
+  .header__container {
+    width: 92.71%;
+  }
+}
