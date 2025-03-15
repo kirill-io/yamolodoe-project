@@ -8,6 +8,8 @@
   --primary-bg-color: #FFF;
   --secondary-bg-color: #F6F6F6;
   --hover-color: #8CE35C;
+  --primary-font-size-xs: 14px;
+  --primary-font-size-s: 16px;
   --primary-font-size-m: 20px;
   --primary-font-size-l: 24px;
 }

@@ -1,8 +1,8 @@
 .header__column {
   align-items: center;
   display: flex;
+  flex: 1 0 auto;
   justify-content: center;
-  width: 65%;
 }
 
 .header__column:first-child {
@@ -11,10 +11,4 @@
 
 .header__column:last-child {
   justify-content: end;
-}
-
-
-
-.header__column:first-child, .header__column:last-child {
-  width: 17.5%;
 }

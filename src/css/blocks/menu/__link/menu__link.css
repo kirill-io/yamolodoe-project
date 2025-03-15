@@ -13,3 +13,15 @@
 .menu__link:hover {
   border: 2px solid var(--hover-color);
 }
+
+@media screen and (max-width: 1279px) {
+  .menu__link {
+    padding: 8px 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .menu__link {
+    padding: 5px 10px;
+  }
+}
