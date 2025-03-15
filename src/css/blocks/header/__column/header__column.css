@@ -12,3 +12,17 @@
 .header__column:last-child {
   justify-content: end;
 }
+
+@media screen and (max-width: 767px) {
+  .header__column {
+    flex: 1 0 auto;
+  }
+  
+  .header__column:first-child {
+    flex: 0 1 auto;
+  }
+  
+  .header__column:last-child {
+    flex: 0 1 auto;
+  }
+}

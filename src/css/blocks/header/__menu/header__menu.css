@@ -1,4 +1,4 @@
-.menu {
+.header__menu {
   color: var(--primary-font-color);
   font: var(--primary-font-size-m) var(--primary-font-bold);
   text-transform: uppercase;
@@ -7,13 +7,13 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .menu {
+  .header__menu {
     font-size: var(--primary-font-size-s);
   }
 }
 
 @media screen and (max-width: 900px) {
-  .menu {
+  .header__menu {
     font-size: var(--primary-font-size-xs);
   }
 }

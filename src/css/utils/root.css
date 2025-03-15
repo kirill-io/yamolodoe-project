@@ -6,3 +6,9 @@
   -moz-text-size-adjust: 100%;
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .root:has(.header__menu-input:checked) {
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,23 @@
+.header__menu-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;  
+}
+
+@media screen and (max-width: 1279px) {
+  .header__menu-list {
+    gap: 15px;  
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-list {
+    flex-direction: column;
+    gap: 0;
+    height: 0;
+    display: none;
+  }
+}

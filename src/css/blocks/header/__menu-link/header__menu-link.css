@@ -1,4 +1,4 @@
-.menu__link {
+.header__menu-link {
   border-radius: 20px;
   border: 2px solid var(--primary-font-color);
   box-sizing: border-box;
@@ -10,18 +10,18 @@
   white-space: nowrap;
 }
 
-.menu__link:hover {
+.header__menu-link:hover {
   border: 2px solid var(--hover-color);
 }
 
 @media screen and (max-width: 1279px) {
-  .menu__link {
+  .header__menu-link {
     padding: 8px 20px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .menu__link {
+  .header__menu-link {
     padding: 5px 10px;
   }
 }

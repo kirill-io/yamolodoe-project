@@ -11,3 +11,24 @@
     padding: 15px 0;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .header {
+    position: relative;
+    inset: 0 0 auto;
+  }
+
+  .header:has(.header__menu-input:checked) {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .header:has(.header__menu-input:checked) .header__menu-list {
+    display: flex;
+    height: auto;
+  }
+}
+
+.content {
+  height: 2000px;
+}

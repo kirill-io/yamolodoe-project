@@ -1,0 +1,16 @@
+.header__menu-button {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-button {
+    align-items: center;
+    display: flex;
+    height: 45px;
+    justify-content: end;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+  }
+}

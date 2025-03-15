@@ -1,0 +1,35 @@
+.header__menu-label {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: none;
+  background: transparent;
+  width: 40px;
+  height: 26px;
+}
+
+.header__menu-label::before,
+.header__menu-label::after {
+  background: var(--primary-font-color);
+  border-radius: 10px;
+  content: '';
+  display: block;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.header__menu-label::before {
+  box-shadow: 0 11px 0 var(--primary-font-color);
+  top: 0;
+  transition: box-shadow .3s .15s, 
+              top .3s .15s, 
+              transform .3s;
+}
+
+.header__menu-label::after {
+  bottom: 0;
+  transition: bottom .3s .15s,
+              transform .3s;
+}
