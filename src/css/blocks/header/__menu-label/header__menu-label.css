@@ -5,7 +5,7 @@
   border: none;
   background: transparent;
   width: 40px;
-  height: 26px;
+  height: 24px;
 }
 
 .header__menu-label::before,
@@ -14,7 +14,7 @@
   border-radius: 10px;
   content: '';
   display: block;
-  height: 4px;
+  height: 3px;
   left: 0;
   position: absolute;
   width: 100%;

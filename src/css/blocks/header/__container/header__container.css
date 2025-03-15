@@ -20,7 +20,7 @@
 @media screen and (max-width: 767px) {
   .header__container {
     flex-direction: column;
-    gap: 5px 0;
+    gap: 10px 0;
     position: relative;
   }
 }

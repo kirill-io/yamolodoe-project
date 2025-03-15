@@ -12,3 +12,9 @@
     box-shadow: 0 0 5px 3.5px var(--hover-color);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .contacts__link_type_image:hover {
+    box-shadow: 0 0 7.5px 5px var(--hover-color);
+  }
+}

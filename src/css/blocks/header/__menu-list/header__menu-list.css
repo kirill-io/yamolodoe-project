@@ -18,6 +18,8 @@
     flex-direction: column;
     gap: 0;
     height: 0;
-    display: none;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity .3s .15s;
   }
 }

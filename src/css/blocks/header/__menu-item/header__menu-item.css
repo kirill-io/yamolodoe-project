@@ -1,0 +1,18 @@
+@media screen and (max-width: 767px) {
+  .header__menu-item {
+    border-bottom: 1px solid var(--primary-font-color);
+    border-top: 1px solid var(--primary-font-color);
+    padding: 14px 0;
+    text-align: center;
+  }
+
+  .header__menu-item:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .header__menu-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}

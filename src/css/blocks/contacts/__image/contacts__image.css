@@ -18,3 +18,10 @@
     width: 28px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .contacts__image {
+    height: 34px;
+    width: 34px;
+  }
+}

@@ -5,7 +5,7 @@
 
 .header__menu-input:checked + .header__menu-label::before {
   box-shadow: 0 6px 0 rgba(22 59 33 / 0%);
-  top: 11px;
+  top: 10px;
   transform: rotate(45deg);
   transition: box-shadow .15s,
               top .3s,
@@ -18,8 +18,3 @@
   transition: bottom .3s,
               transform .3s .15s;
 }
-
-/* .header__menu-input:checked ~ .header__wrapper {
-  position: absolute;
-  inset: 0;
-} */
