@@ -1,13 +1,11 @@
 @media screen and (max-width: 767px) {
   .header__menu-item {
     border-bottom: 1px solid var(--primary-font-color);
-    border-top: 1px solid var(--primary-font-color);
-    padding: 14px 0;
+    padding: 14px 0 13px;
     text-align: center;
   }
 
   .header__menu-item:first-child {
-    border-top: none;
     padding-top: 0;
   }
 

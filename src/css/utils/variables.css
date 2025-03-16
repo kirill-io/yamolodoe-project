@@ -6,10 +6,13 @@
   --secondary-font-bold: 'Montserrat-Bold', 'Arial', sans-serif;
   --primary-font-color: #163b21;
   --primary-bg-color: #FFF;
-  --secondary-bg-color: #F6F6F6;
-  --hover-color: #8CE35C;
-  --primary-font-size-xs: 14px;
-  --primary-font-size-s: 16px;
+  --secondary-bg-color: #c1c8d2;
+  --hover-color: #FFF;
+  --primary-font-size-s: 18px;
   --primary-font-size-m: 20px;
-  --primary-font-size-l: 24px;
+  --primary-font-size-l: 22px;
+  --primary-font-size-xl: 24px;
+  --secondary-font-size-xxs: 12px;
+  --secondary-font-size-xs: 13px;
+  --secondary-font-size-s: 14px;
 }

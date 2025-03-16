@@ -2,7 +2,7 @@
   background: var(--secondary-bg-color);
   color: var(--primary-font-color);
   display: flex;
-  font: var(--primary-font-size-m) var(--primary-font-bold);
+  font: var(--primary-font-size-s) var(--primary-font-bold);
   justify-content: center;
   padding: 20px 0;
   width: 100%;
@@ -10,21 +10,15 @@
 
 @media screen and (max-width: 1279px) {
   .header {
-    font-size: var(--primary-font-size-s);
-    padding: 15px 0;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .header {
-    font-size: var(--primary-font-size-xs);
+    padding: 10px 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    font-size: var(--primary-font-size-m);
-    inset: 0 0 calc(100% - 144px);
+    font-size: var(--primary-font-size-s);
+    inset: 0 0 calc(100% - 103px);
+    padding: 5px 0;
     position: fixed;
     transition: bottom .3s;
   }

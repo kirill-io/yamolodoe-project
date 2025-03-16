@@ -1,0 +1,16 @@
+.contacts__address {
+  font: var(--secondary-font-size-s) var(--secondary-font-regular);
+  letter-spacing: -1px;
+}
+
+@media screen and (max-width: 1279px) {
+  .contacts__address {
+    font-size: var(--secondary-font-size-xs);
+  }
+}
+
+@media screen and (max-width:767px) {
+  .contacts__address {
+    font-size: var(--secondary-font-size-xxs);
+  }
+}

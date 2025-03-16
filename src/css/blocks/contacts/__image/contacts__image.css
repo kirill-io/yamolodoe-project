@@ -1,27 +1,20 @@
 .contacts__image {
   display: block;
   fill: var(--primary-font-color);
-  height: 40px;
-  width: 40px;
+  height: 44px;
+  width: 44px;
 }
 
 @media screen and (max-width: 1279px) {
   .contacts__image {
-    height: 34px;
-    width: 34px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .contacts__image {
-    height: 28px;
-    width: 28px;
+    height: 40px;
+    width: 40px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .contacts__image {
-    height: 34px;
-    width: 34px;
+    height: 36px;
+    width: 36px;
   }
 }

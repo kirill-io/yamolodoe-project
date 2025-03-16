@@ -1,28 +1,22 @@
 .header__menu-link {
   border-radius: 20px;
-  border: 2px solid var(--primary-font-color);
+  border: 1px solid var(--primary-font-color);
   box-sizing: border-box;
   color: inherit;
   display: block;
-  padding: 10px 24px;
+  padding: 8px 20px;
   text-decoration: none;
   transition: border .3s ease-out;
   white-space: nowrap;
 }
 
 .header__menu-link:hover {
-  border: 2px solid var(--hover-color);
+  border: 1px solid var(--hover-color);
 }
 
 @media screen and (max-width: 1279px) {
   .header__menu-link {
-    padding: 8px 20px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .header__menu-link {
-    padding: 5px 10px;
+    padding: 5px 15px;
   }
 }
 

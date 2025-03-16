@@ -1,4 +1,5 @@
 .contacts__link_type_phone {
+  letter-spacing: 1px;
   position: relative;
 }
 
@@ -6,7 +7,7 @@
   background: var(--hover-color);
   bottom: 0;
   content: '';
-  height: 2px;
+  height: 1px;
   position: absolute;
   right: 0;
   transition: width .3s ease-out;

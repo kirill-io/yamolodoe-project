@@ -13,16 +13,36 @@
   justify-content: end;
 }
 
+@media screen and (max-width: 1279px) {
+  .header__column {
+    flex: 1 0 100%;
+    order: 3;
+  }
+  
+  .header__column:first-child {
+    flex: 1 0 50%;
+    order: 1;
+  }
+  
+  .header__column:last-child {
+    flex: 1 0 50%;
+    order: 2;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .header__column {
     flex: 1 0 auto;
+    order: 2;
   }
   
   .header__column:first-child {
     flex: 0 1 auto;
+    order: 1;
   }
   
   .header__column:last-child {
     flex: 0 1 auto;
+    order: 3;
   }
 }

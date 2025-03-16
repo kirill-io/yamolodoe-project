@@ -3,3 +3,9 @@
   text-transform: uppercase;
   width: 100%;
 }
+
+@media screen and (max-width: 1279px) {
+  .header__menu {  
+    max-width: 600px;
+  }
+}

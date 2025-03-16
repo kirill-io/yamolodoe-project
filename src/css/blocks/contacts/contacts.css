@@ -2,26 +2,19 @@
   align-items: center;
   color: var(--primary-font-color);
   display: flex;
-  font: var(--primary-font-size-l) var(--primary-font-bold);
+  font: var(--primary-font-size-xl) var(--primary-font-regular);
   gap: 20px;
 }
 
 @media screen and (max-width: 1279px) {
   .contacts {
-    font-size: var(--primary-font-size-m);
-    gap: 15px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .contacts {
-    font-size: var(--primary-font-size-s);
+    font-size: var(--primary-font-size-l);
   }
 }
 
 @media screen and (max-width: 767px) {
   .contacts {
     font-size: var(--primary-font-size-m);
-    gap: 15px;
+    gap: 10px;
   }
 }

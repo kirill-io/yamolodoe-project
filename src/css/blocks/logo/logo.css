@@ -1,15 +1,10 @@
 .logo {
   display: block;
+  height: 55px;
+  width: 173px;
 }
 
 @media screen and (max-width: 1279px) {
-  .logo {
-    height: 60px;
-    width: 188px;
-  }
-}
-
-@media screen and (max-width: 900px) {
   .logo {
     height: 50px;
     width: 157px;
@@ -18,7 +13,7 @@
 
 @media screen and (max-width: 767px) {
   .logo {
-    height: 60px;
-    width: 188px;
+    height: 45px;
+    width: 141px;
   }
 }

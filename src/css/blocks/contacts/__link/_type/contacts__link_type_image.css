@@ -1,20 +1,9 @@
 .contacts__link_type_image {
   border-radius: 50%;
-  transition: box-shadow .3s ease-out;
+  border: 1px solid var(--primary-font-color);
+  transition:  border-color .3s ease-out;
 }
 
 .contacts__link_type_image:hover {
-  box-shadow: 0 0 7.5px 5px var(--hover-color);
-}
-
-@media screen and (max-width: 900px) {
-  .contacts__link_type_image:hover {
-    box-shadow: 0 0 5px 3.5px var(--hover-color);
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .contacts__link_type_image:hover {
-    box-shadow: 0 0 7.5px 5px var(--hover-color);
-  }
+  border-color: var(--hover-color);
 }
