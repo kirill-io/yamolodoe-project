@@ -1,18 +1,18 @@
-.logo {
+.logo__image {
   display: block;
   height: 55px;
   width: 173px;
 }
 
 @media screen and (max-width: 1279px) {
-  .logo {
+  .logo__image {
     height: 50px;
     width: 157px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .logo {
+  .logo__image {
     height: 45px;
     width: 141px;
   }
