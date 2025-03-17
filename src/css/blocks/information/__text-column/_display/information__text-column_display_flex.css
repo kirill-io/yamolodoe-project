@@ -3,3 +3,9 @@
   flex-direction: column;
   text-align: center;
 }
+
+@media screen and (max-width: 1279px) {
+  .information__text-column_display_flex {
+    max-width: 400px;
+  }
+}

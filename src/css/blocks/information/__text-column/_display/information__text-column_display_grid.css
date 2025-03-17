@@ -11,6 +11,12 @@
   justify-items: center;
 }
 
+@media screen and (max-width: 1279px) {
+  .information__text-column_display_grid:first-child {  
+    max-width: 400px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .information__text-column_display_grid {  
     align-items: center;
