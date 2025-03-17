@@ -35,9 +35,16 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1279px) {
+  .information__label:hover::before {
+    left: 100%;
+    width: 0;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .information__label::after {
     height: 8px;
     width: 16px;
-   }
+  }
 }

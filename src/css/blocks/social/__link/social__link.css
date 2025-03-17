@@ -9,3 +9,9 @@
 .social__link:hover {
   border-color: var(--hover-color);
 }
+
+@media screen and (max-width: 1279px) {
+  .social__link:hover {
+    border-color: var(--primary-font-color);
+  }
+}

@@ -20,3 +20,10 @@
   left: 0;
   width: 100%;
 }
+
+@media screen and (max-width: 1279px) {
+  .footer__link:hover::before {
+    left: 100%;
+    width: 0;
+  }
+}

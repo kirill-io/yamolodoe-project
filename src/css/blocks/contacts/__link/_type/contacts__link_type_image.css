@@ -8,3 +8,9 @@
 .contacts__link_type_image:hover {
   border-color: var(--hover-color);
 }
+
+@media screen and (max-width: 1279px) {
+  .contacts__link_type_image:hover {
+    border-color: var(--primary-font-color);
+  }
+}

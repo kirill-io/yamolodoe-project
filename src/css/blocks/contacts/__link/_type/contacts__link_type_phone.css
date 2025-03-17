@@ -18,3 +18,10 @@
   left: 0;
   width: 100%;
 }
+
+@media screen and (max-width: 1279px) {
+  .contacts__link_type_phone:hover::before {
+    left: 100%;
+    width: 0;
+  }
+}
