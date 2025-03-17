@@ -1,0 +1,43 @@
+.information__label {
+  align-items: center;
+  align-self: center;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 0;
+  padding-bottom: 2px;
+  position: relative;
+}
+
+.information__label::after {
+  background: url('../../../../assets/images/information/information-icon.svg') center 100% / 100% no-repeat;
+  content: '';
+  display: block;
+  height: 10px;
+  transition: transform .3s linear;
+  width: 18px;
+ }
+
+ .information__label::before {
+  background: var(--hover-color);
+  bottom: 0;
+  content: '';
+  height: 1px;
+  position: absolute;
+  right: 0;
+  transition: width .3s ease-out;
+  width: 0;
+}
+
+.information__label:hover::before {
+  left: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .information__label::after {
+    height: 8px;
+    width: 16px;
+   }
+}

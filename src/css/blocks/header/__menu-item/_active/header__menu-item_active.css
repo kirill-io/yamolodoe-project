@@ -1,0 +1,9 @@
+.header__menu-item_active .header__menu-link {
+  border-color: var(--hover-color);
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-item_active .header__menu-link {
+    border: none;
+  }
+}

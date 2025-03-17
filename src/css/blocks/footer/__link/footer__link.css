@@ -1,9 +1,11 @@
-.contacts__link_type_phone {
-  letter-spacing: 1px;
+.footer__link {
+  color: inherit;
   position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.contacts__link_type_phone::before {
+.footer__link::before {
   background: var(--hover-color);
   bottom: 0;
   content: '';
@@ -14,7 +16,7 @@
   width: 0;
 }
 
-.contacts__link_type_phone:hover::before {
+.footer__link:hover::before {
   left: 0;
   width: 100%;
 }

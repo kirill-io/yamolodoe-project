@@ -1,0 +1,16 @@
+.footer__slogan-secondary {
+  display: block;
+  font: var(--secondary-font-size-s) var(--secondary-font-regular);
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__slogan-secondary {
+    font-size: var(--secondary-font-size-xs);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__slogan-secondary {
+    font-size: var(--primary-font-size-xxs);
+  }
+}

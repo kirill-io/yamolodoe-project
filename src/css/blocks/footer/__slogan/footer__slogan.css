@@ -1,0 +1,6 @@
+.footer__slogan {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  text-transform: uppercase;
+}

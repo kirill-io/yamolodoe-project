@@ -1,0 +1,21 @@
+.information__text-column_display_grid {
+  column-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  justify-items: center;
+}
+
+.information__text-column_display_grid:first-child {  
+  justify-content: normal;
+  justify-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .information__text-column_display_grid {  
+    align-items: center;
+    column-gap: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+}

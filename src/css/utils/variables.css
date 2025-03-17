@@ -6,8 +6,9 @@
   --secondary-font-bold: 'Montserrat-Bold', 'Arial', sans-serif;
   --primary-font-color: #163b21;
   --primary-bg-color: #FFF;
-  --secondary-bg-color: #c1c8d2;
+  --secondary-bg-color: #e6e7e9;
   --hover-color: #FFF;
+  --primary-font-size-xs: 16px;
   --primary-font-size-s: 18px;
   --primary-font-size-m: 20px;
   --primary-font-size-l: 22px;
@@ -15,4 +16,6 @@
   --secondary-font-size-xxs: 12px;
   --secondary-font-size-xs: 13px;
   --secondary-font-size-s: 14px;
+  --secondary-font-size-m: 16px;
+  --secondary-font-size-l: 18px;
 }

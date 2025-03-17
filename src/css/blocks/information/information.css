@@ -1,17 +1,18 @@
-.contacts__address {
+.information {
+  display: flex;
+  flex-direction: column;  
   font: var(--secondary-font-size-s) var(--secondary-font-regular);
-  letter-spacing: -1px;
-  text-transform: uppercase;
+  width: 100%;
 }
 
 @media screen and (max-width: 1279px) {
-  .contacts__address {
+  .information {
     font-size: var(--secondary-font-size-xs);
   }
 }
 
 @media screen and (max-width:767px) {
-  .contacts__address {
+  .information {
     font-size: var(--secondary-font-size-xxs);
   }
 }

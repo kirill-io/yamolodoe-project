@@ -1,0 +1,16 @@
+.footer__slogan-primary {
+  display: block;
+  font: var(--primary-font-size-xl) var(--primary-font-regular);
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__slogan-primary {
+    font-size: var(--primary-font-size-l);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__slogan-primary {
+    font-size: var(--primary-font-size-m);
+  }
+}

@@ -1,0 +1,12 @@
+.footer__slogan-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__slogan-text {
+    gap: 0;
+  }
+}

@@ -1,0 +1,22 @@
+.information__text {
+  display: flex;
+  flex-direction: column;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: height .3s ease-out,
+              opacity .3s ease-out;
+}
+
+.information__text::before {
+  content: '';
+  height: 5px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .information__text {
+    align-self: center;
+    max-width: 380px;
+  }
+}

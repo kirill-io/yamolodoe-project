@@ -1,0 +1,5 @@
+.information__text-column_display_flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

@@ -1,10 +1,11 @@
-.contacts__link_type_image {
+.social__link {
+  display: block;
   border-radius: 50%;
   border: 1px solid var(--primary-font-color);
   overflow: hidden;
-  transition:  border-color .3s ease-out;
+  transition: border-color .3s ease-out;
 }
 
-.contacts__link_type_image:hover {
+.social__link:hover {
   border-color: var(--hover-color);
 }

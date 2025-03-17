@@ -1,0 +1,11 @@
+.information__title {
+  font: var(--primary-font-size-s) var(--primary-font-regular);
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .information__title {
+    font-size: var(--primary-font-size-xs);
+  }
+}

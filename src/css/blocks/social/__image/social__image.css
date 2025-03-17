@@ -1,0 +1,19 @@
+.social__image {
+  display: block;
+  height: 44px;
+  width: 44px;
+}
+
+@media screen and (max-width: 1279px) {
+  .social__image {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .social__image {
+    height: 36px;
+    width: 36px;
+  }
+}

@@ -1,0 +1,22 @@
+.footer__column {
+  flex: 1 0 calc(36% - 10px)%;
+  text-align: center;
+}
+
+.footer__column:first-child, .footer__column:last-child {
+  flex: 1 0 calc(32% - 5px);
+}
+
+.footer__column:first-child {
+  text-align: left;
+}
+
+.footer__column:last-child {
+  text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__column, .footer__column:first-child, .footer__column:last-child {
+    flex: 0 1 auto;
+  }
+}

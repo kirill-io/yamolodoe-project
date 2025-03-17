@@ -1,0 +1,25 @@
+.information__input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.information__input:checked + .information__label::after {
+  transform: rotate(180deg);
+}
+
+.information__input:checked + .information__label + .information__text {
+  height: 59px;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1279px) {
+  .information__input:checked + .information__label + .information__text {
+    height: 111px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .information__input:checked + .information__label + .information__text {
+    height: 235px;
+  }
+}

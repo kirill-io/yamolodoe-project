@@ -1,0 +1,11 @@
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media screen and (max-width: 1279px) {
+  .social {
+    gap: 10px;
+  }
+}

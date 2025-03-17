@@ -1,0 +1,4 @@
+.information__text-column-left {
+  grid-column: 1 / 2;
+  font-family: var(--secondary-font-bold);
+}

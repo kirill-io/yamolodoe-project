@@ -1,0 +1,17 @@
+@media screen and (max-width: 767px) {
+  .footer__row_type_one {
+    gap: 15px;
+  }
+
+  .footer__row_type_one .footer__column {
+    order: 3;
+  }
+
+  .footer__row_type_one .footer__column:first-child {
+    order: 1;
+  }
+
+  .footer__row_type_one .footer__column:last-child {
+    order: 2;
+  }
+}
