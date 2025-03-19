@@ -1,4 +1,10 @@
 .intro {
   color: var(--secondary-font-color);
-  font: 20px var(--secondary-font-regular);
+  font: var(--secondary-font-size-xl) var(--secondary-font-regular);
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    font-size: var(--secondary-font-size-m);
+  }
 }

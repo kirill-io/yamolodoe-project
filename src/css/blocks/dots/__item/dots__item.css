@@ -4,3 +4,10 @@
   height: 10px;
   width: 10px;
 }
+
+@media screen and (max-width: 1279px) {
+  .dots__item {
+    height: 8px;
+    width: 8px;
+  }
+}

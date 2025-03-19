@@ -4,3 +4,9 @@
   transform: translateY(-50%);
   z-index: 50;
 }
+
+@media screen and (max-width: 767px) {
+  .intro__slider-button {
+    display: none;
+  }
+}

@@ -1,6 +1,18 @@
 .intro__slide-title {
   margin: 0;
-  font: 32px var(--primary-font-regular);
+  font: var(--primary-font-size-xxl) var(--primary-font-regular);
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro__slide-title {
+    font-size: var(--primary-font-size-xl);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__slide-title {
+    text-align: center;
+  }
 }

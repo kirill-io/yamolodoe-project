@@ -15,9 +15,11 @@
   --primary-font-size-m: 20px;
   --primary-font-size-l: 22px;
   --primary-font-size-xl: 24px;
+  --primary-font-size-xxl: 32px;
   --secondary-font-size-xxs: 12px;
   --secondary-font-size-xs: 13px;
   --secondary-font-size-s: 14px;
   --secondary-font-size-m: 16px;
   --secondary-font-size-l: 18px;
+  --secondary-font-size-xl: 20px;
 }

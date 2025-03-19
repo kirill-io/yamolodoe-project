@@ -5,8 +5,9 @@
   font: var(--primary-font-size-s) var(--primary-font-bold);
   justify-content: center;
   padding: 20px 0;
+  position: fixed;
   width: 100%;
-  z-index: 50;
+  z-index: 50;  
 }
 
 @media screen and (max-width: 1279px) {
@@ -20,13 +21,11 @@
     font-size: var(--primary-font-size-s);
     inset: 0 0 calc(100% - 103px);
     padding: 5px 0;
-    position: fixed;
     transition: bottom .3s;
   }
 
   .header:has(.header__menu-input:checked) {
     bottom: 0;
-    position: fixed;
   }
 
   .header:has(.header__menu-input:checked) .header__menu-list {

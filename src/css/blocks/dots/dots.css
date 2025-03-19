@@ -9,3 +9,9 @@
   position: absolute;
   transform: translateX(-50%);
 }
+
+@media screen and (max-width: 1279px) {
+  .dots {
+    gap: 8px;
+  }
+}

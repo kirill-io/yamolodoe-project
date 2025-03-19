@@ -11,3 +11,10 @@
 .button-arrow:hover .button-arrow__image {
   fill: var(--secondary-hover-color);
 }
+
+@media screen and (max-width: 1279px) {
+  .button-arrow {
+    height: 35px;
+    width: 35px;
+  }
+}

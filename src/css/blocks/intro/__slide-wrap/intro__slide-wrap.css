@@ -5,3 +5,22 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+@media screen and (max-width: 1279px) {
+  .intro__slide-wrap {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__slide-wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    max-width: none;
+    padding: 0 5%;
+    right: 0;
+    top: 57%;
+  }
+}

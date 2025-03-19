@@ -1,3 +1,9 @@
 .intro__slide-text {
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .intro__slide-text {
+    max-width: 480px;
+  }
+}
