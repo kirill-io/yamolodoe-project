@@ -4,7 +4,7 @@
   overflow: hidden;
   padding-bottom: 40%;
   position: relative;
-  width: 100%;
+  flex: 1 0 100%
 }
 
 @media screen and (max-width: 767px) {

@@ -1,0 +1,9 @@
+.intro__slide_text-position_right .intro__slide-wrap {
+  right: 10%;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__slide_text-position_right .intro__slide-wrap {
+    right: 0;
+  }
+}
