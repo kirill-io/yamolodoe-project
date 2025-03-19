@@ -1,0 +1,6 @@
+.intro__slide-title {
+  margin: 0;
+  font: 32px var(--primary-font-regular);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}

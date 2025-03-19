@@ -6,7 +6,7 @@
 }
 
 .contacts__link_type_image:hover {
-  border-color: var(--hover-color);
+  border-color: var(--primary-hover-color);
 }
 
 @media screen and (max-width: 1279px) {

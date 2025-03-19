@@ -5,9 +5,11 @@
   --secondary-font-regular: 'Montserrat-Regular', 'Arial', sans-serif;
   --secondary-font-bold: 'Montserrat-Bold', 'Arial', sans-serif;
   --primary-font-color: #163b21;
+  --secondary-font-color: #FFF;
   --primary-bg-color: #FFF;
   --secondary-bg-color: #e6e7e9;
-  --hover-color: #FFF;
+  --primary-hover-color: #FFF;
+  --secondary-hover-color: #8ce35c;
   --primary-font-size-xs: 16px;
   --primary-font-size-s: 18px;
   --primary-font-size-m: 20px;

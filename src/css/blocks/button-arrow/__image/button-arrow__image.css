@@ -1,0 +1,7 @@
+.button-arrow__image {
+  display: block;
+  fill: var(--primary-bg-color);
+  height: 100%;
+  transition: fill .3s ease-out;
+  width: 100%;
+}

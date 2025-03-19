@@ -20,7 +20,7 @@
  }
 
  .information__label::before {
-  background: var(--hover-color);
+  background: var(--primary-hover-color);
   bottom: 0;
   content: '';
   height: 1px;

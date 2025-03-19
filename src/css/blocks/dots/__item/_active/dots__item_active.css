@@ -1,0 +1,3 @@
+.dots__item_active {
+  background: var(--secondary-hover-color);
+}

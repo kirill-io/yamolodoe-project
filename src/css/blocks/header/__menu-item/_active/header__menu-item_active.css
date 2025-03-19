@@ -1,5 +1,5 @@
 .header__menu-item_active .header__menu-link {
-  border-color: var(--hover-color);
+  border-color: var(--primary-hover-color);
 }
 
 @media screen and (max-width: 767px) {

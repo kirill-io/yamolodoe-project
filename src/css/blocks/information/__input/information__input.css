@@ -20,6 +20,6 @@
 
 @media screen and (max-width: 767px) {
   .information__input:checked + .information__label + .information__text {
-    height: 235px;
+    height: 246px;
   }
 }

@@ -1,0 +1,4 @@
+.intro {
+  color: var(--secondary-font-color);
+  font: 20px var(--secondary-font-regular);
+}

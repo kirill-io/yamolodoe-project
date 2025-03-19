@@ -1,0 +1,13 @@
+.button-arrow {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+  height: 50px;
+  padding: 0;
+  width: 50px;
+}
+
+.button-arrow:hover .button-arrow__image {
+  fill: var(--secondary-hover-color);
+}

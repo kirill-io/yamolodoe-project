@@ -1,0 +1,6 @@
+.dots__item {
+  background: var(--primary-bg-color);
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
