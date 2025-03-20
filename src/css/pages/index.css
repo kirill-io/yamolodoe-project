@@ -39,6 +39,7 @@
 @import url('../blocks/container/container.css');
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/intro/__slider/intro__slider.css');
+@import url('../blocks/intro/__slider-container/intro__slider-container.css');
 @import url('../blocks/intro/__slider-button/intro__slider-button.css');
 @import url('../blocks/intro/__slider-list/intro__slider-list.css');
 @import url('../blocks/intro/__slide/intro__slide.css');

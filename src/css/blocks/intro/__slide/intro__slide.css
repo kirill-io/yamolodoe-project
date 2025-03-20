@@ -1,7 +1,5 @@
 .intro__slide {
-  border-radius: 20px;
   height: 0;
-  overflow: hidden;
   padding-bottom: 40%;
   position: relative;
   flex: 1 0 100%
