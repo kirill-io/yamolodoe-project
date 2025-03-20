@@ -1,5 +1,5 @@
 export const INTRO_SLIDER_DEFAULT = {
-  transitionDuration: 100,
+  transitionDuration: 50,
   containerSelector: '.intro__slider-list',
   itemSelector: '.intro__slide',
   dotItemSelector: '.dots__item',

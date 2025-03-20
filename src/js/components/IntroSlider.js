@@ -18,17 +18,25 @@ export class IntroSlider {
   _setTouchControl() {
     const slider = this._root.querySelector('.intro__slider');
     slider.addEventListener('touchstart', (event) => {
+      event.stopPropagation();
       this._touchStart = parseInt(event.targetTouches[0].clientX, 10);
     });
     slider.addEventListener('touchmove', (event) => {
+      event.stopPropagation();
       this._touchsMove.push(parseInt(event.targetTouches[0].clientX, 10));
     });
-    slider.addEventListener('touchend', () => {
+    slider.addEventListener('touchend', (event) => {
+      event.stopPropagation();
       if (
         this._touchStart - this._touchsMove.pop() < 0
         && Math.abs(this._touchStart - this._touchsMove.pop()) > 50
       ) {
         if (!this._timer) {
+          this._root.querySelector('.intro__slider-container').animate([
+            { opacity: '1' },
+            { opacity: '0' },
+            { opacity: '1' },
+          ], 400);
           this._controls.get('left').onAction.call(this, {
             action: this._controls.get('left'),
             slider: this,
@@ -36,6 +44,11 @@ export class IntroSlider {
         }
       } else if (this._touchStart - this._touchsMove.pop() > 0) {
         if (!this._timer) {
+          this._root.querySelector('.intro__slider-container').animate([
+            { opacity: '1' },
+            { opacity: '0' },
+            { opacity: '1' },
+          ], 600);
           this._controls.get('right').onAction.call(this, {
             action: this._controls.get('right'),
             slider: this,
@@ -84,6 +97,11 @@ export class IntroSlider {
 
       element.addEventListener('click', (event) => {
         if (!this._timer) {
+          this._root.querySelector('.intro__slider-container').animate([
+            { opacity: '1' },
+            { opacity: '0' },
+            { opacity: '1' },
+          ], 400);
           onAction.call(this, {
             action: element,
             slider: this,
