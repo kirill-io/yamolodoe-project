@@ -1,0 +1,6 @@
+.about__text-wrap {
+  flex: 1 0 calc(75% - 10px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

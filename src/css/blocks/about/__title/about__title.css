@@ -1,0 +1,5 @@
+.about__title {
+  margin: 0;
+  text-transform: uppercase;
+  font: var(--primary-font-size-xxxl) var(--primary-font-regular);
+}

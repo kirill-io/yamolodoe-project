@@ -1,0 +1,5 @@
+.about__subtitle {
+  font: var(--primary-font-size-xl) var(--primary-font-regular);
+  margin: 0;
+  text-transform: uppercase;
+}

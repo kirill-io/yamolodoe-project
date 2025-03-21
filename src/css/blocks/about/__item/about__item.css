@@ -1,0 +1,7 @@
+.about__item {
+  align-items: center;
+  display: flex;
+  flex: 1 0 calc(33.33% - 30px);
+  gap: 10px;
+  justify-content: center;
+}

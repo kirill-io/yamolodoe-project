@@ -47,6 +47,16 @@
 @import url('../blocks/intro/__slide-text/intro__slide-text.css');
 @import url('../blocks/intro/__slider-button/intro__slider-button.css');
 @import url('../blocks/intro/__dots/intro__dots.css');
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__title/about__title.css');
+@import url('../blocks/about/__list/about__list.css');
+@import url('../blocks/about/__item/about__item.css');
+@import url('../blocks/about/__image-wrap/about__image-wrap.css');
+@import url('../blocks/about/__image-container/about__image-container.css');
+@import url('../blocks/about/__image/about__image.css');
+@import url('../blocks/about/__text-wrap/about__text-wrap.css');
+@import url('../blocks/about/__subtitle/about__subtitle.css');
+@import url('../blocks/about/__text/about__text.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__row/footer__row.css');
