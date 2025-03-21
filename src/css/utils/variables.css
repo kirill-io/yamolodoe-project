@@ -22,4 +22,7 @@
   --secondary-font-size-m: 16px;
   --secondary-font-size-l: 18px;
   --secondary-font-size-xl: 20px;
+  --swiper-pagination-color: #8ce35c;
+  --swiper-pagination-bullet-inactive-color: #fff;
+  --swiper-pagination-bullet-inactive-opacity: 1;
 }

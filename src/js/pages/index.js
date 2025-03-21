@@ -1,16 +1,28 @@
 import 'css/pages/index.css';
-import { IntroSlider } from '../components/IntroSlider';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import Swiper from 'swiper';
+import {
+  Autoplay,
+  Navigation,
+  Pagination,
+} from 'swiper/modules';
 
-const introElement = document.querySelector('.intro');
-
-new IntroSlider(
-  introElement,
-  [
-    IntroSlider.actionLeft(
-      introElement.querySelector('.intro__slider-button[name=left]'),
-    ),
-    IntroSlider.actionRight(
-      introElement.querySelector('.intro__slider-button[name=right]'),
-    ),
-  ],
-);
+new Swiper('.intro__slider-container', {
+  modules: [Autoplay, Navigation, Pagination],
+  slidesPerView: 1,
+  loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
+  pagination: {
+    el: '.intro__dots',
+  },
+  navigation: {
+    nextEl: '.intro__slider-button_type_right',
+    prevEl: '.intro__slider-button_type_left',
+  },
+});

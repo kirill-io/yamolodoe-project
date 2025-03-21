@@ -17,4 +17,8 @@
     height: 35px;
     width: 35px;
   }
+
+  .button-arrow:hover .button-arrow__image {
+    fill: var(--primary-hover-color);
+  }
 }

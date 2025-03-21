@@ -9,64 +9,69 @@ export class IntroSlider {
     this._touchStart = 0;
     this._touchEnd = 0;
     this._touchsMove = [];
-    this._setDotAction();
+    // this._setDotAction();
     this._setControls(controls);
     this._reset();
-    this._setTouchControl();
+    // this._setTouchControl();
   }
 
-  _setTouchControl() {
-    const slider = this._root.querySelector('.intro__slider');
-    slider.addEventListener('touchstart', (event) => {
-      event.stopPropagation();
-      this._touchStart = parseInt(event.targetTouches[0].clientX, 10);
-    });
-    slider.addEventListener('touchmove', (event) => {
-      event.stopPropagation();
-      this._touchsMove.push(parseInt(event.targetTouches[0].clientX, 10));
-    });
-    slider.addEventListener('touchend', (event) => {
-      event.stopPropagation();
-      if (
-        this._touchStart - this._touchsMove.pop() < 0
-        && Math.abs(this._touchStart - this._touchsMove.pop()) > 50
-      ) {
-        if (!this._timer) {
-          this._root.querySelector('.intro__slider-container').animate([
-            { opacity: '1' },
-            { opacity: '0' },
-            { opacity: '1' },
-          ], 400);
-          this._controls.get('left').onAction.call(this, {
-            action: this._controls.get('left'),
-            slider: this,
-          });
-        }
-      } else if (this._touchStart - this._touchsMove.pop() > 0) {
-        if (!this._timer) {
-          this._root.querySelector('.intro__slider-container').animate([
-            { opacity: '1' },
-            { opacity: '0' },
-            { opacity: '1' },
-          ], 600);
-          this._controls.get('right').onAction.call(this, {
-            action: this._controls.get('right'),
-            slider: this,
-          });
-        }
-      }
-    });
-  }
+  // _setTouchControl() {
+  //   const slider = this._root.querySelector('.intro__slider');
+  //   slider.addEventListener('touchstart', (event) => {
+  //     event.stopPropagation();
+  //     this._touchStart = parseInt(event.targetTouches[0].clientX, 10);
+  //   });
+  //   slider.addEventListener('touchmove', (event) => {
+  //     event.stopPropagation();
+  //     this._touchsMove.push(parseInt(event.targetTouches[0].clientX, 10));
+  //   });
+  //   slider.addEventListener('touchend', (event) => {
+  //     event.stopPropagation();
+  //     if (
+  //       this._touchStart - this._touchsMove.pop() < 0
+  //       && Math.abs(this._touchStart - this._touchsMove.pop()) > 50
+  //     ) {
+  //       if (!this._timer) {
+  //         this._root.querySelector('.intro__slider-container').animate(
+  //           [
+  //             { opacity: '1' },
+  //             { opacity: '0' },
+  //             { opacity: '1' },
+  //           ],
+  //           {
+  //             duration: 600,
+  //           },
+  //         );
+  //         this._controls.get('left').onAction.call(this, {
+  //           action: this._controls.get('left'),
+  //           slider: this,
+  //         });
+  //       }
+  //     } else if (this._touchStart - this._touchsMove.pop() > 0) {
+  //       if (!this._timer) {
+  //         this._root.querySelector('.intro__slider-container').animate([
+  //           { opacity: '1' },
+  //           { opacity: '0' },
+  //           { opacity: '1' },
+  //         ], 600);
+  //         this._controls.get('right').onAction.call(this, {
+  //           action: this._controls.get('right'),
+  //           slider: this,
+  //         });
+  //       }
+  //     }
+  //   });
+  // }
 
-  _setDotAction() {
-    const dots = this._root.querySelectorAll(this._options.dotItemSelector);
-    dots.forEach((item, i) => {
-      item.classList.remove(this._options.dotItemActionSelector);
-      if (this._count === i + 1) {
-        item.classList.add(this._options.dotItemActionSelector);
-      }
-    });
-  }
+  // _setDotAction() {
+  //   const dots = this._root.querySelectorAll(this._options.dotItemSelector);
+  //   dots.forEach((item, i) => {
+  //     item.classList.remove(this._options.dotItemActionSelector);
+  //     if (this._count === i + 1) {
+  //       item.classList.add(this._options.dotItemActionSelector);
+  //     }
+  //   });
+  // }
 
   _reset() {
     [this._options.slidesAmountVar, this._options.currentSlideVar].forEach(
@@ -97,11 +102,17 @@ export class IntroSlider {
 
       element.addEventListener('click', (event) => {
         if (!this._timer) {
-          this._root.querySelector('.intro__slider-container').animate([
-            { opacity: '1' },
-            { opacity: '0' },
-            { opacity: '1' },
-          ], 400);
+          // this._root.querySelector('.intro__slider-container').animate(
+          //   [
+          //     { opacity: '1' },
+          //     { opacity: '0' },
+          //     { opacity: '1' },
+          //   ],
+          //   {
+          //     duration: 400,
+          //     delay: 100,
+          //   },
+          // );
           onAction.call(this, {
             action: element,
             slider: this,
