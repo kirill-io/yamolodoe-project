@@ -13,3 +13,10 @@
     max-width: calc(50% - 15px);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .about__item {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+}

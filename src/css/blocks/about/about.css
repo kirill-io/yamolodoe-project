@@ -16,3 +16,11 @@
     padding: 30px;
   }
 }
+
+@media screen and (max-width:767px) {
+  .about {
+    font-size: var(--secondary-font-size-m);
+    gap: 20px;
+    padding: 20px 10px;
+  }
+}

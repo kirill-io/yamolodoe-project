@@ -9,3 +9,9 @@
     font-size: var(--primary-font-size-xxl);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .about__title {
+    font-size: var(--primary-font-size-xl);
+  }
+}
