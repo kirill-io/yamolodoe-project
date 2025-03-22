@@ -1,0 +1,38 @@
+.button-link_type_intro {
+  align-self: center;
+  background: var(--secondary-font-color);
+  box-shadow: 0 0 0 3px var(--primary-bg-color) inset,
+              0 0 0 4.5px var(--primary-font-color) inset;
+  border-radius: 20px;
+  font-size: var(--primary-font-size-xl);
+  padding: 15px 40px;
+  transition: box-shadow .3s ease-out;
+}
+
+.button-link_type_intro:hover, .button-link_type_intro:focus {
+  box-shadow: 0 0 0 3px var(--primary-bg-color) inset,
+              0 0 0 4.5px var(--secondary-hover-color) inset;
+}
+
+@media screen and (max-width: 1279px) {
+  .button-link_type_intro {
+    font-size: var(--primary-font-size-l);
+    padding: 15px 30px;
+  }
+
+  .button-link_type_intro:hover, .button-link_type_intro:focus {
+    box-shadow: 0 0 0 3px var(--primary-bg-color) inset,
+                0 0 0 4.5px var(--primary-font-color) inset;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-link_type_intro {
+    box-sizing: border-box;
+    font-size: var(--primary-font-size-m);
+    max-width: 480px;
+    padding: 10px 30px;
+    text-align: center;
+    width: 100%;
+  }
+}

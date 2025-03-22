@@ -1,4 +1,6 @@
 .intro__slide-wrap {
+  display: flex;
+  flex-direction: column;
   max-width: 435px;
   position: absolute;
   top: 50%;
@@ -16,10 +18,9 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    left: 0;
+    inset: auto 0 9%;
     max-width: none;
     padding: 0 5%;
-    right: 0;
-    top: 57%;
+    transform: translateY(0);
   }
 }

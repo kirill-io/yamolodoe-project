@@ -9,6 +9,7 @@
 @import url('../blocks/contacts/__address/contacts__address.css');
 @import url('../blocks/button-arrow/button-arrow.css');
 @import url('../blocks/button-arrow/__image/button-arrow__image.css');
+@import url('../blocks/button-link/button-link.css');
 @import url('../blocks/social/social.css');
 @import url('../blocks/social/__title/social__title.css');
 @import url('../blocks/social/__list/social__list.css');
@@ -68,6 +69,7 @@
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/contacts/__link/_type/contacts__link_type_phone.css');
 @import url('../blocks/contacts/__link/_type/contacts__link_type_image.css');
+@import url('../blocks/button-link/_type/button-link_type_intro.css');
 @import url('../blocks/information/__text-column/_display/information__text-column_display_grid.css');
 @import url('../blocks/information/__text-column/_display/information__text-column_display_flex.css');
 @import url('../blocks/header/__menu-item/_active/header__menu-item_active.css');
