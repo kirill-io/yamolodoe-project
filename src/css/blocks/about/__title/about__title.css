@@ -3,3 +3,9 @@
   text-transform: uppercase;
   font: var(--primary-font-size-xxxl) var(--primary-font-regular);
 }
+
+@media screen and (max-width: 1279px) {
+  .about__title {
+    font-size: var(--primary-font-size-xxl);
+  }
+}

@@ -1,7 +1,15 @@
 .about__item {
   align-items: center;
   display: flex;
-  flex: 1 0 calc(33.33% - 30px);
+  flex: 1 0 calc(33.33% - 20px);
   gap: 10px;
   justify-content: center;
+  max-width: calc(33.33% - 20px);
+}
+
+@media screen and (max-width: 1279px) {
+  .about__item {
+    flex: 1 0 calc(50% - 15px);
+    max-width: calc(50% - 15px);
+  }
 }

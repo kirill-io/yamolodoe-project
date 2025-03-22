@@ -9,3 +9,10 @@
   gap: 40px;
   padding: 40px;
 }
+
+@media screen and (max-width: 1279px) {
+  .about {
+    gap: 30px;
+    padding: 30px;
+  }
+}
