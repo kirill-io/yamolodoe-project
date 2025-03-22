@@ -13,11 +13,11 @@ new Swiper('.intro__slider-container', {
   modules: [Autoplay, Navigation, Pagination],
   slidesPerView: 1,
   loop: true,
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,
-  //   pauseOnMouseEnter: true,
-  // },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
   pagination: {
     el: '.intro__dots',
   },
