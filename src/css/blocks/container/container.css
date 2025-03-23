@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 1919px) {
   .container {
+    gap: 50px;
     width: 92.71%;
   }
 }

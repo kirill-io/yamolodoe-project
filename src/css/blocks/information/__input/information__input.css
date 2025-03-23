@@ -8,18 +8,9 @@
 }
 
 .information__input:checked + .information__label + .information__text {
-  height: 59px;
-  opacity: 1;
+  grid-template-rows: 1fr;
 }
 
-@media screen and (max-width: 1279px) {
-  .information__input:checked + .information__label + .information__text {
-    height: 111px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .information__input:checked + .information__label + .information__text {
-    height: 246px;
-  }
+.information__input:checked + .information__label + .information__text > .information__text-wrap {
+  padding-top: 5px;
 }

@@ -1,17 +1,7 @@
 .information__text {
-  display: flex;
-  flex-direction: column;
-  height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: height .3s ease-out,
-              opacity .3s ease-out;
-}
-
-.information__text::before {
-  content: '';
-  height: 5px;
-  width: 100%;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows .3s;
 }
 
 @media screen and (max-width: 767px) {

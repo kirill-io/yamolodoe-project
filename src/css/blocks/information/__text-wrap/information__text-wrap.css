@@ -1,5 +1,8 @@
 .information__text-wrap {
+  box-sizing: border-box;
   display: flex;
+  overflow: hidden;
+  padding-top: 0;
 }
 
 @media screen and (max-width: 1279px) {
