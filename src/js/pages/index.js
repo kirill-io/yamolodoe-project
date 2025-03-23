@@ -8,6 +8,7 @@ import {
   Navigation,
   Pagination,
 } from 'swiper/modules';
+import TransitionFromSliderToCheckbox from '../components/TransitionFromSliderToCheckbox';
 
 new Swiper('.intro__slider-container', {
   modules: [Autoplay, Navigation, Pagination],
@@ -22,7 +23,12 @@ new Swiper('.intro__slider-container', {
     el: '.intro__dots',
   },
   navigation: {
-    nextEl: '.intro__slider-button_type_right',
-    prevEl: '.intro__slider-button_type_left',
+    nextEl: '.intro__slider-button_type_next',
+    prevEl: '.intro__slider-button_type_prev',
   },
 });
+
+new TransitionFromSliderToCheckbox(
+  '.questions__input',
+  TransitionFromSliderToCheckbox.init('.intro__slide-button'),
+);

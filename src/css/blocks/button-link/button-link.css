@@ -1,7 +1,10 @@
 .button-link {
-  display: block;
-  text-transform: uppercase;
-  text-decoration: none;
+  border: none;
   color: var(--primary-font-color);
+  cursor: pointer;
+  display: block;
   font: var(--primary-font-size-m) var(--primary-font-bold);
-}
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}     

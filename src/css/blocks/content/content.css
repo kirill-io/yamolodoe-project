@@ -7,7 +7,7 @@
   width: 100%;
 }
 
-.content::before {
+/* .content::before {
   content: '';
   height: 95px;
   width: 100%;
@@ -23,4 +23,4 @@
   .content::before {
     height: 103px;
   }
-}
+} */
