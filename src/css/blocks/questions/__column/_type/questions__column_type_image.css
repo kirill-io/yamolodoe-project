@@ -7,3 +7,9 @@
     flex: 1 0 calc(25% - 10px);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .questions__column_type_image {
+    display: none;
+  }
+}

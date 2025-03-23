@@ -11,3 +11,9 @@
     gap: 15px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .questions__column_type_text {
+    flex: 1 0 100%;
+  }
+}
