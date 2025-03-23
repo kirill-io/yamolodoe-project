@@ -1,0 +1,24 @@
+.questions__label {
+  align-items: center;
+  background: var(--secondary-bg-color);
+  border-radius: 20px;
+  border: 1px solid var(--primary-font-color);
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  font: var(--primary-font-size-xl) var(--primary-font-regular);
+  gap: 10px;
+  overflow: hidden;
+  padding: 15px 70px 15px 20px;
+  position: relative;
+  transition: border-color .3s ease-out;
+}
+
+.questions__label:hover {
+  border-color: var(--secondary-hover-color);
+}
+
+.questions__label::before {
+  content: '🍏';
+  display: block;
+}

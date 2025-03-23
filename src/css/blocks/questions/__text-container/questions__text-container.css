@@ -1,0 +1,10 @@
+.questions__text-container {
+  overflow: hidden;
+}
+
+.questions__text-container::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 10px;
+}

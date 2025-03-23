@@ -1,0 +1,3 @@
+.questions__column_type_image {
+  flex: 1 0 calc(30% - 20px);
+}

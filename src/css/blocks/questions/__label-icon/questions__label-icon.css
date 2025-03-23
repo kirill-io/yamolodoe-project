@@ -1,0 +1,13 @@
+.questions__label-icon {
+  display: block;
+  height: 30px;
+  position: absolute;
+  right: 15px;
+  stroke: var(--primary-font-color);
+  top: 50%;
+  transform: translateY(-50%);
+  transition: stroke .3s ease-out,
+              transform .3s ease-out;
+  width: 30px;
+}
+

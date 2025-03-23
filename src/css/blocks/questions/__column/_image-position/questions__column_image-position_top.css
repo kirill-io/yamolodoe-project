@@ -1,0 +1,7 @@
+.questions__column_image-position_top {
+  align-self: start;
+}
+
+.questions__column_image-position_top .questions__image {
+  mask: url('../../../../../assets/images/questions/mask-type-one.svg') center / 100% no-repeat;
+}

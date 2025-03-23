@@ -1,17 +1,18 @@
-.about__title {
+.title {
+  color: var(--primary-font-color);
+  font: var(--primary-font-size-xxxl) var(--primary-font-regular);
   margin: 0;
   text-transform: uppercase;
-  font: var(--primary-font-size-xxxl) var(--primary-font-regular);
 }
 
 @media screen and (max-width: 1279px) {
-  .about__title {
+  .title {
     font-size: var(--primary-font-size-xxl);
   }
 }
 
 @media screen and (max-width: 767px) {
-  .about__title {
+  .title {
     font-size: var(--primary-font-size-xl);
   }
 }

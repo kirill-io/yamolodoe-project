@@ -10,6 +10,7 @@
 @import url('../blocks/button-arrow/button-arrow.css');
 @import url('../blocks/button-arrow/__image/button-arrow__image.css');
 @import url('../blocks/button-link/button-link.css');
+@import url('../blocks/title/title.css');
 @import url('../blocks/social/social.css');
 @import url('../blocks/social/__title/social__title.css');
 @import url('../blocks/social/__list/social__list.css');
@@ -49,7 +50,6 @@
 @import url('../blocks/intro/__slider-button/intro__slider-button.css');
 @import url('../blocks/intro/__dots/intro__dots.css');
 @import url('../blocks/about/about.css');
-@import url('../blocks/about/__title/about__title.css');
 @import url('../blocks/about/__list/about__list.css');
 @import url('../blocks/about/__item/about__item.css');
 @import url('../blocks/about/__image-wrap/about__image-wrap.css');
@@ -58,6 +58,16 @@
 @import url('../blocks/about/__text-wrap/about__text-wrap.css');
 @import url('../blocks/about/__subtitle/about__subtitle.css');
 @import url('../blocks/about/__text/about__text.css');
+@import url('../blocks/questions/questions.css');
+@import url('../blocks/questions/__container/questions__container.css');
+@import url('../blocks/questions/__image/questions__image.css');
+@import url('../blocks/questions/__input/questions__input.css');
+@import url('../blocks/questions/__label/questions__label.css');
+@import url('../blocks/questions/__subtitle/questions__subtitle.css');
+@import url('../blocks/questions/__label-icon/questions__label-icon.css');
+@import url('../blocks/questions/__text-wrap/questions__text-wrap.css');
+@import url('../blocks/questions/__text-container/questions__text-container.css');
+@import url('../blocks/questions/__text/questions__text.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__row/footer__row.css');
@@ -77,4 +87,8 @@
 @import url('../blocks/intro/__slide/_text-position/intro__slide_text-position_left.css');
 @import url('../blocks/intro/__slide/_text-position/intro__slide_text-position_right.css');
 @import url('../blocks/intro/__slider-button/_type/intro__slider-button_type_right.css');
+@import url('../blocks/questions/__column/_type/questions__column_type_image.css');
+@import url('../blocks/questions/__column/_type/questions__column_type_text.css');
+@import url('../blocks/questions/__column/_image-position/questions__column_image-position_top.css');
+@import url('../blocks/questions/__column/_image-position//questions__column_image-position_bottom.css');
 @import url('../blocks/footer/__row/_type/footer__row_type_one.css');

@@ -19,7 +19,7 @@
   width: 18px;
  }
 
- .information__label::before {
+.information__label::before {
   background: var(--primary-hover-color);
   bottom: 0;
   content: '';

@@ -1,0 +1,5 @@
+.questions__text-wrap {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows .3s;
+}

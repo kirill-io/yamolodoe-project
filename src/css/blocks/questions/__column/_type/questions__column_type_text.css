@@ -1,0 +1,6 @@
+.questions__column_type_text {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 calc(40% - 20px);
+  gap: 20px;
+}

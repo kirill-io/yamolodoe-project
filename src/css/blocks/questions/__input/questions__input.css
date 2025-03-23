@@ -1,0 +1,16 @@
+.questions__input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.questions__input:checked + .questions__label > .questions__label-icon {
+  transform: translateY(-50%) rotate(405deg);
+}
+
+.questions__input:checked + .questions__label + .questions__text-wrap {
+  grid-template-rows: 1fr;
+}
+
+.questions__input:checked + .questions__label + .questions__text-wrap > .questions__text-container > .questions__text {
+  padding: 15px;
+}
