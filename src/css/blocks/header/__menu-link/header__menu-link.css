@@ -10,17 +10,21 @@
   white-space: nowrap;
 }
 
-.header__menu-link:hover {
-  border-color: var(--primary-hover-color);
+@media (hover: hover) {
+  .header__menu-link:hover {
+    border-color: var(--primary-hover-color);
+  }
+}
+
+@media (hover: none) {
+  .header__menu-link:active {
+    border-color: var(--primary-hover-color);
+  }
 }
 
 @media screen and (max-width: 1279px) {
   .header__menu-link {
     padding: 5px 15px;
-  }
-
-  .header__menu-link:hover {
-    border-color: var(--primary-font-color);
   }
 }
 

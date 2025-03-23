@@ -9,20 +9,29 @@
   transition: box-shadow .3s ease-out;
 }
 
-.button-link_type_intro:hover, .button-link_type_intro:focus {
+.button-link_type_intro:hover {
   box-shadow: 0 0 0 3px var(--primary-bg-color) inset,
               0 0 0 4.5px var(--secondary-hover-color) inset;
+}
+
+@media (hover: hover) {
+  .button-link_type_intro:hover {
+    box-shadow: 0 0 0 3px var(--primary-bg-color) inset,
+                0 0 0 4.5px var(--secondary-hover-color) inset;
+  }
+}
+
+@media (hover: none) {
+  .button-link_type_intro:active {
+    box-shadow: 0 0 0 3px var(--primary-bg-color) inset,
+                0 0 0 4.5px var(--secondary-hover-color) inset;
+  }
 }
 
 @media screen and (max-width: 1279px) {
   .button-link_type_intro {
     font-size: var(--primary-font-size-l);
     padding: 15px 30px;
-  }
-
-  .button-link_type_intro:hover, .button-link_type_intro:focus {
-    box-shadow: 0 0 0 3px var(--primary-bg-color) inset,
-                0 0 0 4.5px var(--primary-font-color) inset;
   }
 }
 

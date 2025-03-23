@@ -6,12 +6,14 @@
   transition: border-color .3s ease-out;
 }
 
-.social__link:hover {
-  border-color: var(--primary-hover-color);
+@media (hover: hover) {
+  .social__link:hover {
+    border-color: var(--primary-hover-color);
+  }
 }
 
-@media screen and (max-width: 1279px) {
-  .social__link:hover {
-    border-color: var(--primary-font-color);
+@media (hover: none) {
+  .social__link:active {
+    border-color: var(--primary-hover-color);
   }
 }

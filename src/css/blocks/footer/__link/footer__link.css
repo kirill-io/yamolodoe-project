@@ -16,14 +16,16 @@
   width: 0;
 }
 
-.footer__link:hover::before {
-  left: 0;
-  width: 100%;
+@media (hover: hover) {
+  .footer__link:hover::before {
+    left: 0;
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 1279px) {
-  .footer__link:hover::before {
-    left: 100%;
-    width: 0;
+@media (hover: none) {
+  .footer__link:active::before {
+    left: 0;
+    width: 100%;
   }
 }

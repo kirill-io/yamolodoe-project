@@ -30,15 +30,17 @@
   width: 0;
 }
 
-.information__label:hover::before {
-  left: 0;
-  width: 100%;
+@media (hover: hover) {
+  .information__label:hover::before {
+    left: 0;
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 1279px) {
-  .information__label:hover::before {
-    left: 100%;
-    width: 0;
+@media (hover: none) {
+  .information__label:active::before {
+    left: 0;
+    width: 100%;
   }
 }
 

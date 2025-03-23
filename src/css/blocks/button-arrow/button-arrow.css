@@ -8,17 +8,21 @@
   width: 50px;
 }
 
-.button-arrow:hover .button-arrow__image {
-  fill: var(--secondary-hover-color);
+@media (hover: hover) {
+  .button-arrow:hover .button-arrow__image {
+    fill: var(--secondary-hover-color);
+  }
+}
+
+@media (hover: none) {
+  .button-arrow:active .button-arrow__image {
+    fill: var(--secondary-hover-color);
+  }
 }
 
 @media screen and (max-width: 1279px) {
   .button-arrow {
     height: 35px;
     width: 35px;
-  }
-
-  .button-arrow:hover .button-arrow__image {
-    fill: var(--primary-hover-color);
   }
 }

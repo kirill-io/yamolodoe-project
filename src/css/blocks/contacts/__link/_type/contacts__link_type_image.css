@@ -9,8 +9,14 @@
   border-color: var(--primary-hover-color);
 }
 
-@media screen and (max-width: 1279px) {
+@media (hover: hover) {
   .contacts__link_type_image:hover {
-    border-color: var(--primary-font-color);
+    border-color: var(--primary-hover-color);
+  }
+}
+
+@media (hover: none) {
+  .contacts__link_type_image:active {
+    border-color: var(--primary-hover-color);
   }
 }

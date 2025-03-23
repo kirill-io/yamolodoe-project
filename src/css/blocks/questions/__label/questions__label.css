@@ -14,8 +14,16 @@
   transition: border-color .3s ease-out;
 }
 
-.questions__label:hover {
-  border-color: var(--secondary-hover-color);
+@media (hover: hover) {
+  .questions__label:hover {
+    border-color: var(--secondary-hover-color);
+  }
+}
+
+@media (hover: none) {
+  .questions__label:active {
+    border-color: var(--secondary-hover-color);
+  }
 }
 
 .questions__label::before {
@@ -27,9 +35,5 @@
   .questions__label {
     font-size: var(--primary-font-size-l);
     padding: 10px 45px 10px 15px;
-  }
-  
-  .questions__label:hover {
-    border-color: var(--primary-font-color);
   }
 }
