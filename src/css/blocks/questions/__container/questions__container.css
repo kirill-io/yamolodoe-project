@@ -2,3 +2,10 @@
   display: flex;
   gap: 30px;
 }
+
+@media screen and (max-width: 1279px) {
+  .questions__container {
+    gap: 15px;
+  }
+  
+}

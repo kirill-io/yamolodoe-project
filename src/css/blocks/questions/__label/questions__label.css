@@ -22,3 +22,14 @@
   content: '🍏';
   display: block;
 }
+
+@media screen and (max-width: 1279px) {
+  .questions__label {
+    font-size: var(--primary-font-size-l);
+    padding: 10px 45px 10px 15px;
+  }
+  
+  .questions__label:hover {
+    border-color: var(--primary-font-color);
+  }
+}
