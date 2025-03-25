@@ -8,7 +8,9 @@ export default class TransitionFromSliderToCheckbox {
     for (const checkbox of this._checkboxElements) {
       if (checkbox.id === id) {
         checkbox.checked = true;
-        checkbox.scrollIntoView({ behavior: 'smooth' });
+        checkbox.scrollIntoView({
+          behavior: 'smooth',
+        });
       }
     }
   }

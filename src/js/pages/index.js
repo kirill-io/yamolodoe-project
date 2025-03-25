@@ -9,6 +9,7 @@ import {
   Pagination,
 } from 'swiper/modules';
 import TransitionFromSliderToCheckbox from '../components/TransitionFromSliderToCheckbox';
+import StickyHeader from '../components/StickyHeader';
 
 new Swiper('.intro__slider-container', {
   modules: [Autoplay, Navigation, Pagination],
@@ -32,3 +33,5 @@ new TransitionFromSliderToCheckbox(
   '.questions__input',
   TransitionFromSliderToCheckbox.init('.intro__slide-button'),
 );
+
+new StickyHeader(StickyHeader.init('.header'));

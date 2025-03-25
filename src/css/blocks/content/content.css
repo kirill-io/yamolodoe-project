@@ -7,20 +7,10 @@
   width: 100%;
 }
 
-/* .content::before {
-  content: '';
-  height: 95px;
-  width: 100%;
-}
-
-@media screen and (max-width: 1279px) {
-  .content::before {
-    height: 112px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .content::before {
+    content: '';
     height: 103px;
+    width: 100%;
   }
-} */
+}

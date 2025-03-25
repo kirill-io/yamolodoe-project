@@ -4,10 +4,14 @@
   display: flex;
   font: var(--primary-font-size-s) var(--primary-font-bold);
   justify-content: center;
+  left: 0;
   padding: 20px 0;
   position: sticky;
+  right: 0;  
+  top: 0; 
+  transition: transform .2s;
   width: 100%;
-  z-index: 100;  
+  z-index: 100;
 }
 
 @media screen and (max-width: 1279px) {
@@ -21,7 +25,9 @@
     font-size: var(--primary-font-size-s);
     inset: 0 0 calc(100% - 103px);
     padding: 5px 0;
-    transition: bottom .3s;
+    transition: bottom .3s,
+                transform .2s;
+    position: fixed;
   }
 
   .header:has(.header__menu-input:checked) {
