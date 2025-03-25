@@ -8,10 +8,18 @@ import {
   Navigation,
   Pagination,
 } from 'swiper/modules';
+import * as constants from '../utils/constants';
 import TransitionFromSliderToCheckbox from '../components/TransitionFromSliderToCheckbox';
 import StickyHeader from '../components/StickyHeader';
 
-new Swiper('.intro__slider-container', {
+const {
+  containerSelector,
+  paginationSelector,
+  buttonPrevSelector,
+  buttonNextSelector,
+} = constants.introSliderConfig;
+
+new Swiper(containerSelector, {
   modules: [Autoplay, Navigation, Pagination],
   slidesPerView: 1,
   loop: true,
@@ -21,17 +29,17 @@ new Swiper('.intro__slider-container', {
     pauseOnMouseEnter: true,
   },
   pagination: {
-    el: '.intro__dots',
+    el: paginationSelector,
   },
   navigation: {
-    nextEl: '.intro__slider-button_type_next',
-    prevEl: '.intro__slider-button_type_prev',
+    nextEl: buttonNextSelector,
+    prevEl: buttonPrevSelector,
   },
 });
 
 new TransitionFromSliderToCheckbox(
-  '.questions__input',
-  TransitionFromSliderToCheckbox.init('.intro__slide-button'),
+  constants.questionsConfig,
+  TransitionFromSliderToCheckbox.init(constants.questionsConfig),
 );
 
-new StickyHeader(StickyHeader.init('.header'));
+new StickyHeader(StickyHeader.init(constants.headerConfig));

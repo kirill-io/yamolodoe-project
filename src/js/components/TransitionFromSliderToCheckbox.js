@@ -1,5 +1,5 @@
 export default class TransitionFromSliderToCheckbox {
-  constructor(checkboxSelector, controls) {
+  constructor({ checkboxSelector }, controls) {
     this._checkboxElements = [...document.querySelectorAll(checkboxSelector)];
     this._setControls(controls);
   }
@@ -26,7 +26,7 @@ export default class TransitionFromSliderToCheckbox {
     }
   }
 
-  static init(controlSelector) {
-    return [...document.querySelectorAll(controlSelector)];
+  static init({ buttonSlector }) {
+    return [...document.querySelectorAll(buttonSlector)];
   }
 }

@@ -48,7 +48,7 @@ export default class StickyHeader {
     });
   }
 
-  static init(headerSelector) {
+  static init({ headerSelector }) {
     return document.querySelector(headerSelector);
   }
 }
