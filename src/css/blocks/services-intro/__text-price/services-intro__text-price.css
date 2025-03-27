@@ -1,0 +1,12 @@
+.services-intro__text-price {
+  margin-bottom: 20px;
+  max-width: 282px;
+  text-align: right;
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .services-intro__text-price {
+    margin-bottom: 10px;
+  }
+}

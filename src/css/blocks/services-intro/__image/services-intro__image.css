@@ -1,0 +1,15 @@
+.services-intro__image {
+  border-radius: 20px;
+  display: block;
+  height: 100%;
+  position: relative;
+  transform: translate(-10px, -10px);
+  width: 100%;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1279px) {
+  .services-intro__image {
+    transform: translate(-7.5px, -7.5px);
+  }
+}

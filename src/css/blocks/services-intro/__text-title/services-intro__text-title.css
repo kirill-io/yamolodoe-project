@@ -1,0 +1,22 @@
+.services-intro__text-title {
+  display: flex;
+  flex-direction: column;
+  font-size: inherit;
+  font-weight: normal;
+  margin: 0;
+  min-height: 73px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1279px) {
+  .services-intro__text-title {
+    min-height: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services-intro__text-title {
+    min-height: 67px;
+  }
+}

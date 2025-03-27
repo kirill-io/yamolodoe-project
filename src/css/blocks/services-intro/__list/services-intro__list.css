@@ -1,0 +1,25 @@
+.services-intro__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
+
+@media screen and (max-width: 1279px) {
+  .services-intro__list {
+    gap: 30px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services-intro__list {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+}

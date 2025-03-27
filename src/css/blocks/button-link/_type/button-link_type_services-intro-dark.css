@@ -1,0 +1,34 @@
+.button-link_type_services-intro-dark {
+  background: var(--primary-font-color);
+  border-radius: 20px;
+  box-shadow: 0 0 0 1.5px var(--primary-font-color) inset;
+  color: var(--secondary-font-color);
+  padding: 15px 40px;
+  text-align: center;
+  transition: box-shadow .3s ease-out;
+}
+
+@media (hover: hover) {
+  .button-link_type_services-intro-dark:hover {
+    box-shadow: 0 0 0 1.5px var(--secondary-hover-color) inset;
+  }
+}
+
+@media (hover: none) {
+  .button-link_type_services-intro-dark:active {
+    box-shadow: 0 0 0 1.5px var(--secondary-hover-color) inset;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .button-link_type_services-intro-dark {
+    font-size: var(--primary-font-size-s);
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-link_type_services-intro-dark {
+    font-size: var(--primary-font-size-m);
+  }
+}

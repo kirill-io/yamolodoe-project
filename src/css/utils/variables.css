@@ -10,6 +10,7 @@
   --secondary-bg-color: #e6e7e9;
   --primary-hover-color: #FFF;
   --secondary-hover-color: #8ce35c;
+  --primary-font-size-xxs: 14px;
   --primary-font-size-xs: 16px;
   --primary-font-size-s: 18px;
   --primary-font-size-m: 20px;
@@ -17,12 +18,14 @@
   --primary-font-size-xl: 24px;
   --primary-font-size-xxl: 32px;
   --primary-font-size-xxxl: 36px;
+  --secondary-font-size-xxxs: 10px;
   --secondary-font-size-xxs: 12px;
   --secondary-font-size-xs: 13px;
   --secondary-font-size-s: 14px;
   --secondary-font-size-m: 16px;
   --secondary-font-size-l: 18px;
   --secondary-font-size-xl: 20px;
+  --secondary-font-size-xxl: 22px;
   --swiper-pagination-color: #8ce35c;
   --swiper-pagination-bullet-inactive-color: #fff;
   --swiper-pagination-bullet-inactive-opacity: 1;

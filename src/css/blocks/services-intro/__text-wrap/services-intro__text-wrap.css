@@ -1,0 +1,8 @@
+.services-intro__text-wrap {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  gap: 10px;
+}

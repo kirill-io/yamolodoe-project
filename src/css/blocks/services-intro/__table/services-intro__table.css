@@ -1,0 +1,16 @@
+.services-intro__table {
+  display: grid;
+  gap: 5px 15px;
+  grid-template-columns: repeat(3, minmax(min-content, 1fr));
+  justify-items: end;
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .services-intro__table {
+    column-gap: 8px;
+    margin-bottom: 10px;
+  }
+}

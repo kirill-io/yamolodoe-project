@@ -1,21 +1,18 @@
-.about {
+.services-intro__subblock {
   align-items: center;
-  color: var(--primary-font-color);
   display: flex;
   flex-direction: column;
-  font: var(--secondary-font-size-l) var(--secondary-font-regular);
   gap: 40px;
 }
 
 @media screen and (max-width: 1279px) {
-  .about {
+  .services-intro__subblock {
     gap: 30px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .about {
-    font-size: var(--secondary-font-size-m);
+  .services-intro__subblock {
     gap: 20px;
   }
 }

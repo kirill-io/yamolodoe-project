@@ -1,0 +1,13 @@
+.services-intro__button-wrap {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .services-intro__button-wrap {
+    gap: 15px;
+  }
+}

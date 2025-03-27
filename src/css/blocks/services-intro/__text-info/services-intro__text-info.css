@@ -1,0 +1,13 @@
+.services-intro__text-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  max-width: 282px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .services-intro__text-info {
+    margin-bottom: 10px;
+  }
+}

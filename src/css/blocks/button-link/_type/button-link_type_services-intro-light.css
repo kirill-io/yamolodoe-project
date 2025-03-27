@@ -1,0 +1,32 @@
+.button-link_type_services-intro-light {
+  border-radius: 20px;
+  box-shadow: 0 0 0 1.5px var(--primary-font-color) inset;
+  padding: 15px 0;
+  text-align: center;
+  transition: box-shadow .3s ease-out;
+}
+
+@media (hover: hover) {
+  .button-link_type_services-intro-light:hover {
+    box-shadow: 0 0 0 1.5px var(--secondary-hover-color) inset;
+  }
+}
+
+@media (hover: none) {
+  .button-link_type_services-intro-light:active {
+    box-shadow: 0 0 0 1.5px var(--secondary-hover-color) inset;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .button-link_type_services-intro-light {
+    font-size: var(--primary-font-size-s);
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-link_type_services-intro-light {
+    font-size: var(--primary-font-size-m);
+  }
+}

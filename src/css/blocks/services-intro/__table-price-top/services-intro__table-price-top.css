@@ -1,0 +1,5 @@
+.services-intro__table-price-top {
+  align-self: end;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}

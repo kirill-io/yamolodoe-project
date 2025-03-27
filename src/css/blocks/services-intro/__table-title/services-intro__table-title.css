@@ -1,0 +1,18 @@
+.services-intro__table-title {
+  font-size: var(--secondary-font-size-xxs);
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1279px) {
+  .services-intro__table-title {
+    font-size: var(--secondary-font-size-xxxs);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services-intro__table-title {
+    font-size: var(--secondary-font-size-xxs);
+  }
+}
