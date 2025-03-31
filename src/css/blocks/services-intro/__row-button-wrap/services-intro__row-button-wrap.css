@@ -10,3 +10,9 @@
   max-width: 250px;
   width: 100%;
 }
+
+@media screen and (max-width: 1279px) {
+  .services-intro__row-button-wrap {
+    gap: 20px;
+  }
+}

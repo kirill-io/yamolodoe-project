@@ -17,3 +17,22 @@
     font-weight: bold;
   }
 }
+
+@media screen and (max-width: 1279px) {
+  .services-intro__row {
+    width: 95%;
+    gap: 40px;
+  }
+
+  .services-intro__row:hover .services-intro__row-image-wrap {
+    transform: rotate(-5deg);
+  }
+
+  .services-intro__row:hover .services-intro__row-text-wrap {
+    transform: scale(1);
+  }
+
+  .services-intro__row:hover .services-intro__row-text-title {
+    font-weight: normal;
+  }
+}

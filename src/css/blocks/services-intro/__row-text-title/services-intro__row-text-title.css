@@ -6,3 +6,9 @@
   text-transform: uppercase;
   transition: font-weight .3s ease-out;
 }
+
+@media screen and (max-width: 1279px) {
+  .services-intro__row-text-title {
+    font-size: var(--secondary-font-size-xl);
+  }
+}

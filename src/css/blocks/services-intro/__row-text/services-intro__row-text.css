@@ -1,3 +1,9 @@
 .services-intro__row-text {
   margin: 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .services-intro__row-text {
+    font-size: var(--secondary-font-size-m);
+  }
+}

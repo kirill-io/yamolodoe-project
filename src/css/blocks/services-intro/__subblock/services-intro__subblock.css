@@ -13,6 +13,10 @@
   .services-intro__subblock {
     gap: 30px;
   }
+
+  .services-intro__subblock:last-child {
+    gap: 40px;
+  }
 }
 
 @media screen and (max-width:767px) {

@@ -5,3 +5,10 @@
   transition: transform .3s ease-out;
   height: 250px;
 }
+
+@media screen and (max-width: 1279px) {
+  .services-intro__row-image-wrap {
+    flex: 1 0 calc(45% - 20px);
+    max-width: calc(45% - 20px);
+  }
+}
