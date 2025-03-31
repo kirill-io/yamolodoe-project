@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width:767px) {
-  .services-intro__subblock {
-    gap: 20px;
+  .services-intro__subblock:last-child {
+    gap: 30px;
   }
 }

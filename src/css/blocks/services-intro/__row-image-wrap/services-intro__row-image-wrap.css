@@ -12,3 +12,14 @@
     max-width: calc(45% - 20px);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .services-intro__row-image-wrap {
+    flex: 1 0 100%;
+    height: auto;
+    max-width: none;
+    order: 1;
+    transform: rotate(0deg);
+    width: 90%;
+  }
+}

@@ -23,3 +23,14 @@
     padding: 15px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .services-intro__row-text-wrap {
+    border: none;
+    box-shadow: none;
+    flex: 1 0 100%;
+    max-width: none;
+    order: 2;
+    padding: 0;
+  }
+}

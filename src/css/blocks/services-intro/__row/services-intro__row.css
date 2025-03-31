@@ -36,3 +36,22 @@
     font-weight: normal;
   }
 }
+
+@media screen and (max-width:767px) {
+  .services-intro__row {
+    background: var(--primary-bg-color);
+    border-radius: 20px;
+    border: 1px solid var(--primary-font-color);
+    box-shadow: var(--primary-font-color) 0 7px 15px;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 442px;
+    padding: 25px 20px 20px;
+    width: 100%;
+  }
+
+  .services-intro__row:hover .services-intro__row-image-wrap {
+    transform: rotate(0deg);
+  }
+}
