@@ -1,0 +1,19 @@
+.services-intro__row {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+@media (hover: hover) {
+  .services-intro__row:hover .services-intro__row-image-wrap {
+    transform: rotate(0deg);
+  }
+
+  .services-intro__row:hover .services-intro__row-text-wrap {
+    transform: scale(1.05);
+  }
+
+  .services-intro__row:hover .services-intro__row-text-title {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,26 @@
+.services-intro__row-text-wrap {
+  align-items: center;
+  background: var(--primary-bg-color);
+  border-radius: 20px;
+  border: 1px solid var(--primary-font-color);
+  box-shadow: var(--primary-font-color) 0 7px 29px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 calc(70% - 30px);
+  gap: 30px;
+  justify-content: center;
+  max-width: calc(70% - 30px);
+  padding: 20px;
+  transition: transform .3s ease-out;
+}
+
+@media (hover: hover) {
+  .services-intro__row-text-wrap:hover {
+    transform: scale(1.05);
+  }
+
+  .services-intro__row-text-wrap:hover .services-intro__row-text-title {
+    font-weight: bold;
+  }
+}

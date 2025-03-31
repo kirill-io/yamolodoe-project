@@ -1,0 +1,7 @@
+.services-intro__row-image-wrap {
+  flex: 1 0 calc(30% - 30px);
+  max-width: calc(30% - 30px);
+  transform: rotate(-5deg);
+  transition: transform .3s ease-out;
+  height: 250px;
+}

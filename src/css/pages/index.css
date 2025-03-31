@@ -77,6 +77,15 @@
 @import url('../blocks/services-intro/__text-price/services-intro__text-price.css');
 @import url('../blocks/services-intro/__text-info/services-intro__text-info.css');
 @import url('../blocks/services-intro/__button-wrap/services-intro__button-wrap.css');
+@import url('../blocks/services-intro/__row/services-intro__row.css');
+@import url('../blocks/services-intro/__row-image-wrap/services-intro__row-image-wrap.css');
+@import url('../blocks/services-intro/__row-image-container/services-intro__row-image-container.css');
+@import url('../blocks/services-intro/__row-image/services-intro__row-image.css');
+@import url('../blocks/services-intro/__row-text-wrap/services-intro__row-text-wrap.css');
+@import url('../blocks/services-intro/__row-text-container/services-intro__row-text-container.css');
+@import url('../blocks/services-intro/__row-text-title/services-intro__row-text-title.css');
+@import url('../blocks/services-intro/__row-text/services-intro__row-text.css');
+@import url('../blocks/services-intro/__row-button-wrap/services-intro__row-button-wrap.css');
 @import url('../blocks/questions/questions.css');
 @import url('../blocks/questions/__wrapper/questions__wrapper.css');
 @import url('../blocks/questions/__container/questions__container.css');

@@ -1,0 +1,8 @@
+.services-intro__row-text-title {
+  font-size: var(--secondary-font-size-xxl);
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  transition: font-weight .3s ease-out;
+}

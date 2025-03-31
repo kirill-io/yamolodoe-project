@@ -21,6 +21,6 @@
 
 @media screen and (max-width: 767px) {
   .services-intro__container {
-    gap: 30px;
+    gap: 40px;
   }
 }

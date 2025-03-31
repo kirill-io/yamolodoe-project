@@ -1,0 +1,10 @@
+.services-intro__row-image {
+  border-radius: 20px;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  transform: translate(-10px, -10px);
+  width: 100%;
+  z-index: 10;
+}

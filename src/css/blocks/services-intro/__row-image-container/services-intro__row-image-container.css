@@ -1,0 +1,13 @@
+.services-intro__row-image-container {
+  position: relative;
+}
+
+.services-intro__row-image-container::after {
+  background: var(--primary-font-color);
+  border-radius: 20px;
+  content: '';
+  display: block;
+  inset: 0;
+  position: absolute;
+  transform: translate(7.5px, 7.5px);
+}

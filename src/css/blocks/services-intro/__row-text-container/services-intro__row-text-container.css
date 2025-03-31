@@ -1,0 +1,5 @@
+.services-intro__row-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

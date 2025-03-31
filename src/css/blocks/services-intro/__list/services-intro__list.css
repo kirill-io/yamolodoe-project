@@ -19,7 +19,7 @@
 @media screen and (max-width: 767px) {
   .services-intro__list {
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
   }
 }

@@ -1,0 +1,12 @@
+.services-intro__row-button-wrap {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  width: 100%;
+}
+
+.services-intro__row-button-wrap .button-link {
+  box-sizing: border-box;
+  max-width: 250px;
+  width: 100%;
+}
