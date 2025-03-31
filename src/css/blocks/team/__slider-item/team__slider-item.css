@@ -1,0 +1,18 @@
+.team__slider-item {
+  background: var(--primary-bg-color);
+  border-radius: 20px;
+  border: 1px solid var(--primary-font-color);
+  box-shadow: var(--primary-font-color) 0 7px 29px 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .team__slider-item {
+    box-shadow: var(--primary-font-color) 0 7px 20px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team__slider-item {
+    box-shadow: var(--primary-font-color) 0 7px 15px 0;
+  }
+}

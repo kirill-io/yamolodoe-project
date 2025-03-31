@@ -4,12 +4,10 @@
   display: flex;
   flex-direction: column;
   font: var(--secondary-font-size-l) var(--secondary-font-regular);
-  gap: 40px;
 }
 
 @media screen and (max-width: 1279px) {
   .questions {
-    gap: 30px;
     font-size: var(--secondary-font-size-m);
   }
 }

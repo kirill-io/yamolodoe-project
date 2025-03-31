@@ -1,0 +1,26 @@
+.services-intro__container {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  max-width: 1780px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1919px) {
+  .services-intro__container {
+    width: 92.71%;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .services-intro__container {
+    gap: 50px;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services-intro__container {
+    gap: 30px;
+  }
+}

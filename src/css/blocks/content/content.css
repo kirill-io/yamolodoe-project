@@ -1,13 +1,23 @@
 .content {
-  align-items: center;
-  background: var(--primary-bg-color);
   display: flex;
   flex-direction: column;
-  flex: 1 0 auto;
-  width: 100%;
+  gap: 70px;
+  padding: 70px 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .content {
+    gap: 50px;
+    padding: 50px 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .content {
+    gap: 30px;
+    padding: 0 0 30px;
+  }
+
   .content::before {
     content: '';
     height: 103px;

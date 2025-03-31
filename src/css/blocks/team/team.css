@@ -1,4 +1,4 @@
-.about {
+.team {
   align-items: center;
   color: var(--primary-font-color);
   display: flex;
@@ -7,14 +7,13 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .about {
-    gap: 30px;
+  .team {
+    font-size: var(--secondary-font-size-m);
   }
 }
 
-@media screen and (max-width:767px) {
-  .about {
-    font-size: var(--secondary-font-size-m);
-    gap: 20px;
+@media screen and (max-width: 767px) {
+  .team {
+    font-size: var(--secondary-font-size-s);
   }
 }

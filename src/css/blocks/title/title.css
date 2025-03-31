@@ -1,4 +1,5 @@
 .title {
+  align-self: center;
   color: var(--primary-font-color);
   font: var(--primary-font-size-xxxl) var(--primary-font-regular);
   margin: 0;

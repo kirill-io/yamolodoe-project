@@ -1,0 +1,10 @@
+.team__slide-image {
+  display: block;
+  width: 55%;
+}
+
+@media screen and (max-width: 1279px) {
+  .team__slide-image {
+    width: 50%;
+  }
+}

@@ -1,0 +1,16 @@
+.team__slide-subtitle {
+  font: var(--secondary-font-size-xl) var(--secondary-font-bold);
+  margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .team__slide-subtitle {
+    font-size: var(--secondary-font-size-l);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team__slide-subtitle {
+    font-size: var(--secondary-font-size-m);
+  }
+}

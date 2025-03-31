@@ -36,8 +36,8 @@
 @import url('../blocks/header/__menu-item/header__menu-item.css');
 @import url('../blocks/header/__menu-link/header__menu-link.css');
 @import url('../blocks/content/content.css');
-@import url('../blocks/container/container.css');
 @import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__container/intro__container.css');
 @import url('../blocks/intro/__slider-container/intro__slider-container.css');
 @import url('../blocks/intro/__slider-list/intro__slider-list.css');
 @import url('../blocks/intro/__slide/intro__slide.css');
@@ -50,6 +50,7 @@
 @import url('../blocks/intro/__slider-button/intro__slider-button.css');
 @import url('../blocks/intro/__dots/intro__dots.css');
 @import url('../blocks/about/about.css');
+@import url('../blocks/about/__container/about__container.css');
 @import url('../blocks/about/__list/about__list.css');
 @import url('../blocks/about/__item/about__item.css');
 @import url('../blocks/about/__image-wrap/about__image-wrap.css');
@@ -59,6 +60,7 @@
 @import url('../blocks/about/__subtitle/about__subtitle.css');
 @import url('../blocks/about/__text/about__text.css');
 @import url('../blocks/services-intro/services-intro.css');
+@import url('../blocks/services-intro/__container/services-intro__container.css');
 @import url('../blocks/services-intro/__subblock/services-intro__subblock.css');
 @import url('../blocks/services-intro/__list/services-intro__list.css');
 @import url('../blocks/services-intro/__item/services-intro__item.css');
@@ -76,6 +78,7 @@
 @import url('../blocks/services-intro/__text-info/services-intro__text-info.css');
 @import url('../blocks/services-intro/__button-wrap/services-intro__button-wrap.css');
 @import url('../blocks/questions/questions.css');
+@import url('../blocks/questions/__wrapper/questions__wrapper.css');
 @import url('../blocks/questions/__container/questions__container.css');
 @import url('../blocks/questions/__image/questions__image.css');
 @import url('../blocks/questions/__input/questions__input.css');
@@ -85,6 +88,17 @@
 @import url('../blocks/questions/__text-wrap/questions__text-wrap.css');
 @import url('../blocks/questions/__text-container/questions__text-container.css');
 @import url('../blocks/questions/__text/questions__text.css');
+@import url('../blocks/team/team.css');
+@import url('../blocks/team/__slider/team__slider.css');
+@import url('../blocks/team/__slider-list/team__slider-list.css');
+@import url('../blocks/team/__slider-item/team__slider-item.css');
+@import url('../blocks/team/__slide/team__slide.css');
+@import url('../blocks/team/__slide-image/team__slide-image.css');
+@import url('../blocks/team/__slide-title/team__slide-title.css');
+@import url('../blocks/team/__slide-subtitle/team__slide-subtitle.css');
+@import url('../blocks/team/__slide-text/team__slide-text.css');
+@import url('../blocks/team/__slider-button-wrap/team__slider-button-wrap.css');
+@import url('../blocks/team/__slider-button/team__slider-button.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__row/footer__row.css');

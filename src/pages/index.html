@@ -58,9 +58,9 @@
   </header>
 
   <main class="content">
-    <div class="container">
 
-      <section class="intro">
+    <section class="intro">
+      <div class="intro__container">
         <div class="intro__slider-container swiper">
           <ul class="intro__slider-list swiper-wrapper">
             <li class="intro__slide intro__slide_text-position_left swiper-slide">
@@ -191,28 +191,34 @@
               </div>
             </li>
           </ul>
-          <button class="button-arrow button-arrow_type_left intro__slider-button intro__slider-button_type_prev">
+          <button class="button-arrow intro__slider-button intro__slider-button_type_prev">
             <svg class="button-arrow__image">
-              <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-left"></use>
+              <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-prev"></use>
             </svg>
           </button>
           <button class="button-arrow intro__slider-button intro__slider-button_type_next">
             <svg class="button-arrow__image">
-              <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-right"></use>
+              <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-next"></use>
             </svg>
           </button>
           <div class="intro__dots"></div>
         </div>
-      </section>
+      </div>      
+    </section>
 
-      <section class="about">
+    <section class="about">
+      <div class="about__container">
         <h1 class="title">Ощутите магию массажа лица</h1>
         <ul class="about__list">
           <li class="about__item">
             <div class="about__image-wrap">
               <picture>
-                <source type="image/webp" srcset="../assets/images/about/about-lifting@1x.webp 1x, ../assets/images/about/about-lifting@2x.webp 2x">
-                <img src="../assets/images/about/about-lifting@1x.png" srcset="../assets/images/about/about-lifting@2x.png 2x" alt="Рисунок лица женщины закрытыми глазами в профиль, справа лицо обрамлено листьями." class="about__image">
+                <source type="image/webp"
+                  srcset="../assets/images/about/about-lifting@1x.webp 1x, ../assets/images/about/about-lifting@2x.webp 2x">
+                <img src="../assets/images/about/about-lifting@1x.png"
+                  srcset="../assets/images/about/about-lifting@2x.png 2x"
+                  alt="Рисунок лица женщины закрытыми глазами в профиль, справа лицо обрамлено листьями."
+                  class="about__image">
               </picture>
             </div>
             <div class="about__text-wrap">
@@ -223,8 +229,11 @@
           <li class="about__item">
             <div class="about__image-wrap">
               <picture>
-                <source type="image/webp" srcset="../assets/images/about/about-tone@1x.webp 1x, ../assets/images/about/about-tone@2x.webp 2x">
-                <img src="../assets/images/about/about-tone@1x.png" srcset="../assets/images/about/about-tone@2x.png 2x" alt="Рисунок лица женщины закрытыми глазами, вид сбоку. Волосы собраны китайской заколкой." class="about__image">
+                <source type="image/webp"
+                  srcset="../assets/images/about/about-tone@1x.webp 1x, ../assets/images/about/about-tone@2x.webp 2x">
+                <img src="../assets/images/about/about-tone@1x.png" srcset="../assets/images/about/about-tone@2x.png 2x"
+                  alt="Рисунок лица женщины закрытыми глазами, вид сбоку. Волосы собраны китайской заколкой."
+                  class="about__image">
               </picture>
             </div>
             <div class="about__text-wrap">
@@ -234,10 +243,15 @@
           </li>
           <li class="about__item">
             <div class="about__image-wrap">
-              <source type="image/webp" srcset="../assets/images/about/about-circulation@1x.webp 1x, ../assets/images/about/about-circulation@2x.webp 2x">
+              <source type="image/webp"
+                srcset="../assets/images/about/about-circulation@1x.webp 1x, ../assets/images/about/about-circulation@2x.webp 2x">
               <picture>
-                <source type="image/webp" srcset="../assets/images/about/about-circulation@1x.webp 1x, ../assets/images/about/about-circulation@2x.webp 2x">
-                <img src="../assets/images/about/about-circulation@1x.png" srcset="../assets/images/about/about-circulation@2x.png 2x" alt="Рисунок лица женщины закрытыми глазами, вид сбоку. Собраными на макушке волосами, с косметическими патчами на лице." class="about__image">
+                <source type="image/webp"
+                  srcset="../assets/images/about/about-circulation@1x.webp 1x, ../assets/images/about/about-circulation@2x.webp 2x">
+                <img src="../assets/images/about/about-circulation@1x.png"
+                  srcset="../assets/images/about/about-circulation@2x.png 2x"
+                  alt="Рисунок лица женщины закрытыми глазами, вид сбоку. Собраными на макушке волосами, с косметическими патчами на лице."
+                  class="about__image">
               </picture>
             </div>
             <div class="about__text-wrap">
@@ -248,8 +262,11 @@
           <li class="about__item">
             <div class="about__image-wrap">
               <picture>
-                <source type="image/webp" srcset="../assets/images/about/about-detox@1x.webp 1x, ../assets/images/about/about-detox@2x.webp 2x">
-                <img src="../assets/images/about/about-detox@1x.png" srcset="../assets/images/about/about-detox@2x.png 2x" alt="Рисунок лица женщины закрытыми глазами в профиль, с косметическими средствами на лице. Слева от женщины ветка с листами." class="about__image">
+                <source type="image/webp"
+                  srcset="../assets/images/about/about-detox@1x.webp 1x, ../assets/images/about/about-detox@2x.webp 2x">
+                <img src="../assets/images/about/about-detox@1x.png" srcset="../assets/images/about/about-detox@2x.png 2x"
+                  alt="Рисунок лица женщины закрытыми глазами в профиль, с косметическими средствами на лице. Слева от женщины ветка с листами."
+                  class="about__image">
               </picture>
             </div>
             <div class="about__text-wrap">
@@ -260,8 +277,11 @@
           <li class="about__item">
             <div class="about__image-wrap">
               <picture>
-                <source type="image/webp" srcset="../assets/images/about/about-relaxation@1x.webp 1x, ../assets/images/about/about-relaxation@2x.webp 2x">
-                <img src="../assets/images/about/about-relaxation@1x.png" srcset="../assets/images/about/about-relaxation@2x.png 2x" alt="Рисунок лица женщины закрытыми глазами в профиль, с руками возле лица." class="about__image">
+                <source type="image/webp"
+                  srcset="../assets/images/about/about-relaxation@1x.webp 1x, ../assets/images/about/about-relaxation@2x.webp 2x">
+                <img src="../assets/images/about/about-relaxation@1x.png"
+                  srcset="../assets/images/about/about-relaxation@2x.png 2x"
+                  alt="Рисунок лица женщины закрытыми глазами в профиль, с руками возле лица." class="about__image">
               </picture>
             </div>
             <div class="about__text-wrap">
@@ -272,8 +292,11 @@
           <li class="about__item">
             <div class="about__image-wrap">
               <picture>
-                <source type="image/webp" srcset="../assets/images/about/about-shine@1x.webp 1x, ../assets/images/about/about-shine@2x.webp 2x">
-                <img src="../assets/images/about/about-shine@1x.png" srcset="../assets/images/about/about-shine@2x.png 2x" alt="Рисунок лица женщины закрытыми глазами, вид сбоку. Налице нанесены косметические средства, от лица исходят лучи, которые изображают сияние." class="about__image">
+                <source type="image/webp"
+                  srcset="../assets/images/about/about-shine@1x.webp 1x, ../assets/images/about/about-shine@2x.webp 2x">
+                <img src="../assets/images/about/about-shine@1x.png" srcset="../assets/images/about/about-shine@2x.png 2x"
+                  alt="Рисунок лица женщины закрытыми глазами, вид сбоку. Налице нанесены косметические средства, от лица исходят лучи, которые изображают сияние."
+                  class="about__image">
               </picture>
             </div>
             <div class="about__text-wrap">
@@ -284,8 +307,11 @@
           <li class="about__item">
             <div class="about__image-wrap">
               <picture>
-                <source type="image/webp" srcset="../assets/images/about/about-youth@1x.webp 1x, ../assets/images/about/about-youth@2x.webp 2x">
-                <img src="../assets/images/about/about-youth@1x.png" srcset="../assets/images/about/about-youth@2x.png 2x" alt="Рисунок лица женщины закрытыми глазами в профиль, волосы распущены, в волосах вплетен цветок." class="about__image">
+                <source type="image/webp"
+                  srcset="../assets/images/about/about-youth@1x.webp 1x, ../assets/images/about/about-youth@2x.webp 2x">
+                <img src="../assets/images/about/about-youth@1x.png" srcset="../assets/images/about/about-youth@2x.png 2x"
+                  alt="Рисунок лица женщины закрытыми глазами в профиль, волосы распущены, в волосах вплетен цветок."
+                  class="about__image">
               </picture>
             </div>
             <div class="about__text-wrap">
@@ -296,8 +322,12 @@
           <li class="about__item">
             <div class="about__image-wrap">
               <picture>
-                <source type="image/webp" srcset="../assets/images/about/about-elasticity@1x.webp 1x, ../assets/images/about/about-elasticity@2x.webp 2x">
-                <img src="../assets/images/about/about-elasticity@1x.png" srcset="../assets/images/about/about-elasticity@2x.png 2x" alt="Рисунок лица женщины закрытыми глазами в профиль, волосы распущены, на лице косметические средства." class="about__image">
+                <source type="image/webp"
+                  srcset="../assets/images/about/about-elasticity@1x.webp 1x, ../assets/images/about/about-elasticity@2x.webp 2x">
+                <img src="../assets/images/about/about-elasticity@1x.png"
+                  srcset="../assets/images/about/about-elasticity@2x.png 2x"
+                  alt="Рисунок лица женщины закрытыми глазами в профиль, волосы распущены, на лице косметические средства."
+                  class="about__image">
               </picture>
             </div>
             <div class="about__text-wrap">
@@ -308,8 +338,12 @@
           <li class="about__item">
             <div class="about__image-wrap">
               <picture>
-                <source type="image/webp" srcset="../assets/images/about/about-regeneration@1x.webp 1x, ../assets/images/about/about-regeneration@2x.webp 2x">
-                <img src="../assets/images/about/about-regeneration@1x.png" srcset="../assets/images/about/about-regeneration@2x.png 2x" alt="Рисунок лица женщины закрытыми глазами в профиль, волосы распущены, вокруг лица элементы напоминающие ветки и листья." class="about__image">
+                <source type="image/webp"
+                  srcset="../assets/images/about/about-regeneration@1x.webp 1x, ../assets/images/about/about-regeneration@2x.webp 2x">
+                <img src="../assets/images/about/about-regeneration@1x.png"
+                  srcset="../assets/images/about/about-regeneration@2x.png 2x"
+                  alt="Рисунок лица женщины закрытыми глазами в профиль, волосы распущены, вокруг лица элементы напоминающие ветки и листья."
+                  class="about__image">
               </picture>
             </div>
             <div class="about__text-wrap">
@@ -318,9 +352,11 @@
             </div>
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
 
-      <section class="services-intro">
+    <section class="services-intro">
+      <div class="services-intro__container">
         <div class="services-intro__subblock">
           <h2 class="title">Массаж лица</h2>
           <ul class="services-intro__list">
@@ -544,9 +580,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="questions">
+    <section class="questions">
+      <div class="questions__wrapper">
         <h2 class="title">Вопросы и ответы</h2>
         <div class="questions__container">
           <div class="questions__column questions__column_type_image questions__column_image-position_top">
@@ -569,7 +607,11 @@
               </label>
               <div class="questions__text-wrap">
                 <div class="questions__text-container">
-                  <p class="questions__text">Это студия массажа лица, где красота сочетается с профессиональным уходом. Мы используем авторские техники, которые позволяют без инъекций и операций вернуть коже свежесть, упругость и молодость.<br>Нас выбирают, потому что наши мастера – специалисты с медицинским образованием, работающие на результат. Мы создаем индивидуальные программы, ориентированные на лифтинг, расслабление и сияние кожи. Видимый эффект уже после первого сеанса, а с каждым следующим – только лучше!</p>
+                  <p class="questions__text">Это студия массажа лица, где красота сочетается с профессиональным уходом. Мы
+                    используем авторские техники, которые позволяют без инъекций и операций вернуть коже свежесть, упругость
+                    и молодость.<br>Нас выбирают, потому что наши мастера – специалисты с медицинским образованием,
+                    работающие на результат. Мы создаем индивидуальные программы, ориентированные на лифтинг, расслабление и
+                    сияние кожи. Видимый эффект уже после первого сеанса, а с каждым следующим – только лучше!</p>
                 </div>
               </div>
             </div>
@@ -583,7 +625,11 @@
               </label>
               <div class="questions__text-wrap">
                 <div class="questions__text-container">
-                  <p class="questions__text">Наши методики основаны на анатомии и физиологии лица — мы не просто массируем кожу, а глубоко прорабатываем мышцы, активизируем кровообращение и лимфоток. Это помогает естественным процессам регенерации, повышает упругость кожи и разглаживает морщины. Уже после первого сеанса вы увидите результат: свежий цвет лица, тонус и легкий лифтинг. А с регулярными процедурами эффект только накапливается — без инъекций и пластики!</p>
+                  <p class="questions__text">Наши методики основаны на анатомии и физиологии лица — мы не просто массируем
+                    кожу, а глубоко прорабатываем мышцы, активизируем кровообращение и лимфоток. Это помогает естественным
+                    процессам регенерации, повышает упругость кожи и разглаживает морщины. Уже после первого сеанса вы
+                    увидите результат: свежий цвет лица, тонус и легкий лифтинг. А с регулярными процедурами эффект только
+                    накапливается — без инъекций и пластики!</p>
                 </div>
               </div>
             </div>
@@ -597,7 +643,11 @@
               </label>
               <div class="questions__text-wrap">
                 <div class="questions__text-container">
-                  <p class="questions__text">Да, но с нюансами. В отличие от инъекций, массаж не заполняет морщины и не блокирует мышцы, а естественным образом стимулирует выработку коллагена и эластина, укрепляет мышцы лица, улучшает кровообращение и лимфоток. Регулярный массаж помогает продлить молодость кожи, разгладить морщины, подтянуть овал лица и улучшить цвет лица. Это безопасная, натуральная и приятная альтернатива инъекциям, особенно если начинать заботиться о коже вовремя!</p>
+                  <p class="questions__text">Да, но с нюансами. В отличие от инъекций, массаж не заполняет морщины и не
+                    блокирует мышцы, а естественным образом стимулирует выработку коллагена и эластина, укрепляет мышцы
+                    лица, улучшает кровообращение и лимфоток. Регулярный массаж помогает продлить молодость кожи, разгладить
+                    морщины, подтянуть овал лица и улучшить цвет лица. Это безопасная, натуральная и приятная альтернатива
+                    инъекциям, особенно если начинать заботиться о коже вовремя!</p>
                 </div>
               </div>
             </div>
@@ -611,7 +661,11 @@
               </label>
               <div class="questions__text-wrap">
                 <div class="questions__text-container">
-                  <p class="questions__text">Это не просто уход — это ритуал обновления вашей кожи! "Эликсир молодости" сочетает в себе глубокий массаж, активные космецевтические компоненты и профессиональные техники омоложения. Он стимулирует выработку коллагена, улучшает кровообращение, насыщает кожу влагой и питательными веществами. После процедуры лицо становится подтянутым, свежим и сияющим — без инъекций, но с реальным лифтинг-эффектом. Почувствуйте, как ваша кожа оживает!</p>
+                  <p class="questions__text">Это не просто уход — это ритуал обновления вашей кожи! "Эликсир молодости"
+                    сочетает в себе глубокий массаж, активные космецевтические компоненты и профессиональные техники
+                    омоложения. Он стимулирует выработку коллагена, улучшает кровообращение, насыщает кожу влагой и
+                    питательными веществами. После процедуры лицо становится подтянутым, свежим и сияющим — без инъекций, но
+                    с реальным лифтинг-эффектом. Почувствуйте, как ваша кожа оживает!</p>
                 </div>
               </div>
             </div>
@@ -625,7 +679,11 @@
               </label>
               <div class="questions__text-wrap">
                 <div class="questions__text-container">
-                  <p class="questions__text">Мы выбираем лучшее для вашей кожи! GIGI — это космецевтика с медицинским подходом, в составе которой мощные активные компоненты в высоких концентрациях. Она эффективно работает на клеточном уровне, усиливает результаты массажа и дает стойкий эффект омоложения. Благодаря GIGI кожа быстрее обновляется, становится упругой, увлажненной и сияющей. Это не просто уход — это наука о молодости вашей кожи!</p>
+                  <p class="questions__text">Мы выбираем лучшее для вашей кожи! GIGI — это космецевтика с медицинским
+                    подходом, в составе которой мощные активные компоненты в высоких концентрациях. Она эффективно работает
+                    на клеточном уровне, усиливает результаты массажа и дает стойкий эффект омоложения. Благодаря GIGI кожа
+                    быстрее обновляется, становится упругой, увлажненной и сияющей. Это не просто уход — это наука о
+                    молодости вашей кожи!</p>
                 </div>
               </div>
             </div>
@@ -639,7 +697,11 @@
               </label>
               <div class="questions__text-wrap">
                 <div class="questions__text-container">
-                  <p class="questions__text">Продлите эффект профессиональных процедур с космецевтикой ANGIOFARM! Средства бренда работают на глубоком уровне: улучшают микроциркуляцию, укрепляют сосуды, ускоряют регенерацию и поддерживают молодость кожи. Благодаря активным формулам, разработанным с учётом научных исследований, ваш ежедневный уход станет эффективным и результативным. Красота и здоровье кожи — теперь в ваших руках!</p>
+                  <p class="questions__text">Продлите эффект профессиональных процедур с космецевтикой ANGIOFARM! Средства
+                    бренда работают на глубоком уровне: улучшают микроциркуляцию, укрепляют сосуды, ускоряют регенерацию и
+                    поддерживают молодость кожи. Благодаря активным формулам, разработанным с учётом научных исследований,
+                    ваш ежедневный уход станет эффективным и результативным. Красота и здоровье кожи — теперь в ваших руках!
+                  </p>
                 </div>
               </div>
             </div>
@@ -654,9 +716,85 @@
             </picture>
           </div>
         </div>
-      </section>
+      </div>    
+    </section>
 
-    </div>
+    <section class="team">
+      <h2 class="title">Наша команда</h2>
+      <div class="team__slider swiper">
+        <ul class="team__slider-list swiper-wrapper">
+          <li class="team__slider-item swiper-slide">
+            <div class="team__slide">
+              <img src="../assets/images/team/man-1.svg" alt="Нарисованный аватар мужчины." class="team__slide-image">
+              <h3 class="team__slide-title">Александр Морозов</h3>
+              <h4 class="team__slide-subtitle">Мастер массажист</h4>
+              <p class="team__slide-text">Опытный мастер, владеющий различными техниками массажа лица для омоложения и расслабления.</p>
+            </div>
+          </li>
+          <li class="team__slider-item swiper-slide">
+            <div class="team__slide">
+              <img src="../assets/images/team/woman-1.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
+              <h3 class="team__slide-title">Анна Соколова</h3>
+              <h4 class="team__slide-subtitle">Мастер массажист</h4>
+              <p class="team__slide-text">Помогает сохранить молодость и сияние кожи с помощью профессионального массажа.</p>
+            </div>
+          </li>
+          <li class="team__slider-item swiper-slide">
+            <div class="team__slide">
+              <img src="../assets/images/team/woman-2.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
+              <h3 class="team__slide-title">Мария Беляева</h3>
+              <h4 class="team__slide-subtitle">Косметолог</h4>
+              <p class="team__slide-text">Специалист по уходу за кожей лица, восстанавливает её тонус и свежесть.</p>
+            </div>
+          </li>
+          <li class="team__slider-item swiper-slide">
+            <div class="team__slide">
+              <img src="../assets/images/team/woman-3.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
+              <h3 class="team__slide-title">Екатерина Орлова</h3>
+              <h4 class="team__slide-subtitle">Мастер массажист</h4>
+              <p class="team__slide-text">Создаёт комфорт и гармонию с помощью массажных техник, улучшающих состояние кожи.</p>
+            </div>
+          </li>
+          <li class="team__slider-item swiper-slide">
+            <div class="team__slide">
+              <img src="../assets/images/team/man-2.svg" alt="Нарисованный аватар мужчины." class="team__slide-image">
+              <h3 class="team__slide-title">Игорь Смирнов</h3>
+              <h4 class="team__slide-subtitle">Мастер массажист</h4>
+              <p class="team__slide-text">Дарит расслабление и красоту с помощью эффективных массажных методик.</p>
+            </div>
+          </li>
+          <li class="team__slider-item swiper-slide">
+            <div class="team__slide">
+              <img src="../assets/images/team/woman-4.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
+              <h3 class="team__slide-title">Ольга Васильева</h3>
+              <h4 class="team__slide-subtitle">Косметолог</h4>
+              <p class="team__slide-text">Косметолог, который заботится о здоровье и молодости вашей кожи.</p>
+            </div>
+          </li>
+          <li class="team__slider-item swiper-slide">
+            <div class="team__slide">
+              <img src="../assets/images/team/woman-5.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
+              <h3 class="team__slide-title">Дарья Кузнецова</h3>
+              <h4 class="team__slide-subtitle">Мастер массажист</h4>
+              <p class="team__slide-text">Поможет снять напряжение, улучшить кровообращение и придать лицу свежий вид.</p>
+            </div>
+          </li>
+        </ul>
+        <div class="team__slider-button-wrap">
+          <button class="button-arrow team__slider-button team__slider-button_type_prev">
+            <svg class="button-arrow__image">
+              <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-prev"></use>
+            </svg>
+          </button>
+          <button class="button-arrow team__slider-button team__slider-button_type_next">
+            <svg class="button-arrow__image">
+              <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-next"></use>
+            </svg>
+          </button>
+        </div>        
+      </div>
+    </section>
+
   </main>
 
   <footer class="footer">

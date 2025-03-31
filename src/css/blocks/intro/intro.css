@@ -1,5 +1,8 @@
 .intro {
+  align-items: center;
   color: var(--secondary-font-color);
+  display: flex;
+  flex-direction: column;
   font: var(--secondary-font-size-xl) var(--secondary-font-regular);
 }
 

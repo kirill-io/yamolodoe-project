@@ -7,19 +7,26 @@ import {
   Autoplay,
   Navigation,
   Pagination,
+  EffectCoverflow,
 } from 'swiper/modules';
 import * as constants from '../utils/constants';
 import TransitionFromSliderToCheckbox from '../components/TransitionFromSliderToCheckbox';
 import StickyHeader from '../components/StickyHeader';
 
 const {
-  containerSelector,
-  paginationSelector,
-  buttonPrevSelector,
-  buttonNextSelector,
+  introContainerSelector,
+  introPaginationSelector,
+  introButtonPrevSelector,
+  introButtonNextSelector,
 } = constants.introSliderConfig;
 
-new Swiper(containerSelector, {
+const {
+  teamContainerSelector,
+  teamButtonPrevSelector,
+  teamButtonNextSelector,
+} = constants.teamSliderConfig;
+
+new Swiper(introContainerSelector, {
   modules: [Autoplay, Navigation, Pagination],
   slidesPerView: 1,
   loop: true,
@@ -29,11 +36,11 @@ new Swiper(containerSelector, {
     pauseOnMouseEnter: true,
   },
   pagination: {
-    el: paginationSelector,
+    el: introPaginationSelector,
   },
   navigation: {
-    nextEl: buttonNextSelector,
-    prevEl: buttonPrevSelector,
+    nextEl: introButtonNextSelector,
+    prevEl: introButtonPrevSelector,
   },
 });
 
@@ -43,3 +50,43 @@ new TransitionFromSliderToCheckbox(
 );
 
 new StickyHeader(StickyHeader.init(constants.headerConfig));
+
+new Swiper(teamContainerSelector, {
+  modules: [EffectCoverflow, Navigation],
+  effect: 'coverflow',
+  centeredSlides: true,
+  slidesPerView: 3,
+  initialSlide: 1,
+  loop: true,
+  spaceBetween: 50,
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 100,
+    scale: 0.9,
+    modifier: 1,
+    slideShadows: false,
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1.5,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 50,
+    },
+    1280: {
+      slidesPerView: 3,
+      spaceBetween: 100,
+    },
+    1921: {
+      slidesPerView: 4,
+      spaceBetween: 150,
+    },
+  },
+  navigation: {
+    nextEl: teamButtonPrevSelector,
+    prevEl: teamButtonNextSelector,
+  },
+});

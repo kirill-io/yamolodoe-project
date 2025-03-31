@@ -1,0 +1,26 @@
+.questions__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1780px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1919px) {
+  .questions__wrapper {
+    width: 92.71%;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .questions__wrapper {
+    gap: 30px;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .questions__wrapper {
+    gap: 20px;
+  }
+}
