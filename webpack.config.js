@@ -13,6 +13,7 @@ module.exports = (env) => {
 
   const pages = [
     { chunks: ['index'], page: 'index.html', template: path.resolve(__dirname, 'src', 'pages', 'index.html') },
+    { chunks: ['contacts'], page: 'contacts.html', template: path.resolve(__dirname, 'src', 'pages', 'contacts.html') },
   ];
 
   const htmlPlugins = pages.map((page) => new HtmlWebpackPlugin({
@@ -88,6 +89,7 @@ module.exports = (env) => {
     mode: env.mode ?? 'development',
     entry: {
       index: path.resolve(__dirname, 'src', 'js', 'pages', 'index.js'),
+      contacts: path.resolve(__dirname, 'src', 'js', 'pages', 'contacts.js'),
     },
     output: {
       path: path.resolve(__dirname, 'build'),

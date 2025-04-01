@@ -119,6 +119,7 @@
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/contacts/__link/_type/contacts__link_type_phone.css');
 @import url('../blocks/contacts/__link/_type/contacts__link_type_image.css');
+@import url('../blocks/content/_bg-type/content_bg-type_index.css');
 @import url('../blocks/button-link/_type/button-link_type_intro.css');
 @import url('../blocks/button-link/_type/button-link_type_services-intro-light.css');
 @import url('../blocks/button-link/_type/button-link_type_services-intro-dark.css');
