@@ -3,10 +3,36 @@
   flex-direction: column;
   gap: 70px;
   padding: 70px 0;
+  background: url('../../../assets/images/content/content-bg-right.svg') right -1% / 50% no-repeat,
+              url('../../../assets/images/content/content-bg-left.svg') left 100% / 50% no-repeat;
+}
+
+@media screen and (max-width: 2880px) {
+  .content {
+    background: url('../../../assets/images/content/content-bg-right.svg') right -1% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 54% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 109% / 50% no-repeat;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .content {
+    background: url('../../../assets/images/content/content-bg-right.svg') right -1% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 30% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 61% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 92% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 123% / 50% no-repeat;
+  }
 }
 
 @media screen and (max-width: 1279px) {
   .content {
+    background: url('../../../assets/images/content/content-bg-right.svg') right -1% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 21% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 43% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 65% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 87% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 109% / 50% no-repeat;
     gap: 50px;
     padding: 50px 0;
   }
@@ -14,6 +40,28 @@
 
 @media screen and (max-width: 767px) {
   .content {
+    background: url('../../../assets/images/content/content-bg-right.svg') right 0% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 4% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 9% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 14% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 19% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 24% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 29% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 34% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 39% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 44% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 49% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 54% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 59% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 64% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 69% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 74% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 79% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 84% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 89% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 94% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-right.svg') right 99% / 50% no-repeat,
+                url('../../../assets/images/content/content-bg-left.svg') left 104% / 50% no-repeat;
     padding: 0 0 30px;
   }
 
