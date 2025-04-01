@@ -11,3 +11,9 @@
   position: absolute;
   transform: translate(7.5px, 7.5px);
 }
+
+@media screen and (max-width: 767px) {
+  .services-intro__row-image-container {
+    display: block;
+  }
+}
