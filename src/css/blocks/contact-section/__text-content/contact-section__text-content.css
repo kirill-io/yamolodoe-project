@@ -1,0 +1,19 @@
+.contact-section__text-content {
+  flex: 1 0 70%;
+  font-size: var(--secondary-font-size-xxl);
+  text-align: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .contact-section__text-content {
+    flex-basis: auto;
+    text-align: end;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact-section__text-content {
+    align-self: end;
+    font-size: var(--secondary-font-size-m);
+  }
+}

@@ -3,6 +3,7 @@
   color: var(--primary-font-color);
   font: var(--primary-font-size-xxxl) var(--primary-font-regular);
   margin: 0;
+  text-align: center;
   text-transform: uppercase;
 }
 

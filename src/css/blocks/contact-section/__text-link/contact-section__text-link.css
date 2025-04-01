@@ -1,0 +1,30 @@
+.contact-section__text-link {
+  color: inherit;
+  position: relative;
+  text-decoration: none;
+}
+
+.contact-section__text-link::before {
+  background: var(--primary-font-color);
+  bottom: -1px;
+  content: '';
+  height: 1px;
+  position: absolute;
+  right: 0;
+  transition: width .3s ease-out;
+  width: 0;
+}
+
+@media (hover: hover) {
+  .contact-section__text-link:hover::before {
+    left: 0;
+    width: 100%;
+  }
+}
+
+@media (hover: none) {
+  .contact-section__text-link:active::before {
+    left: 0;
+    width: 100%;
+  }
+}

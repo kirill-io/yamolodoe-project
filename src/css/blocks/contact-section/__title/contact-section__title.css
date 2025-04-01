@@ -1,0 +1,18 @@
+.contact-section__title {
+  font: var(--primary-font-size-l) var(--primary-font-regular);
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1279px) {
+  .contact-section__title {
+    font-size: var(--primary-font-size-m);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact-section__title {
+    font-size: var(--primary-font-size-s);
+  }
+}

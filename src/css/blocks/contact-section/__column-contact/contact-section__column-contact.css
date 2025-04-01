@@ -1,0 +1,14 @@
+.contact-section__column-contact {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 calc(65% - 30px);
+  gap: 15px;
+  max-width: 700px;
+}
+
+@media screen and (max-width: 1279px) {
+  .contact-section__column-contact {
+    flex-basis: auto;
+    max-width: none;
+  }
+}
