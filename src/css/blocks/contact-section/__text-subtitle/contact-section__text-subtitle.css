@@ -1,13 +1,3 @@
-.contact-section__text-subtitle {
-  flex: 1 0 30%;
-}
-
-@media screen and (max-width: 1279px) {
-  .contact-section__text-subtitle {
-    flex-basis: auto;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .contact-section__text-subtitle {
     align-self: start;

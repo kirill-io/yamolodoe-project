@@ -43,7 +43,9 @@
 @import url('../blocks/contact-section/__text-subtitle/contact-section__text-subtitle.css');
 @import url('../blocks/contact-section/__text-content/contact-section__text-content.css');
 @import url('../blocks/contact-section/__text-link/contact-section__text-link.css');
-@import url('../blocks/contact-section/__column-social/contact-section__column-social.css');
+@import url('../blocks/map/map.css');
+@import url('../blocks/map/__container/map__container.css');
+@import url('../blocks/map/__iframe/map__iframe.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__row/footer__row.css');
