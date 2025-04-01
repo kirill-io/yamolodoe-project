@@ -1,0 +1,32 @@
+.content_bg-type_contacts {
+  background: url('../../../../assets/images/content/content-bg-left.svg') left 50% / 20% no-repeat,
+              url('../../../../assets/images/content/content-bg-right.svg') right 50% / 20% no-repeat;
+}
+
+@media screen and (max-width: 2880px) {
+  .content_bg-type_contacts {
+    background: url('../../../../assets/images/content/content-bg-left.svg') left 50% / 25% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 50% / 25% no-repeat;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .content_bg-type_contacts {
+    background: url('../../../../assets/images/content/content-bg-left.svg') left 10% / 30% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 90% / 30% no-repeat;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .content_bg-type_contacts {
+    background: url('../../../../assets/images/content/content-bg-left.svg') left 2% / 35% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 98% / 35% no-repeat;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content_bg-type_contacts {
+    background: url('../../../../assets/images/content/content-bg-left.svg') left 17% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 99% / 50% no-repeat;
+  }
+}
