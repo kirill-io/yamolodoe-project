@@ -13,6 +13,7 @@ module.exports = (env) => {
 
   const pages = [
     { chunks: ['index'], page: 'index.html', template: path.resolve(__dirname, 'src', 'pages', 'index.html') },
+    { chunks: ['services'], page: 'services.html', template: path.resolve(__dirname, 'src', 'pages', 'services.html') },
     { chunks: ['contacts'], page: 'contacts.html', template: path.resolve(__dirname, 'src', 'pages', 'contacts.html') },
   ];
 
@@ -89,6 +90,7 @@ module.exports = (env) => {
     mode: env.mode ?? 'development',
     entry: {
       index: path.resolve(__dirname, 'src', 'js', 'pages', 'index.js'),
+      services: path.resolve(__dirname, 'src', 'js', 'pages', 'services.js'),
       contacts: path.resolve(__dirname, 'src', 'js', 'pages', 'contacts.js'),
     },
     output: {
