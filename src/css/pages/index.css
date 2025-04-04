@@ -107,6 +107,14 @@
 @import url('../blocks/team/__slide-text/team__slide-text.css');
 @import url('../blocks/team/__slider-button-wrap/team__slider-button-wrap.css');
 @import url('../blocks/team/__slider-button/team__slider-button.css');
+@import url('../blocks/button-appointment/button-appointment.css');
+@import url('../blocks/button-appointment/__mandala-image-wrap/button-appointment__mandala-image-wrap.css');
+@import url('../blocks/button-appointment/__mandala-image/button-appointment__mandala-image.css');
+@import url('../blocks/button-appointment/__wrapper/button-appointment__wrapper.css');
+@import url('../blocks/button-appointment/__container/button-appointment__container.css');
+@import url('../blocks/button-appointment/__apple-image-wrap/button-appointment__apple-image-wrap.css');
+@import url('../blocks/button-appointment/__apple-image/button-appointment__apple-image.css');
+@import url('../blocks/button-appointment/__text-wrap/button-appointment__text-wrap.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__row/footer__row.css');

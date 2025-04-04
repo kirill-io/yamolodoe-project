@@ -1,0 +1,8 @@
+.button-appointment__apple-image-wrap {
+  display: block;
+  left: 50%;
+  position: relative;
+  top: -8%;
+  transform: translateX(-50%);
+  width: 30%;
+}

@@ -1,0 +1,15 @@
+@keyframes container-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button-appointment__container {
+  animation: container-rotate 4s infinite linear;
+  height: 100%;
+  width: 100%;
+}
