@@ -4,6 +4,7 @@
   flex-direction: column;
   gap: 10px;
   padding: 10px 0 9px;
+  scroll-margin-top: 150px;
 }
 
 .services__item:first-child {
