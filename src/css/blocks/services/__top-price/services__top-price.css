@@ -1,0 +1,10 @@
+.services__top-price {
+  text-align: center;
+  width: 83px;
+}
+
+@media screen and (max-width: 767px) {
+  .services__top-price {
+    width: 71px;
+  }
+}

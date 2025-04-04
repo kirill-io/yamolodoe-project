@@ -1,4 +1,4 @@
-.button-link_type_services-intro-dark {
+.button-link_type_bg-dark {
   background: var(--primary-font-color);
   border-radius: 20px;
   box-shadow: 0 0 0 1.5px var(--primary-font-color) inset;
@@ -9,26 +9,26 @@
 }
 
 @media (hover: hover) {
-  .button-link_type_services-intro-dark:hover {
+  .button-link_type_bg-dark:hover {
     box-shadow: 0 0 0 1.5px var(--secondary-hover-color) inset;
   }
 }
 
 @media (hover: none) {
-  .button-link_type_services-intro-dark:active {
+  .button-link_type_bg-dark:active {
     box-shadow: 0 0 0 1.5px var(--secondary-hover-color) inset;
   }
 }
 
 @media screen and (max-width: 1279px) {
-  .button-link_type_services-intro-dark {
+  .button-link_type_bg-dark {
     font-size: var(--primary-font-size-s);
     padding: 10px 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .button-link_type_services-intro-dark {
+  .button-link_type_bg-dark {
     font-size: var(--primary-font-size-m);
   }
 }

@@ -1,0 +1,9 @@
+.title_type_sevices {
+  max-width: 55%;
+}
+
+@media screen and (max-width: 767px) {
+  .title_type_sevices {
+    max-width: 100%;
+  }
+}

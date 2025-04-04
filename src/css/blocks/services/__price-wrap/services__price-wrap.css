@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+  .services__price-wrap {
+    align-self: end;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}

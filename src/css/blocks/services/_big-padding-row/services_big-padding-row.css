@@ -1,0 +1,12 @@
+.services_big-padding-row .services__item {
+  padding: 25px 0 24px;
+}
+
+.services_big-padding-row .services__item:first-child {
+  padding-top: 0;
+}
+
+.services_big-padding-row .services__item:last-child {
+  border: none;
+  padding-bottom: 0;
+}

@@ -1,0 +1,16 @@
+.services__master-type {
+  display: flex;
+  font-size: var(--secondary-font-size-s);
+  gap: 45px;
+  justify-content: end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .services__master-type {
+    font-size: var(--secondary-font-size-xxs);
+    gap: 20px;
+  }
+}

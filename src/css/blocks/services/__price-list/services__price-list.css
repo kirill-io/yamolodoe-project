@@ -1,0 +1,24 @@
+.services__price-list {
+  align-items: baseline;
+  display: flex;
+  font-size: var(--secondary-font-size-xxl);
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1279px) {
+  .services__price-list {
+    font-size: var(--secondary-font-size-xl);
+    gap: 35px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services__price-list {
+    font-size: var(--secondary-font-size-l);
+    gap: 10px;
+  }
+}

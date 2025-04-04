@@ -1,0 +1,16 @@
+.services__item {
+  border-bottom: 1px solid var(--primary-font-color);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0 9px;
+}
+
+.services__item:first-child {
+  padding-top: 0;
+}
+
+.services__item:last-child {
+  border: none;
+  padding-bottom: 0;
+}

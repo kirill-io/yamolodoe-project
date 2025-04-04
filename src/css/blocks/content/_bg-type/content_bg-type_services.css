@@ -1,0 +1,49 @@
+.content_bg-type_services {
+  background: url('../../../../assets/images/content/content-bg-left.svg') left -1% / 50% no-repeat,
+              url('../../../../assets/images/content/content-bg-right.svg') right 270% / 50% no-repeat;
+}
+
+@media screen and (max-width: 2880px) {
+  .content_bg-type_services {
+    background: url('../../../../assets/images/content/content-bg-left.svg') left -1% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 109% / 50% no-repeat;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .content_bg-type_services {
+    background: url('../../../../assets/images/content/content-bg-left.svg') left -1% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 45% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-left.svg') left 91% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 137% / 50% no-repeat;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .content_bg-type_services {
+    background: url('../../../../assets/images/content/content-bg-left.svg') left -1% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 26% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-left.svg') left 53% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 80% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-left.svg') left 107% / 50% no-repeat;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content_bg-type_services {
+    background: url('../../../../assets/images/content/content-bg-left.svg') left 1% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 9% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-left.svg') left 17% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 25% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-left.svg') left 33% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 41% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-left.svg') left 49% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 57% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-left.svg') left 65% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 73% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-left.svg') left 81% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 89% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-left.svg') left 97% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right 105% / 50% no-repeat;
+  }
+}

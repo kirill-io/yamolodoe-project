@@ -1,0 +1,18 @@
+.services__title {
+  font-size: var(--secondary-font-size-xxxl);
+  font-weight: normal;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1279px) {
+  .services__title {
+    font-size: var(--secondary-font-size-xl);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services__title {
+    font-size: var(--secondary-font-size-l);
+  }
+}

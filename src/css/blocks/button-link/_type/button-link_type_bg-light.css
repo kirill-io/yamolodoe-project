@@ -1,4 +1,4 @@
-.button-link_type_services-intro-light {
+.button-link_type_bg-light {
   border-radius: 20px;
   box-shadow: 0 0 0 1.5px var(--primary-font-color) inset;
   padding: 15px 0;
@@ -7,26 +7,26 @@
 }
 
 @media (hover: hover) {
-  .button-link_type_services-intro-light:hover {
+  .button-link_type_bg-light:hover {
     box-shadow: 0 0 0 1.5px var(--secondary-hover-color) inset;
   }
 }
 
 @media (hover: none) {
-  .button-link_type_services-intro-light:active {
+  .button-link_type_bg-light:active {
     box-shadow: 0 0 0 1.5px var(--secondary-hover-color) inset;
   }
 }
 
 @media screen and (max-width: 1279px) {
-  .button-link_type_services-intro-light {
+  .button-link_type_bg-light {
     font-size: var(--primary-font-size-s);
     padding: 10px 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .button-link_type_services-intro-light {
+  .button-link_type_bg-light {
     font-size: var(--primary-font-size-m);
   }
 }

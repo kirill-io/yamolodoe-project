@@ -1,0 +1,22 @@
+.button-link_type_services {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 15%;
+}
+
+@media screen and (max-width: 1279px) {
+  .button-link_type_services {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-link_type_services {
+    align-self: center;
+    max-width: 500px;
+    position: static;
+    width: 100%;
+  }
+}

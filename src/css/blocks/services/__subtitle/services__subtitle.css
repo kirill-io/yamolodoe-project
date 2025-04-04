@@ -1,0 +1,12 @@
+.services__subtitle {
+  font-size: var(--secondary-font-size-l);
+  font-weight: normal;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1279px) {
+  .services__subtitle {
+    font-size: var(--secondary-font-size-m);
+  }
+}
