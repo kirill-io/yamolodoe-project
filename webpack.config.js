@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackInjectPreload = require('@principalstudio/html-webpack-inject-preload');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
@@ -129,6 +130,18 @@ module.exports = (env) => {
     },
     plugins: [
       ...htmlPlugins,
+      new HtmlWebpackInjectPreload({
+        files: [
+          {
+            match: /.*\.woff2$/,
+            attributes: { as: 'font', type: 'font/woff2' },
+          },
+          {
+            match: /.*\.woff$/,
+            attributes: { as: 'font', type: 'font/woff' },
+          },
+        ],
+      }),
       new webpack.HotModuleReplacementPlugin(),
       isProd && new MiniCssExtractPlugin({
         filename: 'css/[name].[contenthash:8].css',
