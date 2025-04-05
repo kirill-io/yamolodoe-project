@@ -5,7 +5,7 @@
   font-family: 'Philosopher-Regular';
   font-weight: 400;
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -15,7 +15,7 @@
   font-family: 'Philosopher-Bold';
   font-weight: 700;
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -25,7 +25,7 @@
   font-family: 'Montserrat-Regular';
   font-weight: 400;
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -35,5 +35,5 @@
   font-family: 'Montserrat-Bold';
   font-weight: 700;
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
