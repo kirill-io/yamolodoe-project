@@ -3,15 +3,15 @@
   scrollbar-width: thin;
 }
 
-:root::-webkit-scrollbar {
-  width: 5px;
+body::-webkit-scrollbar {
+  width: 7px;
 }
 
-:root::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background: var(--primary-font-color);
 }
 
-:root::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background-color: var(--secondary-bg-color);
   border-radius: 20px;
   border: 3px solid #var(--secondary-bg-color);
