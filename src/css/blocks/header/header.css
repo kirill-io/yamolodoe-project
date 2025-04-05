@@ -11,7 +11,7 @@
   top: 0; 
   transition: transform .2s;
   width: 100%;
-  z-index: 100;
+  z-index: 150;
 }
 
 @media screen and (max-width: 1279px) {

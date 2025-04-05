@@ -1,3 +1,22 @@
+:root {
+  scrollbar-color: var(--primary-font-color) var(--secondary-bg-color);
+  scrollbar-width: thin;
+}
+
+:root::-webkit-scrollbar {
+  width: 5px;
+}
+
+:root::-webkit-scrollbar-track {
+  background: var(--primary-font-color);
+}
+
+:root::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-bg-color);
+  border-radius: 20px;
+  border: 3px solid #var(--secondary-bg-color);
+}
+
 .root {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
