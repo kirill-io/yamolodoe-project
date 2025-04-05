@@ -6,6 +6,110 @@
     <meta name="description" content="Студия массажа лица и тела 'Яблочко Молодильное' в Краснодаре – косметологические услуги, профессиональный массаж и уход за кожей. Окунитесь в мир расслабления и молодости с натуральными маслами и индивидуальным подходом!">
     <meta name="keywords" content="массаж лица, массаж тела, студия массажа, косметологические услуги, уход за кожей, омоложение, расслабление, косметология, спа, антицеллюлитный массаж, лифтинг массаж, Краснодар, Яблочко молодильное" >
     <title>Контакты студии Яблочко Молодильное</title>
+    <style>
+      .root {
+        margin: 0;
+      }
+    
+      .root:has(.noscript) .preloader {
+        display: none;
+      }
+    
+      .noscript {
+        align-items: center;
+        background: #fff;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        width: 100vw;
+      }
+    
+      .noscript p {
+        color: #163b21;
+        font: 36px sans-serif;
+        margin: 0;
+        text-align: center;
+        width: 80%;
+      }
+    
+      .preloader {
+        align-items: center;
+        background: #fff;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        width: 100wv;
+      }
+    
+      .loader {
+        color: #163b21;
+        font-size: 10px;
+        width: 1em;
+        height: 1em;
+        border-radius: 50%;
+        position: relative;
+        text-indent: -9999em;
+        animation: mulShdSpin 1.3s infinite linear;
+        transform: translateZ(0);
+      }
+    
+      @keyframes mulShdSpin {
+    
+        0%,
+        100% {
+          box-shadow: 0 -3em 0 0.2em,
+            2em -2em 0 0em, 3em 0 0 -1em,
+            2em 2em 0 -1em, 0 3em 0 -1em,
+            -2em 2em 0 -1em, -3em 0 0 -1em,
+            -2em -2em 0 0;
+        }
+    
+        12.5% {
+          box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em,
+            3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em,
+            -2em 2em 0 -1em, -3em 0 0 -1em,
+            -2em -2em 0 -1em;
+        }
+    
+        25% {
+          box-shadow: 0 -3em 0 -0.5em,
+            2em -2em 0 0, 3em 0 0 0.2em,
+            2em 2em 0 0, 0 3em 0 -1em,
+            -2em 2em 0 -1em, -3em 0 0 -1em,
+            -2em -2em 0 -1em;
+        }
+    
+        37.5% {
+          box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+            3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em,
+            -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+        }
+    
+        50% {
+          box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+            3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em,
+            -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+        }
+    
+        62.5% {
+          box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+            3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0,
+            -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+        }
+    
+        75% {
+          box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em,
+            3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em,
+            -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+        }
+    
+        87.5% {
+          box-shadow: 0em -3em 0 0, 2em -2em 0 -1em,
+            3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em,
+            -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+        }
+      }
+    </style>
   </head>
 <body class="root">
 
@@ -15,81 +119,168 @@
     </div>
   </noscript>
 
-  <header class="header">
-    <div class="header__container">
-      <div class="header__column">
-        <a href="/" class="logo">
-          <img src="../assets/images/logo/logo.svg" alt="Логотип студии массажа лица и тела Яблочко Молодильное"
-          class="logo__image">
-        </a>
-      </div>
-      <div class="header__column">
-        <nav class="header__menu">
-          <div class="header__menu-button">
-            <input type="checkbox" class="header__menu-input" id="menu-checkbox">
-            <label for="menu-checkbox" class="header__menu-label"></label>
+  <div class="preloader" id="preloader">
+    <span class="loader"></span>
+  </div>
+
+  <div class="page-content" id="content" style="display: none;">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__column">
+          <a href="/" class="logo">
+            <img src="../assets/images/logo/logo.svg" alt="Логотип студии массажа лица и тела Яблочко Молодильное"
+            class="logo__image">
+          </a>
+        </div>
+        <div class="header__column">
+          <nav class="header__menu">
+            <div class="header__menu-button">
+              <input type="checkbox" class="header__menu-input" id="menu-checkbox">
+              <label for="menu-checkbox" class="header__menu-label"></label>
+            </div>
+            <menu class="header__menu-list">
+              <li class="header__menu-item">
+                <a href="/" class="header__menu-link">О Нас</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="/services.html" class="header__menu-link">Услуги</a>
+              </li>
+              <li class="header__menu-item header__menu-item_active">
+                <a href="/contacts.html" class="header__menu-link">Контакты</a>
+              </li>
+            </menu>
+          </nav>
+        </div>
+        <div class="header__column">
+          <div class="contacts">
+            <a href="https://wa.me/79933112406" class="contacts__link contacts__link_type_image" target="_blank">
+              <svg class="contacts__image">
+                <use href="../assets/images/contacts/contacts-icons.svg#whatsapp"></use>
+              </svg>
+            </a>
+            <a href="https://t.me/yamolodoe" class="contacts__link contacts__link_type_image" target="_blank">
+              <svg class="contacts__image">
+                <use href="../assets/images/contacts/contacts-icons.svg#telegram"></use>
+              </svg>
+            </a>
+            <div class="contacts__text">
+              <a href="tel:+79933112406" class="contacts__link contacts__link_type_phone">+7 993 311-24-06</a>
+              <span class="contacts__address">Краснодар,&nbsp;&nbsp;Аэродромная&nbsp;&nbsp;4</span>
+            </div>          
           </div>
-          <menu class="header__menu-list">
-            <li class="header__menu-item">
-              <a href="/" class="header__menu-link">О Нас</a>
-            </li>
-            <li class="header__menu-item">
-              <a href="/services.html" class="header__menu-link">Услуги</a>
-            </li>
-            <li class="header__menu-item header__menu-item_active">
-              <a href="/contacts.html" class="header__menu-link">Контакты</a>
-            </li>
-          </menu>
-        </nav>
-      </div>
-      <div class="header__column">
-        <div class="contacts">
-          <a href="https://wa.me/79933112406" class="contacts__link contacts__link_type_image" target="_blank">
-            <svg class="contacts__image">
-              <use href="../assets/images/contacts/contacts-icons.svg#whatsapp"></use>
-            </svg>
-          </a>
-          <a href="https://t.me/yamolodoe" class="contacts__link contacts__link_type_image" target="_blank">
-            <svg class="contacts__image">
-              <use href="../assets/images/contacts/contacts-icons.svg#telegram"></use>
-            </svg>
-          </a>
-          <div class="contacts__text">
-            <a href="tel:+79933112406" class="contacts__link contacts__link_type_phone">+7 993 311-24-06</a>
-            <span class="contacts__address">Краснодар,&nbsp;&nbsp;Аэродромная&nbsp;&nbsp;4</span>
-          </div>          
         </div>
       </div>
-    </div>
-  </header>
-
-  <main class="content content_bg-type_contacts">    
-    <div class="container">
-      <section class="contact-section">
-        <h1 class="title">Наши контакты – путь к красоте и расслаблению</h1>
-        <div class="contact-section__container">
-          <div class="contact-section__column-contact">
-            <h2 class="contact-section__title">Мы на связи – все контакты в одном месте</h2>
-            <div class="contact-section__text-wrap">
-              <p class="contact-section__text">
-                <span class="contact-section__text-subtitle">Позвоните нам:</span>
-                <span class="contact-section__text-content"><a href="tel:+79933112406" class="contact-section__text-link">+7 993 311-24-06</a></span>
-              </p>
-              <p class="contact-section__text">
-                <span class="contact-section__text-subtitle">Мы Вас ждем:</span>
-                <span class="contact-section__text-content">ежедневно с 10:00 до 21:00 без выходных</span>
-              </p>
-              <p class="contact-section__text">
-                <span class="contact-section__text-subtitle">Мы здесь:</span>
-                <span class="contact-section__text-content">350020, г. Краснодар, ул.Аэродромная, д.4</span>
-              </p>
-              <p class="contact-section__text">
-                <span class="contact-section__text-subtitle">Напишите нам:</span>
-                <span class="contact-section__text-content"><a href="mailto:yamolodoe@ya.ru" class="contact-section__text-link">yamolodoe@ya.ru</a></span>
-              </p>
+    </header>
+  
+    <main class="content content_bg-type_contacts">    
+      <div class="container">
+        <section class="contact-section">
+          <h1 class="title">Наши контакты – путь к красоте и расслаблению</h1>
+          <div class="contact-section__container">
+            <div class="contact-section__column-contact">
+              <h2 class="contact-section__title">Мы на связи – все контакты в одном месте</h2>
+              <div class="contact-section__text-wrap">
+                <p class="contact-section__text">
+                  <span class="contact-section__text-subtitle">Позвоните нам:</span>
+                  <span class="contact-section__text-content"><a href="tel:+79933112406" class="contact-section__text-link">+7 993 311-24-06</a></span>
+                </p>
+                <p class="contact-section__text">
+                  <span class="contact-section__text-subtitle">Мы Вас ждем:</span>
+                  <span class="contact-section__text-content">ежедневно с 10:00 до 21:00 без выходных</span>
+                </p>
+                <p class="contact-section__text">
+                  <span class="contact-section__text-subtitle">Мы здесь:</span>
+                  <span class="contact-section__text-content">350020, г. Краснодар, ул.Аэродромная, д.4</span>
+                </p>
+                <p class="contact-section__text">
+                  <span class="contact-section__text-subtitle">Напишите нам:</span>
+                  <span class="contact-section__text-content"><a href="mailto:yamolodoe@ya.ru" class="contact-section__text-link">yamolodoe@ya.ru</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="contact-section__column-social">
+              <div class="social">
+                <h4 class="social__title">Мы в социальных сетях</h4>
+                <ul class="social__list">
+                  <li class="social__item">
+                    <a href="https://vk.com/yamolodoe" class="social__link" target="_blank">
+                      <svg class="social__image">
+                        <use href="../assets/images/social/social-icons.svg#vk"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a href="#" class="social__link" target="_blank">
+                      <svg class="social__image">
+                        <use href="../assets/images/social/social-icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a href="https://wa.me/79933112406" class="social__link" target="_blank">
+                      <svg class="social__image">
+                        <use href="../assets/images/social/social-icons.svg#whatsapp"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a href="https://t.me/yamolodoe" class="social__link" target="_blank">
+                      <svg class="social__image">
+                        <use href="../assets/images/social/social-icons.svg#telegram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a href="#" class="social__link" target="_blank">
+                      <svg class="social__image">
+                        <use href="../assets/images/social/social-icons.svg#dzen"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="contact-section__column-social">
+        </section>
+  
+        <section class="map">
+          <h2 class="title">Ваш ориентир – студия «Яблочко молодильное»</h2>
+          <div class="map__container">
+            <iframe class="map__iframe" src="https://yandex.ru/map-widget/v1/profile?ll=38.971874%2C45.037023&z=13.72" frameborder="0" width="100%" height="100%" allowfullscreen="true"></iframe>
+          </div>
+        </section>
+      </div>
+  
+      <a href="#" class="button-appointment" target="_blank">
+        <div class="button-appointment__wrapper">
+          <div class="button-appointment__container">
+            <picture class="button-appointment__apple-image-wrap">
+              <source type="image/webp"
+                srcset="../assets/images/button-appointment/apple@1x.webp 1x, ../assets/images/button-appointment/apple@2x.webp 2x">
+              <img src="../assets/images/button-appointment/apple@1x.png"
+                srcset="../assets/images/button-appointment/apple@2x.png 2x"
+                alt="Зеленое яблоко." class="button-appointment__apple-image">
+            </picture>
+          </div>
+          <div class="button-appointment__text-wrap">
+            <span class="button-appointment__text">Записаться</span>
+            <span class="button-appointment__text">онлайн</span>
+          </div>
+        </div>
+      </a>
+  
+    </main>
+  
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__row footer__row_type_one">
+          <div class="footer__column">
+            <a href="/" class="logo">
+              <img src="../assets/images/logo/logo.svg" alt="Логотип студии массажа лица и тела Яблочко Молодильное"
+                class="logo__image">
+            </a>
+          </div>
+          <div class="footer__column">
             <div class="social">
               <h4 class="social__title">Мы в социальных сетях</h4>
               <ul class="social__list">
@@ -131,142 +322,61 @@
               </ul>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section class="map">
-        <h2 class="title">Ваш ориентир – студия «Яблочко молодильное»</h2>
-        <div class="map__container">
-          <iframe class="map__iframe" src="https://yandex.ru/map-widget/v1/profile?ll=38.971874%2C45.037023&z=13.72" frameborder="0" width="100%" height="100%" allowfullscreen="true"></iframe>
-        </div>
-      </section>
-    </div>
-
-    <a href="#" class="button-appointment" target="_blank">
-      <div class="button-appointment__wrapper">
-        <div class="button-appointment__container">
-          <picture class="button-appointment__apple-image-wrap">
-            <source type="image/webp"
-              srcset="../assets/images/button-appointment/apple@1x.webp 1x, ../assets/images/button-appointment/apple@2x.webp 2x">
-            <img src="../assets/images/button-appointment/apple@1x.png"
-              srcset="../assets/images/button-appointment/apple@2x.png 2x"
-              alt="Зеленое яблоко." class="button-appointment__apple-image">
-          </picture>
-        </div>
-        <div class="button-appointment__text-wrap">
-          <span class="button-appointment__text">Записаться</span>
-          <span class="button-appointment__text">онлайн</span>
-        </div>
-      </div>
-    </a>
-
-  </main>
-
-  <footer class="footer">
-    <div class="footer__container">
-      <div class="footer__row footer__row_type_one">
-        <div class="footer__column">
-          <a href="/" class="logo">
-            <img src="../assets/images/logo/logo.svg" alt="Логотип студии массажа лица и тела Яблочко Молодильное"
-              class="logo__image">
-          </a>
-        </div>
-        <div class="footer__column">
-          <div class="social">
-            <h4 class="social__title">Мы в социальных сетях</h4>
-            <ul class="social__list">
-              <li class="social__item">
-                <a href="https://vk.com/yamolodoe" class="social__link" target="_blank">
-                  <svg class="social__image">
-                    <use href="../assets/images/social/social-icons.svg#vk"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social__item">
-                <a href="#" class="social__link" target="_blank">
-                  <svg class="social__image">
-                    <use href="../assets/images/social/social-icons.svg#instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social__item">
-                <a href="https://wa.me/79933112406" class="social__link" target="_blank">
-                  <svg class="social__image">
-                    <use href="../assets/images/social/social-icons.svg#whatsapp"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social__item">
-                <a href="https://t.me/yamolodoe" class="social__link" target="_blank">
-                  <svg class="social__image">
-                    <use href="../assets/images/social/social-icons.svg#telegram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social__item">
-                <a href="#" class="social__link" target="_blank">
-                  <svg class="social__image">
-                    <use href="../assets/images/social/social-icons.svg#dzen"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer__column">
-          <div class="footer__slogan">
-            <h5 class="footer__slogan-text">
-              <span class="footer__slogan-primary">Когда волшебство</span>
-              <span class="footer__slogan-secondary">становится реальностью</span>
-            </h5>
-          </div>
-        </div>
-      </div>
-      <div class="footer__row">
-        <div class="information">
-          <input type="checkbox" class="information__input" id="information-checkbox">
-          <label for="information-checkbox" class="information__label">
-            <h4 class="information__title">Юридическая информация</h4>
-          </label>
-          <div class="information__text">
-            <div class="information__text-wrap">
-              <p class="information__text-column information__text-column_display_grid">
-                <span class="information__text-column-left">ИНН:</span>
-                <span class="information__text-column-right">2308300025</span>
-                <span class="information__text-column-left">КПП:</span>
-                <span class="information__text-column-right">230801001</span>
-                <span class="information__text-column-left">ОГРН:</span>
-                <span class="information__text-column-right">1252300005957</span>
-              </p>
-              <p class="information__text-column information__text-column_display_grid">
-                <span class="information__text-column-left">Наименование предприятия:</span>
-                <span class="information__text-column-right">ООО «ФЭЙС ЛАБ»</span>
-                <span class="information__text-column-left">Юридический адрес:</span>
-                <span class="information__text-column-right">350020, г. Краснодар, ул.Аэродромная, д.4</span>
-                <span class="information__text-column-left">Фактический адрес:</span>
-                <span class="information__text-column-right">350020, г. Краснодар, ул.Аэродромная, д.4</span>
-              </p>
-              <p class="information__text-column information__text-column_display_flex">
-                <span class="information__text-column-left">Лицензия на осуществление медицинской деятельности:</span>
-                <span class="information__text-column-right">Л123-12345-12/12345678 от 01.01.2025</span>
-              </p>
+          <div class="footer__column">
+            <div class="footer__slogan">
+              <h5 class="footer__slogan-text">
+                <span class="footer__slogan-primary">Когда волшебство</span>
+                <span class="footer__slogan-secondary">становится реальностью</span>
+              </h5>
             </div>
           </div>
         </div>
+        <div class="footer__row">
+          <div class="information">
+            <input type="checkbox" class="information__input" id="information-checkbox">
+            <label for="information-checkbox" class="information__label">
+              <h4 class="information__title">Юридическая информация</h4>
+            </label>
+            <div class="information__text">
+              <div class="information__text-wrap">
+                <p class="information__text-column information__text-column_display_grid">
+                  <span class="information__text-column-left">ИНН:</span>
+                  <span class="information__text-column-right">2308300025</span>
+                  <span class="information__text-column-left">КПП:</span>
+                  <span class="information__text-column-right">230801001</span>
+                  <span class="information__text-column-left">ОГРН:</span>
+                  <span class="information__text-column-right">1252300005957</span>
+                </p>
+                <p class="information__text-column information__text-column_display_grid">
+                  <span class="information__text-column-left">Наименование предприятия:</span>
+                  <span class="information__text-column-right">ООО «ФЭЙС ЛАБ»</span>
+                  <span class="information__text-column-left">Юридический адрес:</span>
+                  <span class="information__text-column-right">350020, г. Краснодар, ул.Аэродромная, д.4</span>
+                  <span class="information__text-column-left">Фактический адрес:</span>
+                  <span class="information__text-column-right">350020, г. Краснодар, ул.Аэродромная, д.4</span>
+                </p>
+                <p class="information__text-column information__text-column_display_flex">
+                  <span class="information__text-column-left">Лицензия на осуществление медицинской деятельности:</span>
+                  <span class="information__text-column-right">Л123-12345-12/12345678 от 01.01.2025</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__row">
+          <div class="footer__column">
+            <a href="#" class="footer__link" target="_blank">Политика конфиденциальности</a>
+          </div>
+          <div class="footer__column">
+            <a href="#" class="footer__link" target="_blank">Пользовательское соглашение</a>
+          </div>
+          <div class="footer__column">
+            <span class="footer__copyright">&copy; 2025. Все права защищены</span>
+          </div>
+        </div>
       </div>
-      <div class="footer__row">
-        <div class="footer__column">
-          <a href="#" class="footer__link" target="_blank">Политика конфиденциальности</a>
-        </div>
-        <div class="footer__column">
-          <a href="#" class="footer__link" target="_blank">Пользовательское соглашение</a>
-        </div>
-        <div class="footer__column">
-          <span class="footer__copyright">&copy; 2025. Все права защищены</span>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
 </body>
 </html>

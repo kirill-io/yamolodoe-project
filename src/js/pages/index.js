@@ -92,6 +92,11 @@ new Swiper(teamContainerSelector, {
 });
 
 window.onload = () => {
+  const content = document.getElementById('content');
   document.getElementById('preloader').style.display = 'none';
-  document.getElementById('content').style.display = 'block';
+  content.style.display = 'block';
+  content.animate(
+    { opacity: ['0', '1'] },
+    { duration: 1000, easing: 'ease-in' },
+  );
 };
