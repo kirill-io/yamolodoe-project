@@ -1,5 +1,6 @@
 export const headerConfig = {
   headerSelector: '.header',
+  checkboxSelector: '#menu-checkbox',
 };
 
 export const introSliderConfig = {

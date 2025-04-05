@@ -1,14 +1,20 @@
 export default class StickyHeader {
-  constructor(headerElement) {
+  constructor({ headerElement, checkboxElement }) {
     this._header = headerElement;
+    this._checkbox = checkboxElement;
     this._headerState = true;
     this._lastScroll = 0;
+    this._setStateCheckbox();
     this._enableStickyHeader();
   }
 
   _enableStickyHeader() {
     this._setHeaderHeight();
     this._pageScrollHandler();
+  }
+
+  _setStateCheckbox() {
+    this._checkboxState = this._checkbox.checked;
   }
 
   _setHeaderHeight() {
@@ -31,11 +37,13 @@ export default class StickyHeader {
 
   _pageScrollHandler() {
     window.addEventListener('scroll', () => {
+      this._setStateCheckbox();
       this._setHeaderHeight();
       if (
         this._setScrollPosition() > this._lastScroll
         && this._headerState
         && this._setScrollPosition() > this._headerHeight
+        && !this._checkboxState
       ) {
         this._hideHeader();
       } else if (
@@ -48,7 +56,10 @@ export default class StickyHeader {
     });
   }
 
-  static init({ headerSelector }) {
-    return document.querySelector(headerSelector);
+  static init({ headerSelector, checkboxSelector }) {
+    return {
+      headerElement: document.querySelector(headerSelector),
+      checkboxElement: document.querySelector(checkboxSelector),
+    };
   }
 }
