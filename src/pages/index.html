@@ -6,6 +6,84 @@
     <meta name="description" content="Студия массажа лица и тела 'Яблочко Молодильное' в Краснодаре – косметологические услуги, профессиональный массаж и уход за кожей. Окунитесь в мир расслабления и молодости с натуральными маслами и индивидуальным подходом!">
     <meta name="keywords" content="массаж лица, массаж тела, студия массажа, косметологические услуги, уход за кожей, омоложение, расслабление, косметология, спа, антицеллюлитный массаж, лифтинг массаж, Краснодар, Яблочко молодильное" >
     <title>Яблочко Молодильное - массаж лица и тела</title>
+    <style>
+      .preloader {
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        width: 100wv;
+      }
+    
+      .loader {
+        color: #163b21;
+        font-size: 10px;
+        width: 1em;
+        height: 1em;
+        border-radius: 50%;
+        position: relative;
+        text-indent: -9999em;
+        animation: mulShdSpin 1.3s infinite linear;
+        transform: translateZ(0);
+      }
+    
+      @keyframes mulShdSpin {
+    
+        0%,
+        100% {
+          box-shadow: 0 -3em 0 0.2em,
+            2em -2em 0 0em, 3em 0 0 -1em,
+            2em 2em 0 -1em, 0 3em 0 -1em,
+            -2em 2em 0 -1em, -3em 0 0 -1em,
+            -2em -2em 0 0;
+        }
+    
+        12.5% {
+          box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em,
+            3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em,
+            -2em 2em 0 -1em, -3em 0 0 -1em,
+            -2em -2em 0 -1em;
+        }
+    
+        25% {
+          box-shadow: 0 -3em 0 -0.5em,
+            2em -2em 0 0, 3em 0 0 0.2em,
+            2em 2em 0 0, 0 3em 0 -1em,
+            -2em 2em 0 -1em, -3em 0 0 -1em,
+            -2em -2em 0 -1em;
+        }
+    
+        37.5% {
+          box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+            3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em,
+            -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+        }
+    
+        50% {
+          box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+            3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em,
+            -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+        }
+    
+        62.5% {
+          box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+            3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0,
+            -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+        }
+    
+        75% {
+          box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em,
+            3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em,
+            -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+        }
+    
+        87.5% {
+          box-shadow: 0em -3em 0 0, 2em -2em 0 -1em,
+            3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em,
+            -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+        }
+      }
+    </style>
   </head>
 <body class="root">
 
@@ -15,982 +93,989 @@
     </div>
   </noscript>
 
-  <header class="header">
-    <div class="header__container">
-      <div class="header__column">
-        <a href="/" class="logo">
-          <img src="../assets/images/logo/logo.svg" alt="Логотип студии массажа лица и тела Яблочко Молодильное"
-          class="logo__image">
-        </a>
-      </div>
-      <div class="header__column">
-        <nav class="header__menu">
-          <div class="header__menu-button">
-            <input type="checkbox" class="header__menu-input" id="menu-checkbox">
-            <label for="menu-checkbox" class="header__menu-label"></label>
-          </div>
-          <menu class="header__menu-list">
-            <li class="header__menu-item header__menu-item_active">
-              <a href="/" class="header__menu-link">О Нас</a>
-            </li>
-            <li class="header__menu-item">
-              <a href="/services.html" class="header__menu-link">Услуги</a>
-            </li>
-            <li class="header__menu-item">
-              <a href="/contacts.html" class="header__menu-link">Контакты</a>
-            </li>
-          </menu>
-        </nav>
-      </div>
-      <div class="header__column">
-        <div class="contacts">
-          <a href="https://wa.me/79933112406" class="contacts__link contacts__link_type_image" target="_blank">
-            <svg class="contacts__image">
-              <use href="../assets/images/contacts/contacts-icons.svg#whatsapp"></use>
-            </svg>
-          </a>
-          <a href="https://t.me/yamolodoe" class="contacts__link contacts__link_type_image" target="_blank">
-            <svg class="contacts__image">
-              <use href="../assets/images/contacts/contacts-icons.svg#telegram"></use>
-            </svg>
-          </a>
-          <div class="contacts__text">
-            <a href="tel:+79933112406" class="contacts__link contacts__link_type_phone">+7 993 311-24-06</a>
-            <span class="contacts__address">Краснодар,&nbsp;&nbsp;Аэродромная&nbsp;&nbsp;4</span>
-          </div>          
-        </div>
-      </div>
-    </div>
-  </header>
+  <div class="preloader" id="preloader">
+    <span class="loader"></span>
+  </div>
 
-  <main class="content content_bg-type_index">
-
-    <section class="intro">
-      <div class="intro__container">
-        <div class="intro__slider-container swiper">
-          <ul class="intro__slider-list swiper-wrapper">
-            <li class="intro__slide intro__slide_text-position_left swiper-slide">
-              <div class="intro__slide-container">
-                <picture>
-                  <source media="(max-width: 767px)"
-                    srcset="../assets/images/intro/slide-1-mobile@1x.jpg 1x, ../assets/images/intro/slide-1-mobile@2x.jpg 2x">
-                  <img class="intro__slide-image" src="../assets/images/intro/slide-1-desktop@1x.jpg"
-                    srcset="../assets/images/intro/slide-1-desktop@2x.jpg 2x"
-                    alt="Лицо девушки крупным планом, которой делают массаж лица.">
-                </picture>
-                <div class="intro__slide-wrap">
-                  <h2 class="intro__slide-title">Яблочко Молодильное.</h2>
-                  <h3 class="intro__slide-subtitle">Релакс. Гармония. Любовь к себе.</h3>
-                  <p class="intro__slide-text">Здесь рождается красота — в атмосфере уюта, заботы и профессионализма.</p>
-                  <button class="button-link button-link_type_intro intro__slide-button" data-id="whats-checkbox">Подробнее</button>
-                </div>
-              </div>
-            </li>
-            <li class="intro__slide intro__slide_text-position_right swiper-slide">
-              <div class="intro__slide-container">
-                <picture>
-                  <source media="(max-width: 767px)"
-                    srcset="../assets/images/intro/slide-2-mobile@1x.jpg 1x, ../assets/images/intro/slide-2-mobile@2x.jpg 2x">
-                  <img class="intro__slide-image" src="../assets/images/intro/slide-2-desktop@1x.jpg"
-                    srcset="../assets/images/intro/slide-2-desktop@2x.jpg 2x"
-                    alt="Лицо девушки крупным планом, которая лежит и ей делают массаж лица.">
-                </picture>
-                <div class="intro__slide-wrap">
-                  <h2 class="intro__slide-title">Массаж, который реально работает.</h2>
-                  <p class="intro__slide-text">Четкий овал лица, заметное сияние и свежесть — результат, который видно уже после первых процедур.</p>
-                  <button class="button-link button-link_type_intro intro__slide-button" data-id="works-checkbox">Подробнее</button>                    
-                </div>
-              </div>
-            </li>
-            <li class="intro__slide intro__slide_text-position_left swiper-slide">
-              <div class="intro__slide-container">
-                <picture>
-                  <source media="(max-width: 767px)"
-                    srcset="../assets/images/intro/slide-3-mobile@1x.jpg 1x, ../assets/images/intro/slide-3-mobile@2x.jpg 2x">
-                  <img class="intro__slide-image" src="../assets/images/intro/slide-3-desktop@1x.jpg"
-                    srcset="../assets/images/intro/slide-3-desktop@2x.jpg 2x"
-                    alt="Карточка-абонемент салона Яблочко молодильное, которую держит в руках девушка.">
-                </picture>
-                <div class="intro__slide-wrap">
-                  <h2 class="intro__slide-title">Абонемент: шаг за шагом к совершенству.</h2>
-                  <p class="intro__slide-text">Регулярный уход для заметного результата, расслабления и сияющей красоты.</p>
-                  <a class="button-link button-link_type_intro intro__slide-button" href="/services.html#subscription">Подробнее</a>
-                </div>
-              </div>
-            </li>
-            <li class="intro__slide intro__slide_text-position_right swiper-slide">
-              <div class="intro__slide-container">
-                <picture>
-                  <source media="(max-width: 767px)"
-                    srcset="../assets/images/intro/slide-4-mobile@1x.jpg 1x, ../assets/images/intro/slide-4-mobile@2x.jpg 2x">
-                  <img class="intro__slide-image" src="../assets/images/intro/slide-4-desktop@1x.jpg"
-                    srcset="../assets/images/intro/slide-4-desktop@2x.jpg 2x"
-                    alt="Лицо девушки крупным планом, которая лежит и ей делают массаж лица.">
-                </picture>
-                <div class="intro__slide-wrap">
-                  <h2 class="intro__slide-title">Омоложение без инъекций.</h2>
-                  <p class="intro__slide-text">Авторские техники массажа для упругости, лифтинга и сияния кожи.</p>
-                  <button class="button-link button-link_type_intro intro__slide-button" data-id="rejuvenation-checkbox">Подробнее</button>
-                </div>
-              </div>
-            </li>
-            <li class="intro__slide intro__slide_text-position_left swiper-slide">
-              <div class="intro__slide-container">
-                <picture>
-                  <source media="(max-width: 767px)"
-                    srcset="../assets/images/intro/slide-5-mobile@1x.jpg 1x, ../assets/images/intro/slide-5-mobile@2x.jpg 2x">
-                  <img class="intro__slide-image" src="../assets/images/intro/slide-5-desktop@1x.jpg"
-                    srcset="../assets/images/intro/slide-5-desktop@2x.jpg 2x" alt="Набор косметики GIGI.">
-                </picture>
-                <div class="intro__slide-wrap">
-                  <h2 class="intro__slide-title">Косметика GIGI.</h2>
-                  <p class="intro__slide-text">Из Израиля с доказанной эффективностью. Инновационные формулы для видимого результата.</p>
-                  <button class="button-link button-link_type_intro intro__slide-button" data-id="gigi-checkbox">Подробнее</button>
-                </div>
-              </div>
-            </li>
-            <li class="intro__slide intro__slide_text-position_right swiper-slide">
-              <div class="intro__slide-container">
-                <picture>
-                  <source media="(max-width: 767px)"
-                    srcset="../assets/images/intro/slide-6-mobile@1x.jpg 1x, ../assets/images/intro/slide-6-mobile@2x.jpg 2x">
-                  <img class="intro__slide-image" src="../assets/images/intro/slide-6-desktop@1x.jpg"
-                    srcset="../assets/images/intro/slide-6-desktop@2x.jpg 2x"
-                    alt="Улыбающаяся девушка держит в руках подарок, перевязанный красной лентой с бантом.">
-                </picture>
-                <div class="intro__slide-wrap">
-                  <h2 class="intro__slide-title">Подарочный сертификат.</h2>
-                  <p class="intro__slide-text">Позаботься о тех, кого любишь.</p>
-                  <a class="button-link button-link_type_intro intro__slide-button" href="/services.html#certificate">Подробнее</a>
-                </div>
-              </div>
-            </li>
-            <li class="intro__slide intro__slide_text-position_left swiper-slide">
-              <div class="intro__slide-container">
-                <picture>
-                  <source media="(max-width: 767px)"
-                    srcset="../assets/images/intro/slide-7-mobile@1x.jpg 1x, ../assets/images/intro/slide-7-mobile@2x.jpg 2x">
-                  <img class="intro__slide-image" src="../assets/images/intro/slide-7-desktop@1x.jpg"
-                    srcset="../assets/images/intro/slide-7-desktop@2x.jpg 2x"
-                    alt="Лицо девушки крупным планом, у которой на лице косметическая маска.">
-                </picture>
-                <div class="intro__slide-wrap">
-                  <h2 class="intro__slide-title">Эликсир молодости.</h2>
-                  <p class="intro__slide-text">Больше, чем уход – ваш ритуал красоты.</p>
-                  <button class="button-link button-link_type_intro intro__slide-button" data-id="elixir-checkbox">Подробнее</button>
-                </div>
-              </div>
-            </li>
-            <li class="intro__slide intro__slide_text-position_right swiper-slide">
-              <div class="intro__slide-container">
-                <picture>
-                  <source media="(max-width: 767px)"
-                    srcset="../assets/images/intro/slide-8-mobile@1x.jpg 1x, ../assets/images/intro/slide-8-mobile@2x.jpg 2x">
-                  <img class="intro__slide-image" src="../assets/images/intro/slide-8-desktop@1x.jpg"
-                    srcset="../assets/images/intro/slide-8-desktop@2x.jpg 2x" alt="Набор косметики ANGIOFARM.">
-                </picture>
-                <div class="intro__slide-wrap">
-                  <h2 class="intro__slide-title">ANGIOFARM – космецевтика будущего.</h2>
-                  <p class="intro__slide-text">Продуманный уход для здоровья и красоты вашей кожи.</p>
-                  <button class="button-link button-link_type_intro intro__slide-button" data-id="angiofarm-checkbox">Подробнее</button>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <button class="button-arrow intro__slider-button intro__slider-button_type_prev">
-            <svg class="button-arrow__image">
-              <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-prev"></use>
-            </svg>
-          </button>
-          <button class="button-arrow intro__slider-button intro__slider-button_type_next">
-            <svg class="button-arrow__image">
-              <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-next"></use>
-            </svg>
-          </button>
-          <div class="intro__dots"></div>
-        </div>
-      </div>      
-    </section>
-
-    <section class="about">
-      <div class="about__container">
-        <h1 class="title">Ощутите магию массажа лица</h1>
-        <ul class="about__list">
-          <li class="about__item">
-            <div class="about__image-wrap">
-              <picture>
-                <source type="image/webp"
-                  srcset="../assets/images/about/about-lifting@1x.webp 1x, ../assets/images/about/about-lifting@2x.webp 2x">
-                <img src="../assets/images/about/about-lifting@1x.png"
-                  srcset="../assets/images/about/about-lifting@2x.png 2x"
-                  alt="Рисунок лица женщины закрытыми глазами в профиль, справа лицо обрамлено листьями."
-                  class="about__image">
-              </picture>
-            </div>
-            <div class="about__text-wrap">
-              <h2 class="about__subtitle">Лифтинг</h2>
-              <p class="about__text">Подтягивает овал лица и уменьшает провисание кожи.</p>
-            </div>
-          </li>
-          <li class="about__item">
-            <div class="about__image-wrap">
-              <picture>
-                <source type="image/webp"
-                  srcset="../assets/images/about/about-tone@1x.webp 1x, ../assets/images/about/about-tone@2x.webp 2x">
-                <img src="../assets/images/about/about-tone@1x.png" srcset="../assets/images/about/about-tone@2x.png 2x"
-                  alt="Рисунок лица женщины закрытыми глазами, вид сбоку. Волосы собраны китайской заколкой."
-                  class="about__image">
-              </picture>
-            </div>
-            <div class="about__text-wrap">
-              <h2 class="about__subtitle">Тонус</h2>
-              <p class="about__text">Укрепляет мышцы и делает контуры чётче.</p>
-            </div>
-          </li>
-          <li class="about__item">
-            <div class="about__image-wrap">
-              <source type="image/webp"
-                srcset="../assets/images/about/about-circulation@1x.webp 1x, ../assets/images/about/about-circulation@2x.webp 2x">
-              <picture>
-                <source type="image/webp"
-                  srcset="../assets/images/about/about-circulation@1x.webp 1x, ../assets/images/about/about-circulation@2x.webp 2x">
-                <img src="../assets/images/about/about-circulation@1x.png"
-                  srcset="../assets/images/about/about-circulation@2x.png 2x"
-                  alt="Рисунок лица женщины закрытыми глазами, вид сбоку. Собраными на макушке волосами, с косметическими патчами на лице."
-                  class="about__image">
-              </picture>
-            </div>
-            <div class="about__text-wrap">
-              <h2 class="about__subtitle">Кровообращение</h2>
-              <p class="about__text">Усиливает приток кислорода и питательных веществ.</p>
-            </div>
-          </li>
-          <li class="about__item">
-            <div class="about__image-wrap">
-              <picture>
-                <source type="image/webp"
-                  srcset="../assets/images/about/about-detox@1x.webp 1x, ../assets/images/about/about-detox@2x.webp 2x">
-                <img src="../assets/images/about/about-detox@1x.png" srcset="../assets/images/about/about-detox@2x.png 2x"
-                  alt="Рисунок лица женщины закрытыми глазами в профиль, с косметическими средствами на лице. Слева от женщины ветка с листами."
-                  class="about__image">
-              </picture>
-            </div>
-            <div class="about__text-wrap">
-              <h2 class="about__subtitle">Детокс</h2>
-              <p class="about__text">Ускоряет выведение токсинов и уменьшает отёки.</p>
-            </div>
-          </li>
-          <li class="about__item">
-            <div class="about__image-wrap">
-              <picture>
-                <source type="image/webp"
-                  srcset="../assets/images/about/about-relaxation@1x.webp 1x, ../assets/images/about/about-relaxation@2x.webp 2x">
-                <img src="../assets/images/about/about-relaxation@1x.png"
-                  srcset="../assets/images/about/about-relaxation@2x.png 2x"
-                  alt="Рисунок лица женщины закрытыми глазами в профиль, с руками возле лица." class="about__image">
-              </picture>
-            </div>
-            <div class="about__text-wrap">
-              <h2 class="about__subtitle">Расслабление</h2>
-              <p class="about__text">Снимает зажимы и уменьшает напряжение в лице.</p>
-            </div>
-          </li>
-          <li class="about__item">
-            <div class="about__image-wrap">
-              <picture>
-                <source type="image/webp"
-                  srcset="../assets/images/about/about-shine@1x.webp 1x, ../assets/images/about/about-shine@2x.webp 2x">
-                <img src="../assets/images/about/about-shine@1x.png" srcset="../assets/images/about/about-shine@2x.png 2x"
-                  alt="Рисунок лица женщины закрытыми глазами, вид сбоку. Налице нанесены косметические средства, от лица исходят лучи, которые изображают сияние."
-                  class="about__image">
-              </picture>
-            </div>
-            <div class="about__text-wrap">
-              <h2 class="about__subtitle">Сияние</h2>
-              <p class="about__text">Улучшает цвет лица и делает кожу свежей.</p>
-            </div>
-          </li>
-          <li class="about__item">
-            <div class="about__image-wrap">
-              <picture>
-                <source type="image/webp"
-                  srcset="../assets/images/about/about-youth@1x.webp 1x, ../assets/images/about/about-youth@2x.webp 2x">
-                <img src="../assets/images/about/about-youth@1x.png" srcset="../assets/images/about/about-youth@2x.png 2x"
-                  alt="Рисунок лица женщины закрытыми глазами в профиль, волосы распущены, в волосах вплетен цветок."
-                  class="about__image">
-              </picture>
-            </div>
-            <div class="about__text-wrap">
-              <h2 class="about__subtitle">Молодость</h2>
-              <p class="about__text">Стимулирует выработку коллагена и разглаживает морщины.</p>
-            </div>
-          </li>
-          <li class="about__item">
-            <div class="about__image-wrap">
-              <picture>
-                <source type="image/webp"
-                  srcset="../assets/images/about/about-elasticity@1x.webp 1x, ../assets/images/about/about-elasticity@2x.webp 2x">
-                <img src="../assets/images/about/about-elasticity@1x.png"
-                  srcset="../assets/images/about/about-elasticity@2x.png 2x"
-                  alt="Рисунок лица женщины закрытыми глазами в профиль, волосы распущены, на лице косметические средства."
-                  class="about__image">
-              </picture>
-            </div>
-            <div class="about__text-wrap">
-              <h2 class="about__subtitle">Эластичность</h2>
-              <p class="about__text">Повышает упругость кожи и делает её более гладкой.</p>
-            </div>
-          </li>
-          <li class="about__item">
-            <div class="about__image-wrap">
-              <picture>
-                <source type="image/webp"
-                  srcset="../assets/images/about/about-regeneration@1x.webp 1x, ../assets/images/about/about-regeneration@2x.webp 2x">
-                <img src="../assets/images/about/about-regeneration@1x.png"
-                  srcset="../assets/images/about/about-regeneration@2x.png 2x"
-                  alt="Рисунок лица женщины закрытыми глазами в профиль, волосы распущены, вокруг лица элементы напоминающие ветки и листья."
-                  class="about__image">
-              </picture>
-            </div>
-            <div class="about__text-wrap">
-              <h2 class="about__subtitle">Регенерация</h2>
-              <p class="about__text">Ускоряет обновление клеток, улучшая текстуру кожи.</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="services-intro">
-      <div class="services-intro__container">
-        <div class="services-intro__subblock">
-          <h2 class="title">Массаж лица</h2>
-          <ul class="services-intro__list">
-            <li class="services-intro__item">
-              <picture class="services-intro__image-wrap">
-                <source type="image/webp" srcset="../assets/images/services-intro/services-intro-1@1x.webp 1x, ../assets/images/services-intro/services-intro-1@2x.webp 2x">
-                <img src="../assets/images/services-intro/services-intro-1@1x.jpg" srcset="../assets/images/services-intro/services-intro-1@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами и ей делают массаж лица." class="services-intro__image">
-              </picture>
-              <div class="services-intro__text-wrap">
-                <h4 class="services-intro__text-title">
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Лифтинг-массаж омоложивающий</span>
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_small">(Лимфодренажный)</span>
-                </h4>
-                <ul class="services-intro__table">
-                  <li class="services-intro__table-time">40 мин</li>
-                  <li class="services-intro__table-title">Мастер</li>
-                  <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
-                  <li class="services-intro__table-price">2900 ₽</li>
-                  <li class="services-intro__table-price-top">3360 ₽</li>
-                </ul>
-                <div class="services-intro__button-wrap">
-                  <a class="button-link button-link_type_bg-light" href="/services.html#lifting-massage">Подробнее</a>
-                  <a class="button-link button-link_type_bg-dark">Записаться</a>
-                </div>
-              </div>             
-            </li>
-            <li class="services-intro__item">
-              <picture class="services-intro__image-wrap">
-                <source type="image/webp" srcset="../assets/images/services-intro/services-intro-2@1x.webp 1x, ../assets/images/services-intro/services-intro-2@2x.webp 2x">
-                <img src="../assets/images/services-intro/services-intro-2@1x.jpg" srcset="../assets/images/services-intro/services-intro-2@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами и ей делают массаж лица." class="services-intro__image">
-              </picture>
-              <div class="services-intro__text-wrap">
-                <h4 class="services-intro__text-title">
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Скульптурный массаж</span>
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_small">(Миофасциальный)</span>
-                </h4>
-                <ul class="services-intro__table">
-                  <li class="services-intro__table-time">50 мин</li>
-                  <li class="services-intro__table-title">Мастер</li>
-                  <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
-                  <li class="services-intro__table-price">3690 ₽</li>
-                  <li class="services-intro__table-price-top">3990 ₽</li>
-                </ul>
-                <div class="services-intro__button-wrap">
-                  <a class="button-link button-link_type_bg-light" href="/services.html#sculpture-massage">Подробнее</a>
-                  <a class="button-link button-link_type_bg-dark">Записаться</a>
-                </div>
-              </div>
-            </li>
-            <li class="services-intro__item">
-              <picture class="services-intro__image-wrap">
-                <source type="image/webp" srcset="../assets/images/services-intro/services-intro-3@1x.webp 1x, ../assets/images/services-intro/services-intro-3@2x.webp 2x">
-                <img src="../assets/images/services-intro/services-intro-3@1x.jpg" srcset="../assets/images/services-intro/services-intro-3@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами и ей делают массаж лица." class="services-intro__image">
-              </picture>
-              <div class="services-intro__text-wrap">
-                <h4 class="services-intro__text-title">
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Релакс-массаж</span>
-                </h4>
-                <ul class="services-intro__table">
-                  <li class="services-intro__table-time">40 мин</li>
-                  <li class="services-intro__table-title">Мастер</li>
-                  <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
-                  <li class="services-intro__table-price">2900 ₽</li>
-                  <li class="services-intro__table-price-top">3360 ₽</li>
-                </ul>
-                <div class="services-intro__button-wrap">
-                  <a class="button-link button-link_type_bg-light" href="/services.html#relax-massage">Подробнее</a>
-                  <a class="button-link button-link_type_bg-dark">Записаться</a>
-                </div> 
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="services-intro__subblock">
-          <h3 class="title">Уходы</h3>
-          <ul class="services-intro__list">
-            <li class="services-intro__item">
-              <picture class="services-intro__image-wrap">
-                <source type="image/webp" srcset="../assets/images/services-intro/services-intro-4@1x.webp 1x, ../assets/images/services-intro/services-intro-4@2x.webp 2x">
-                <img src="../assets/images/services-intro/services-intro-4@1x.jpg" srcset="../assets/images/services-intro/services-intro-4@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами, на лице дувушки нанесена маска для лица." class="services-intro__image">
-              </picture>
-              <div class="services-intro__text-wrap">
-                <h4 class="services-intro__text-title">
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Лифтинг-уход от GIGI</span>
-                </h4>
-                <ul class="services-intro__table">
-                  <li class="services-intro__table-title">Мастер</li>
-                  <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
-                  <li class="services-intro__table-price">4900 ₽</li>
-                  <li class="services-intro__table-price-top">5400 ₽</li>
-                </ul>
-                <div class="services-intro__button-wrap">
-                  <a class="button-link button-link_type_bg-light" href="/services.html#lifting-care">Подробнее</a>
-                  <a class="button-link button-link_type_bg-dark">Записаться</a>
-                </div> 
-              </div>            
-            </li>
-            <li class="services-intro__item">
-              <picture class="services-intro__image-wrap">
-                <source type="image/webp" srcset="../assets/images/services-intro/services-intro-5@1x.webp 1x, ../assets/images/services-intro/services-intro-5@2x.webp 2x">
-                <img src="../assets/images/services-intro/services-intro-5@1x.jpg" srcset="../assets/images/services-intro/services-intro-5@2x.jpg 2x" alt="Девушка лежит, на лице дувушки нанесена маска для лица." class="services-intro__image">
-              </picture>
-              <div class="services-intro__text-wrap">
-                <h4 class="services-intro__text-title">
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Эликсир молодости от GIGI</span>
-                </h4>
-                <ul class="services-intro__table">
-                  <li class="services-intro__table-title">Мастер</li>
-                  <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
-                  <li class="services-intro__table-price">6900 ₽</li>
-                  <li class="services-intro__table-price-top">7200 ₽</li>
-                </ul>
-                <div class="services-intro__button-wrap">
-                  <a class="button-link button-link_type_bg-light" href="/services.html#elixir-of-youth">Подробнее</a>
-                  <a class="button-link button-link_type_bg-dark">Записаться</a>
-                </div> 
-              </div>
-            </li>
-            <li class="services-intro__item">
-              <picture class="services-intro__image-wrap">
-                <source type="image/webp" srcset="../assets/images/services-intro/services-intro-6@1x.webp 1x, ../assets/images/services-intro/services-intro-6@2x.webp 2x">
-                <img src="../assets/images/services-intro/services-intro-6@1x.jpg" srcset="../assets/images/services-intro/services-intro-6@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами, на лице дувушки нанесена маска для лица." class="services-intro__image">
-              </picture>
-              <div class="services-intro__text-wrap">
-                <h4 class="services-intro__text-title">
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Питательный уход от GIGI</span>
-                </h4>
-                <ul class="services-intro__table">
-                  <li class="services-intro__table-title">Мастер</li>
-                  <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
-                  <li class="services-intro__table-price">4900 ₽</li>
-                  <li class="services-intro__table-price-top">5400 ₽</li>
-                </ul>
-                <div class="services-intro__button-wrap">
-                  <a class="button-link button-link_type_bg-light" href="/services.html#nourishing-care">Подробнее</a>
-                  <a class="button-link button-link_type_bg-dark">Записаться</a>
-                </div> 
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="services-intro__subblock">
-          <h3 class="title">Косметология</h3>
-          <ul class="services-intro__list">
-            <li class="services-intro__item">
-              <picture class="services-intro__image-wrap">
-                <source type="image/webp" srcset="../assets/images/services-intro/services-intro-7@1x.webp 1x, ../assets/images/services-intro/services-intro-7@2x.webp 2x">
-                <img src="../assets/images/services-intro/services-intro-7@1x.jpg" srcset="../assets/images/services-intro/services-intro-7@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами, на лице дувушки нанесена маска для лица." class="services-intro__image">
-              </picture>
-              <div class="services-intro__text-wrap">
-                <h4 class="services-intro__text-title">
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Ультразвуковая чистка</span>
-                </h4>
-                <ul class="services-intro__table">
-                  <li class="services-intro__table-time">60 мин</li>
-                  <li class="services-intro__table-title">Мастер</li>
-                  <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
-                  <li class="services-intro__table-price">2900 ₽</li>
-                  <li class="services-intro__table-price-top">3200 ₽</li>
-                </ul>
-                <div class="services-intro__button-wrap">
-                  <a class="button-link button-link_type_bg-light" href="/services.html#ultrasonic-cleaning">Подробнее</a>
-                  <a class="button-link button-link_type_bg-dark">Записаться</a>
-                </div> 
-              </div>    
-            </li>
-            <li class="services-intro__item">
-              <picture class="services-intro__image-wrap">
-                <source type="image/webp" srcset="../assets/images/services-intro/services-intro-8@1x.webp 1x, ../assets/images/services-intro/services-intro-8@2x.webp 2x">
-                <img src="../assets/images/services-intro/services-intro-8@1x.jpg" srcset="../assets/images/services-intro/services-intro-8@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами, ей делают чистку лица с помощью прибора для чистки лица." class="services-intro__image">
-              </picture>
-              <div class="services-intro__text-wrap">
-                <h4 class="services-intro__text-title">
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Комбинированная чистка</span>
-                </h4>
-                <ul class="services-intro__table">
-                  <li class="services-intro__table-time">90 мин</li>
-                  <li class="services-intro__table-title">Мастер</li>
-                  <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
-                  <li class="services-intro__table-price">3900 ₽</li>
-                  <li class="services-intro__table-price-top">4200 ₽</li>
-                </ul>
-                <div class="services-intro__button-wrap">
-                  <a class="button-link button-link_type_bg-light" href="/services.html#combined-cleaning">Подробнее</a>
-                  <a class="button-link button-link_type_bg-dark">Записаться</a>
-                </div> 
-              </div>
-            </li>
-            <li class="services-intro__item">
-              <picture class="services-intro__image-wrap">
-                <source type="image/webp" srcset="../assets/images/services-intro/services-intro-9@1x.webp 1x, ../assets/images/services-intro/services-intro-9@2x.webp 2x">
-                <img src="../assets/images/services-intro/services-intro-9@1x.jpg" srcset="../assets/images/services-intro/services-intro-9@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами, ей делают чистку лица с помощью прибора для чистки лица." class="services-intro__image">
-              </picture>
-              <div class="services-intro__text-wrap">
-                <h4 class="services-intro__text-title">
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Пилинги</span>
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_small">(Персиковый, мультипилинг, биорепил)</span>
-                </h4>
-                <ul class="services-intro__table">
-                  <li class="services-intro__table-time">30 мин</li>
-                  <li class="services-intro__table-title">Мастер</li>
-                  <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
-                  <li class="services-intro__table-price">2900 ₽</li>
-                  <li class="services-intro__table-price-top">3200 ₽</li>
-                </ul>
-                <div class="services-intro__button-wrap">
-                  <a class="button-link button-link_type_bg-light" href="/services.html#peelings">Подробнее</a>
-                  <a class="button-link button-link_type_bg-dark">Записаться</a>
-                </div> 
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="services-intro__subblock">
-          <h3 class="title">Массаж тела</h3>
-          <ul class="services-intro__list">
-            <li class="services-intro__item">
-              <picture class="services-intro__image-wrap">
-                <source type="image/webp" srcset="../assets/images/services-intro/services-intro-10@1x.webp 1x, ../assets/images/services-intro/services-intro-10@2x.webp 2x">
-                <img src="../assets/images/services-intro/services-intro-10@1x.jpg" srcset="../assets/images/services-intro/services-intro-10@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами и ей делают массаж спины." class="services-intro__image">
-              </picture>
-              <div class="services-intro__text-wrap">
-                <h4 class="services-intro__text-title">
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Массаж тела 60 минут</span>
-                </h4>
-                <div class="services-intro__text-price">2900 ₽</div>
-                <div class="services-intro__button-wrap">
-                  <a class="button-link button-link_type_bg-dark">Записаться</a>
-                </div>  
-              </div>          
-            </li>
-            <li class="services-intro__item">
-              <picture class="services-intro__image-wrap">
-                <source type="image/webp" srcset="../assets/images/services-intro/services-intro-11@1x.webp 1x, ../assets/images/services-intro/services-intro-11@2x.webp 2x">
-                <img src="../assets/images/services-intro/services-intro-11@1x.jpg" srcset="../assets/images/services-intro/services-intro-11@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами и ей делают массаж спины." class="services-intro__image">
-              </picture>
-              <div class="services-intro__text-wrap">
-                <h4 class="services-intro__text-title">
-                  <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Массаж тела 90 минут</span>
-                </h4>
-                <div class="services-intro__text-price">3690 ₽</div>
-                <div class="services-intro__button-wrap">
-                  <a class="button-link button-link_type_bg-dark">Записаться</a>
-                </div> 
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="services-intro__subblock">
-          <h3 class="title">Забота в удобном формате</h3>
-          <div class="services-intro__row">
-            <div class="services-intro__row-image-wrap">
-              <picture class="services-intro__row-image-container">
-                <source type="image/webp" srcset="../assets/images/services-intro/services-intro-12@1x.webp 1x, ../assets/images/services-intro/services-intro-12@2x.webp 2x">
-                <img src="../assets/images/services-intro/services-intro-12@1x.jpg" srcset="../assets/images/services-intro/services-intro-12@2x.jpg 2x" alt="Карточка-абонемент салона Яблочко молодильное, которую держит в руках девушка." class="services-intro__row-image">
-              </picture>
-            </div>
-            <div class="services-intro__row-text-wrap">
-              <div class="services-intro__row-text-container">
-                <h4 class="services-intro__row-text-title">Абонемент: шаг за шагом к совершенству</h4>
-                <p class="services-intro__row-text">Регулярный уход — залог заметного результата, глубокого расслабления и естественного сияния вашей кожи. Наши абонементы позволяют вам наслаждаться профессиональным массажем лица на постоянной основе, улучшая тонус, эластичность и общее состояние кожи.</p>
-                <p class="services-intro__row-text">Выбирайте удобный формат и экономьте на каждом сеансе, при этом получая максимум пользы от системного ухода. Абонемент — это ваш персональный путь к молодости, свежести и гармонии. Позвольте себе роскошь заботы о себе!</p>
-              </div>
-              <div class="services-intro__row-button-wrap">
-                <a class="button-link button-link_type_bg-light" href="/services.html#subscription">Подробнее</a>
-                <a class="button-link button-link_type_bg-dark">Купить</a>
-              </div> 
-            </div>
-          </div>
-          <div class="services-intro__row">
-            <div class="services-intro__row-text-wrap">
-              <div class="services-intro__row-text-container">
-                <h4 class="services-intro__row-text-title">Подарочный сертификат</h4>
-                <p class="services-intro__row-text">Лучший подарок — это забота и приятные эмоции. Подарочный сертификат на массаж лица — это возможность подарить близким момент расслабления, красоты и ухода. Такой презент подойдет для любого случая: дня рождения, праздника или просто без повода, чтобы порадовать тех, кого вы любите.</p>
-                <p class="services-intro__row-text">Выберите удобный номинал сертификата, и пусть ваш подарок станет настоящим наслаждением для его обладателя. Подарите близким возможность почувствовать гармонию и заботу!</p>
-              </div>
-              <div class="services-intro__row-button-wrap">
-                <a class="button-link button-link_type_bg-dark">Купить</a>
-              </div> 
-            </div>
-            <div class="services-intro__row-image-wrap">
-              <picture class="services-intro__row-image-container">
-                <source type="image/webp" srcset="../assets/images/services-intro/services-intro-13@1x.webp 1x, ../assets/images/services-intro/services-intro-13@2x.webp 2x">
-                <img src="../assets/images/services-intro/services-intro-13@1x.jpg" srcset="../assets/images/services-intro/services-intro-13@2x.jpg 2x" alt="Карточка-абонемент салона Яблочко молодильное, которую держит в руках девушка." class="services-intro__row-image">
-              </picture>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="questions">
-      <div class="questions__wrapper">
-        <h2 class="title">Вопросы и ответы</h2>
-        <div class="questions__container">
-          <div class="questions__column questions__column_type_image questions__column_image-position_top">
-            <picture>
-              <source type="image/webp"
-                srcset="../assets/images/questions/questions-image-1@1x.webp 1x, ../assets/images/questions/questions-image-1@2x.webp 2x">
-              <img src="../assets/images/questions/questions-image-1@1x.jpg"
-                srcset="../assets/images/questions/questions-image-1@2x.jpg 2x"
-                alt="Девушка лежит с закрытыми глазами и ей делают массаж лица." class="questions__image">
-            </picture>
-          </div>
-          <div class="questions__column questions__column_type_text">
-            <div class="questions__row" id="whats">
-              <input type="checkbox" class="questions__input" id="whats-checkbox">
-              <label for="whats-checkbox" class="questions__label">
-                <h4 class="questions__subtitle">Что такое «ЯБЛОЧКО МОЛОДИЛЬНОЕ»?</h4>
-                <svg class="questions__label-icon">
-                  <use href="../assets/images/questions/plus-icon.svg#plus"></use>
-                </svg>
-              </label>
-              <div class="questions__text-wrap">
-                <div class="questions__text-container">
-                  <p class="questions__text">Это студия массажа лица, где красота сочетается с профессиональным уходом. Мы
-                    используем авторские техники, которые позволяют без инъекций и операций вернуть коже свежесть, упругость
-                    и молодость.<br>Нас выбирают, потому что наши мастера – специалисты с медицинским образованием,
-                    работающие на результат. Мы создаем индивидуальные программы, ориентированные на лифтинг, расслабление и
-                    сияние кожи. Видимый эффект уже после первого сеанса, а с каждым следующим – только лучше!</p>
-                </div>
-              </div>
-            </div>
-            <div class="questions__row" id="works">
-              <input type="checkbox" class="questions__input" id="works-checkbox">
-              <label for="works-checkbox" class="questions__label">
-                <h4 class="questions__subtitle">Почему наш массаж лица действительно работает?</h4>
-                <svg class="questions__label-icon">
-                  <use href="../assets/images/questions/plus-icon.svg#plus"></use>
-                </svg>
-              </label>
-              <div class="questions__text-wrap">
-                <div class="questions__text-container">
-                  <p class="questions__text">Наши методики основаны на анатомии и физиологии лица — мы не просто массируем
-                    кожу, а глубоко прорабатываем мышцы, активизируем кровообращение и лимфоток. Это помогает естественным
-                    процессам регенерации, повышает упругость кожи и разглаживает морщины. Уже после первого сеанса вы
-                    увидите результат: свежий цвет лица, тонус и легкий лифтинг. А с регулярными процедурами эффект только
-                    накапливается — без инъекций и пластики!</p>
-                </div>
-              </div>
-            </div>
-            <div class="questions__row" id="rejuvenation">
-              <input type="checkbox" class="questions__input" id="rejuvenation-checkbox">
-              <label for="rejuvenation-checkbox" class="questions__label">
-                <h4 class="questions__subtitle">Действительно ли массаж лица — это альтернатива уколам красоты?</h4>
-                <svg class="questions__label-icon">
-                  <use href="../assets/images/questions/plus-icon.svg#plus"></use>
-                </svg>
-              </label>
-              <div class="questions__text-wrap">
-                <div class="questions__text-container">
-                  <p class="questions__text">Да, но с нюансами. В отличие от инъекций, массаж не заполняет морщины и не
-                    блокирует мышцы, а естественным образом стимулирует выработку коллагена и эластина, укрепляет мышцы
-                    лица, улучшает кровообращение и лимфоток. Регулярный массаж помогает продлить молодость кожи, разгладить
-                    морщины, подтянуть овал лица и улучшить цвет лица. Это безопасная, натуральная и приятная альтернатива
-                    инъекциям, особенно если начинать заботиться о коже вовремя!</p>
-                </div>
-              </div>
-            </div>
-            <div class="questions__row" id="elixir">
-              <input type="checkbox" class="questions__input" id="elixir-checkbox">
-              <label for="elixir-checkbox" class="questions__label">
-                <h4 class="questions__subtitle">Что такое "Эликсир молодости"?</h4>
-                <svg class="questions__label-icon">
-                  <use href="../assets/images/questions/plus-icon.svg#plus"></use>
-                </svg>
-              </label>
-              <div class="questions__text-wrap">
-                <div class="questions__text-container">
-                  <p class="questions__text">Это не просто уход — это ритуал обновления вашей кожи! "Эликсир молодости"
-                    сочетает в себе глубокий массаж, активные космецевтические компоненты и профессиональные техники
-                    омоложения. Он стимулирует выработку коллагена, улучшает кровообращение, насыщает кожу влагой и
-                    питательными веществами. После процедуры лицо становится подтянутым, свежим и сияющим — без инъекций, но
-                    с реальным лифтинг-эффектом. Почувствуйте, как ваша кожа оживает!</p>
-                </div>
-              </div>
-            </div>
-            <div class="questions__row" id="gigi">
-              <input type="checkbox" class="questions__input" id="gigi-checkbox">
-              <label for="gigi-checkbox" class="questions__label">
-                <h4 class="questions__subtitle">Почему наши специалисты работают на израильской космецевтике GIGI?</h4>
-                <svg class="questions__label-icon">
-                  <use href="../assets/images/questions/plus-icon.svg#plus"></use>
-                </svg>
-              </label>
-              <div class="questions__text-wrap">
-                <div class="questions__text-container">
-                  <p class="questions__text">Мы выбираем лучшее для вашей кожи! GIGI — это космецевтика с медицинским
-                    подходом, в составе которой мощные активные компоненты в высоких концентрациях. Она эффективно работает
-                    на клеточном уровне, усиливает результаты массажа и дает стойкий эффект омоложения. Благодаря GIGI кожа
-                    быстрее обновляется, становится упругой, увлажненной и сияющей. Это не просто уход — это наука о
-                    молодости вашей кожи!</p>
-                </div>
-              </div>
-            </div>
-            <div class="questions__row" id="angiofarm">
-              <input type="checkbox" class="questions__input" id="angiofarm-checkbox">
-              <label for="angiofarm-checkbox" class="questions__label">
-                <h4 class="questions__subtitle">Почему мы рекомендуем космецевтику ANGIOFARM для домашнего ухода?</h4>
-                <svg class="questions__label-icon">
-                  <use href="../assets/images/questions/plus-icon.svg#plus"></use>
-                </svg>
-              </label>
-              <div class="questions__text-wrap">
-                <div class="questions__text-container">
-                  <p class="questions__text">Продлите эффект профессиональных процедур с космецевтикой ANGIOFARM! Средства
-                    бренда работают на глубоком уровне: улучшают микроциркуляцию, укрепляют сосуды, ускоряют регенерацию и
-                    поддерживают молодость кожи. Благодаря активным формулам, разработанным с учётом научных исследований,
-                    ваш ежедневный уход станет эффективным и результативным. Красота и здоровье кожи — теперь в ваших руках!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="questions__column questions__column_type_image questions__column_image-position_bottom">
-            <picture>
-              <source type="image/webp"
-                srcset="../assets/images/questions/questions-image-2@1x.webp 1x, ../assets/images/questions/questions-image-2@2x.webp 2x">
-              <img src="../assets/images/questions/questions-image-2@1x.jpg"
-                srcset="../assets/images/questions/questions-image-2@2x.jpg 2x"
-                alt="Девушка лежит с закрытыми глазами и ей делают массаж лица." class="questions__image">
-            </picture>
-          </div>
-        </div>
-      </div>    
-    </section>
-
-    <section class="team">
-      <h2 class="title">Наша команда</h2>
-      <div class="team__slider swiper">
-        <ul class="team__slider-list swiper-wrapper">
-          <li class="team__slider-item swiper-slide">
-            <div class="team__slide">
-              <img src="../assets/images/team/man-1.svg" alt="Нарисованный аватар мужчины." class="team__slide-image">
-              <h3 class="team__slide-title">Александр Морозов</h3>
-              <h4 class="team__slide-subtitle">Мастер массажист</h4>
-              <p class="team__slide-text">Опытный мастер, владеющий различными техниками массажа лица для омоложения и расслабления.</p>
-            </div>
-          </li>
-          <li class="team__slider-item swiper-slide">
-            <div class="team__slide">
-              <img src="../assets/images/team/woman-1.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
-              <h3 class="team__slide-title">Анна Соколова</h3>
-              <h4 class="team__slide-subtitle">Мастер массажист</h4>
-              <p class="team__slide-text">Помогает сохранить молодость и сияние кожи с помощью профессионального массажа.</p>
-            </div>
-          </li>
-          <li class="team__slider-item swiper-slide">
-            <div class="team__slide">
-              <img src="../assets/images/team/woman-2.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
-              <h3 class="team__slide-title">Мария Беляева</h3>
-              <h4 class="team__slide-subtitle">Косметолог</h4>
-              <p class="team__slide-text">Специалист по уходу за кожей лица, восстанавливает её тонус и свежесть.</p>
-            </div>
-          </li>
-          <li class="team__slider-item swiper-slide">
-            <div class="team__slide">
-              <img src="../assets/images/team/woman-3.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
-              <h3 class="team__slide-title">Екатерина Орлова</h3>
-              <h4 class="team__slide-subtitle">Мастер массажист</h4>
-              <p class="team__slide-text">Создаёт комфорт и гармонию с помощью массажных техник, улучшающих состояние кожи.</p>
-            </div>
-          </li>
-          <li class="team__slider-item swiper-slide">
-            <div class="team__slide">
-              <img src="../assets/images/team/man-2.svg" alt="Нарисованный аватар мужчины." class="team__slide-image">
-              <h3 class="team__slide-title">Игорь Смирнов</h3>
-              <h4 class="team__slide-subtitle">Мастер массажист</h4>
-              <p class="team__slide-text">Дарит расслабление и красоту с помощью эффективных массажных методик.</p>
-            </div>
-          </li>
-          <li class="team__slider-item swiper-slide">
-            <div class="team__slide">
-              <img src="../assets/images/team/woman-4.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
-              <h3 class="team__slide-title">Ольга Васильева</h3>
-              <h4 class="team__slide-subtitle">Косметолог</h4>
-              <p class="team__slide-text">Косметолог, который заботится о здоровье и молодости вашей кожи.</p>
-            </div>
-          </li>
-          <li class="team__slider-item swiper-slide">
-            <div class="team__slide">
-              <img src="../assets/images/team/woman-5.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
-              <h3 class="team__slide-title">Дарья Кузнецова</h3>
-              <h4 class="team__slide-subtitle">Мастер массажист</h4>
-              <p class="team__slide-text">Поможет снять напряжение, улучшить кровообращение и придать лицу свежий вид.</p>
-            </div>
-          </li>
-        </ul>
-        <div class="team__slider-button-wrap">
-          <button class="button-arrow team__slider-button team__slider-button_type_prev">
-            <svg class="button-arrow__image">
-              <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-prev"></use>
-            </svg>
-          </button>
-          <button class="button-arrow team__slider-button team__slider-button_type_next">
-            <svg class="button-arrow__image">
-              <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-next"></use>
-            </svg>
-          </button>
-        </div>        
-      </div>
-    </section>
-
-    <a href="#" class="button-appointment" target="_blank">
-      <div class="button-appointment__wrapper">
-        <div class="button-appointment__container">
-          <picture class="button-appointment__apple-image-wrap">
-            <source type="image/webp"
-              srcset="../assets/images/button-appointment/apple@1x.webp 1x, ../assets/images/button-appointment/apple@2x.webp 2x">
-            <img src="../assets/images/button-appointment/apple@1x.png"
-              srcset="../assets/images/button-appointment/apple@2x.png 2x"
-              alt="Зеленое яблоко." class="button-appointment__apple-image">
-          </picture>
-        </div>
-        <div class="button-appointment__text-wrap">
-          <span class="button-appointment__text">Записаться</span>
-          <span class="button-appointment__text">онлайн</span>
-        </div>
-      </div>
-    </a>
-
-  </main>
-
-  <footer class="footer">
-    <div class="footer__container">
-      <div class="footer__row footer__row_type_one">
-        <div class="footer__column">
+  <div class="page-content" id="content" style="display: none;">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__column">
           <a href="/" class="logo">
             <img src="../assets/images/logo/logo.svg" alt="Логотип студии массажа лица и тела Яблочко Молодильное"
-              class="logo__image">
+            class="logo__image">
           </a>
         </div>
-        <div class="footer__column">
-          <div class="social">
-            <h4 class="social__title">Мы в социальных сетях</h4>
-            <ul class="social__list">
-              <li class="social__item">
-                <a href="https://vk.com/yamolodoe" class="social__link" target="_blank">
-                  <svg class="social__image">
-                    <use href="../assets/images/social/social-icons.svg#vk"></use>
-                  </svg>
-                </a>
+        <div class="header__column">
+          <nav class="header__menu">
+            <div class="header__menu-button">
+              <input type="checkbox" class="header__menu-input" id="menu-checkbox">
+              <label for="menu-checkbox" class="header__menu-label"></label>
+            </div>
+            <menu class="header__menu-list">
+              <li class="header__menu-item header__menu-item_active">
+                <a href="/" class="header__menu-link">О Нас</a>
               </li>
-              <li class="social__item">
-                <a href="#" class="social__link" target="_blank">
-                  <svg class="social__image">
-                    <use href="../assets/images/social/social-icons.svg#instagram"></use>
-                  </svg>
-                </a>
+              <li class="header__menu-item">
+                <a href="/services.html" class="header__menu-link">Услуги</a>
               </li>
-              <li class="social__item">
-                <a href="https://wa.me/79933112406" class="social__link" target="_blank">
-                  <svg class="social__image">
-                    <use href="../assets/images/social/social-icons.svg#whatsapp"></use>
-                  </svg>
-                </a>
+              <li class="header__menu-item">
+                <a href="/contacts.html" class="header__menu-link">Контакты</a>
               </li>
-              <li class="social__item">
-                <a href="https://t.me/yamolodoe" class="social__link" target="_blank">
-                  <svg class="social__image">
-                    <use href="../assets/images/social/social-icons.svg#telegram"></use>
-                  </svg>
-                </a>
+            </menu>
+          </nav>
+        </div>
+        <div class="header__column">
+          <div class="contacts">
+            <a href="https://wa.me/79933112406" class="contacts__link contacts__link_type_image" target="_blank">
+              <svg class="contacts__image">
+                <use href="../assets/images/contacts/contacts-icons.svg#whatsapp"></use>
+              </svg>
+            </a>
+            <a href="https://t.me/yamolodoe" class="contacts__link contacts__link_type_image" target="_blank">
+              <svg class="contacts__image">
+                <use href="../assets/images/contacts/contacts-icons.svg#telegram"></use>
+              </svg>
+            </a>
+            <div class="contacts__text">
+              <a href="tel:+79933112406" class="contacts__link contacts__link_type_phone">+7 993 311-24-06</a>
+              <span class="contacts__address">Краснодар,&nbsp;&nbsp;Аэродромная&nbsp;&nbsp;4</span>
+            </div>          
+          </div>
+        </div>
+      </div>
+    </header>
+  
+    <main class="content content_bg-type_index">
+  
+      <section class="intro">
+        <div class="intro__container">
+          <div class="intro__slider-container swiper">
+            <ul class="intro__slider-list swiper-wrapper">
+              <li class="intro__slide intro__slide_text-position_left swiper-slide">
+                <div class="intro__slide-container">
+                  <picture>
+                    <source media="(max-width: 767px)"
+                      srcset="../assets/images/intro/slide-1-mobile@1x.jpg 1x, ../assets/images/intro/slide-1-mobile@2x.jpg 2x">
+                    <img class="intro__slide-image" src="../assets/images/intro/slide-1-desktop@1x.jpg"
+                      srcset="../assets/images/intro/slide-1-desktop@2x.jpg 2x"
+                      alt="Лицо девушки крупным планом, которой делают массаж лица.">
+                  </picture>
+                  <div class="intro__slide-wrap">
+                    <h2 class="intro__slide-title">Яблочко Молодильное.</h2>
+                    <h3 class="intro__slide-subtitle">Релакс. Гармония. Любовь к себе.</h3>
+                    <p class="intro__slide-text">Здесь рождается красота — в атмосфере уюта, заботы и профессионализма.</p>
+                    <button class="button-link button-link_type_intro intro__slide-button" data-id="whats-checkbox">Подробнее</button>
+                  </div>
+                </div>
               </li>
-              <li class="social__item">
-                <a href="#" class="social__link" target="_blank">
-                  <svg class="social__image">
-                    <use href="../assets/images/social/social-icons.svg#dzen"></use>
-                  </svg>
-                </a>
+              <li class="intro__slide intro__slide_text-position_right swiper-slide">
+                <div class="intro__slide-container">
+                  <picture>
+                    <source media="(max-width: 767px)"
+                      srcset="../assets/images/intro/slide-2-mobile@1x.jpg 1x, ../assets/images/intro/slide-2-mobile@2x.jpg 2x">
+                    <img class="intro__slide-image" src="../assets/images/intro/slide-2-desktop@1x.jpg"
+                      srcset="../assets/images/intro/slide-2-desktop@2x.jpg 2x"
+                      alt="Лицо девушки крупным планом, которая лежит и ей делают массаж лица.">
+                  </picture>
+                  <div class="intro__slide-wrap">
+                    <h2 class="intro__slide-title">Массаж, который реально работает.</h2>
+                    <p class="intro__slide-text">Четкий овал лица, заметное сияние и свежесть — результат, который видно уже после первых процедур.</p>
+                    <button class="button-link button-link_type_intro intro__slide-button" data-id="works-checkbox">Подробнее</button>                    
+                  </div>
+                </div>
+              </li>
+              <li class="intro__slide intro__slide_text-position_left swiper-slide">
+                <div class="intro__slide-container">
+                  <picture>
+                    <source media="(max-width: 767px)"
+                      srcset="../assets/images/intro/slide-3-mobile@1x.jpg 1x, ../assets/images/intro/slide-3-mobile@2x.jpg 2x">
+                    <img class="intro__slide-image" src="../assets/images/intro/slide-3-desktop@1x.jpg"
+                      srcset="../assets/images/intro/slide-3-desktop@2x.jpg 2x"
+                      alt="Карточка-абонемент салона Яблочко молодильное, которую держит в руках девушка.">
+                  </picture>
+                  <div class="intro__slide-wrap">
+                    <h2 class="intro__slide-title">Абонемент: шаг за шагом к совершенству.</h2>
+                    <p class="intro__slide-text">Регулярный уход для заметного результата, расслабления и сияющей красоты.</p>
+                    <a class="button-link button-link_type_intro intro__slide-button" href="/services.html#subscription">Подробнее</a>
+                  </div>
+                </div>
+              </li>
+              <li class="intro__slide intro__slide_text-position_right swiper-slide">
+                <div class="intro__slide-container">
+                  <picture>
+                    <source media="(max-width: 767px)"
+                      srcset="../assets/images/intro/slide-4-mobile@1x.jpg 1x, ../assets/images/intro/slide-4-mobile@2x.jpg 2x">
+                    <img class="intro__slide-image" src="../assets/images/intro/slide-4-desktop@1x.jpg"
+                      srcset="../assets/images/intro/slide-4-desktop@2x.jpg 2x"
+                      alt="Лицо девушки крупным планом, которая лежит и ей делают массаж лица.">
+                  </picture>
+                  <div class="intro__slide-wrap">
+                    <h2 class="intro__slide-title">Омоложение без инъекций.</h2>
+                    <p class="intro__slide-text">Авторские техники массажа для упругости, лифтинга и сияния кожи.</p>
+                    <button class="button-link button-link_type_intro intro__slide-button" data-id="rejuvenation-checkbox">Подробнее</button>
+                  </div>
+                </div>
+              </li>
+              <li class="intro__slide intro__slide_text-position_left swiper-slide">
+                <div class="intro__slide-container">
+                  <picture>
+                    <source media="(max-width: 767px)"
+                      srcset="../assets/images/intro/slide-5-mobile@1x.jpg 1x, ../assets/images/intro/slide-5-mobile@2x.jpg 2x">
+                    <img class="intro__slide-image" src="../assets/images/intro/slide-5-desktop@1x.jpg"
+                      srcset="../assets/images/intro/slide-5-desktop@2x.jpg 2x" alt="Набор косметики GIGI.">
+                  </picture>
+                  <div class="intro__slide-wrap">
+                    <h2 class="intro__slide-title">Косметика GIGI.</h2>
+                    <p class="intro__slide-text">Из Израиля с доказанной эффективностью. Инновационные формулы для видимого результата.</p>
+                    <button class="button-link button-link_type_intro intro__slide-button" data-id="gigi-checkbox">Подробнее</button>
+                  </div>
+                </div>
+              </li>
+              <li class="intro__slide intro__slide_text-position_right swiper-slide">
+                <div class="intro__slide-container">
+                  <picture>
+                    <source media="(max-width: 767px)"
+                      srcset="../assets/images/intro/slide-6-mobile@1x.jpg 1x, ../assets/images/intro/slide-6-mobile@2x.jpg 2x">
+                    <img class="intro__slide-image" src="../assets/images/intro/slide-6-desktop@1x.jpg"
+                      srcset="../assets/images/intro/slide-6-desktop@2x.jpg 2x"
+                      alt="Улыбающаяся девушка держит в руках подарок, перевязанный красной лентой с бантом.">
+                  </picture>
+                  <div class="intro__slide-wrap">
+                    <h2 class="intro__slide-title">Подарочный сертификат.</h2>
+                    <p class="intro__slide-text">Позаботься о тех, кого любишь.</p>
+                    <a class="button-link button-link_type_intro intro__slide-button" href="/services.html#certificate">Подробнее</a>
+                  </div>
+                </div>
+              </li>
+              <li class="intro__slide intro__slide_text-position_left swiper-slide">
+                <div class="intro__slide-container">
+                  <picture>
+                    <source media="(max-width: 767px)"
+                      srcset="../assets/images/intro/slide-7-mobile@1x.jpg 1x, ../assets/images/intro/slide-7-mobile@2x.jpg 2x">
+                    <img class="intro__slide-image" src="../assets/images/intro/slide-7-desktop@1x.jpg"
+                      srcset="../assets/images/intro/slide-7-desktop@2x.jpg 2x"
+                      alt="Лицо девушки крупным планом, у которой на лице косметическая маска.">
+                  </picture>
+                  <div class="intro__slide-wrap">
+                    <h2 class="intro__slide-title">Эликсир молодости.</h2>
+                    <p class="intro__slide-text">Больше, чем уход – ваш ритуал красоты.</p>
+                    <button class="button-link button-link_type_intro intro__slide-button" data-id="elixir-checkbox">Подробнее</button>
+                  </div>
+                </div>
+              </li>
+              <li class="intro__slide intro__slide_text-position_right swiper-slide">
+                <div class="intro__slide-container">
+                  <picture>
+                    <source media="(max-width: 767px)"
+                      srcset="../assets/images/intro/slide-8-mobile@1x.jpg 1x, ../assets/images/intro/slide-8-mobile@2x.jpg 2x">
+                    <img class="intro__slide-image" src="../assets/images/intro/slide-8-desktop@1x.jpg"
+                      srcset="../assets/images/intro/slide-8-desktop@2x.jpg 2x" alt="Набор косметики ANGIOFARM.">
+                  </picture>
+                  <div class="intro__slide-wrap">
+                    <h2 class="intro__slide-title">ANGIOFARM – космецевтика будущего.</h2>
+                    <p class="intro__slide-text">Продуманный уход для здоровья и красоты вашей кожи.</p>
+                    <button class="button-link button-link_type_intro intro__slide-button" data-id="angiofarm-checkbox">Подробнее</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <button class="button-arrow intro__slider-button intro__slider-button_type_prev">
+              <svg class="button-arrow__image">
+                <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-prev"></use>
+              </svg>
+            </button>
+            <button class="button-arrow intro__slider-button intro__slider-button_type_next">
+              <svg class="button-arrow__image">
+                <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-next"></use>
+              </svg>
+            </button>
+            <div class="intro__dots"></div>
+          </div>
+        </div>      
+      </section>
+  
+      <section class="about">
+        <div class="about__container">
+          <h1 class="title">Ощутите магию массажа лица</h1>
+          <ul class="about__list">
+            <li class="about__item">
+              <div class="about__image-wrap">
+                <picture>
+                  <source type="image/webp"
+                    srcset="../assets/images/about/about-lifting@1x.webp 1x, ../assets/images/about/about-lifting@2x.webp 2x">
+                  <img src="../assets/images/about/about-lifting@1x.png"
+                    srcset="../assets/images/about/about-lifting@2x.png 2x"
+                    alt="Рисунок лица женщины закрытыми глазами в профиль, справа лицо обрамлено листьями."
+                    class="about__image">
+                </picture>
+              </div>
+              <div class="about__text-wrap">
+                <h2 class="about__subtitle">Лифтинг</h2>
+                <p class="about__text">Подтягивает овал лица и уменьшает провисание кожи.</p>
+              </div>
+            </li>
+            <li class="about__item">
+              <div class="about__image-wrap">
+                <picture>
+                  <source type="image/webp"
+                    srcset="../assets/images/about/about-tone@1x.webp 1x, ../assets/images/about/about-tone@2x.webp 2x">
+                  <img src="../assets/images/about/about-tone@1x.png" srcset="../assets/images/about/about-tone@2x.png 2x"
+                    alt="Рисунок лица женщины закрытыми глазами, вид сбоку. Волосы собраны китайской заколкой."
+                    class="about__image">
+                </picture>
+              </div>
+              <div class="about__text-wrap">
+                <h2 class="about__subtitle">Тонус</h2>
+                <p class="about__text">Укрепляет мышцы и делает контуры чётче.</p>
+              </div>
+            </li>
+            <li class="about__item">
+              <div class="about__image-wrap">
+                <source type="image/webp"
+                  srcset="../assets/images/about/about-circulation@1x.webp 1x, ../assets/images/about/about-circulation@2x.webp 2x">
+                <picture>
+                  <source type="image/webp"
+                    srcset="../assets/images/about/about-circulation@1x.webp 1x, ../assets/images/about/about-circulation@2x.webp 2x">
+                  <img src="../assets/images/about/about-circulation@1x.png"
+                    srcset="../assets/images/about/about-circulation@2x.png 2x"
+                    alt="Рисунок лица женщины закрытыми глазами, вид сбоку. Собраными на макушке волосами, с косметическими патчами на лице."
+                    class="about__image">
+                </picture>
+              </div>
+              <div class="about__text-wrap">
+                <h2 class="about__subtitle">Кровообращение</h2>
+                <p class="about__text">Усиливает приток кислорода и питательных веществ.</p>
+              </div>
+            </li>
+            <li class="about__item">
+              <div class="about__image-wrap">
+                <picture>
+                  <source type="image/webp"
+                    srcset="../assets/images/about/about-detox@1x.webp 1x, ../assets/images/about/about-detox@2x.webp 2x">
+                  <img src="../assets/images/about/about-detox@1x.png" srcset="../assets/images/about/about-detox@2x.png 2x"
+                    alt="Рисунок лица женщины закрытыми глазами в профиль, с косметическими средствами на лице. Слева от женщины ветка с листами."
+                    class="about__image">
+                </picture>
+              </div>
+              <div class="about__text-wrap">
+                <h2 class="about__subtitle">Детокс</h2>
+                <p class="about__text">Ускоряет выведение токсинов и уменьшает отёки.</p>
+              </div>
+            </li>
+            <li class="about__item">
+              <div class="about__image-wrap">
+                <picture>
+                  <source type="image/webp"
+                    srcset="../assets/images/about/about-relaxation@1x.webp 1x, ../assets/images/about/about-relaxation@2x.webp 2x">
+                  <img src="../assets/images/about/about-relaxation@1x.png"
+                    srcset="../assets/images/about/about-relaxation@2x.png 2x"
+                    alt="Рисунок лица женщины закрытыми глазами в профиль, с руками возле лица." class="about__image">
+                </picture>
+              </div>
+              <div class="about__text-wrap">
+                <h2 class="about__subtitle">Расслабление</h2>
+                <p class="about__text">Снимает зажимы и уменьшает напряжение в лице.</p>
+              </div>
+            </li>
+            <li class="about__item">
+              <div class="about__image-wrap">
+                <picture>
+                  <source type="image/webp"
+                    srcset="../assets/images/about/about-shine@1x.webp 1x, ../assets/images/about/about-shine@2x.webp 2x">
+                  <img src="../assets/images/about/about-shine@1x.png" srcset="../assets/images/about/about-shine@2x.png 2x"
+                    alt="Рисунок лица женщины закрытыми глазами, вид сбоку. Налице нанесены косметические средства, от лица исходят лучи, которые изображают сияние."
+                    class="about__image">
+                </picture>
+              </div>
+              <div class="about__text-wrap">
+                <h2 class="about__subtitle">Сияние</h2>
+                <p class="about__text">Улучшает цвет лица и делает кожу свежей.</p>
+              </div>
+            </li>
+            <li class="about__item">
+              <div class="about__image-wrap">
+                <picture>
+                  <source type="image/webp"
+                    srcset="../assets/images/about/about-youth@1x.webp 1x, ../assets/images/about/about-youth@2x.webp 2x">
+                  <img src="../assets/images/about/about-youth@1x.png" srcset="../assets/images/about/about-youth@2x.png 2x"
+                    alt="Рисунок лица женщины закрытыми глазами в профиль, волосы распущены, в волосах вплетен цветок."
+                    class="about__image">
+                </picture>
+              </div>
+              <div class="about__text-wrap">
+                <h2 class="about__subtitle">Молодость</h2>
+                <p class="about__text">Стимулирует выработку коллагена и разглаживает морщины.</p>
+              </div>
+            </li>
+            <li class="about__item">
+              <div class="about__image-wrap">
+                <picture>
+                  <source type="image/webp"
+                    srcset="../assets/images/about/about-elasticity@1x.webp 1x, ../assets/images/about/about-elasticity@2x.webp 2x">
+                  <img src="../assets/images/about/about-elasticity@1x.png"
+                    srcset="../assets/images/about/about-elasticity@2x.png 2x"
+                    alt="Рисунок лица женщины закрытыми глазами в профиль, волосы распущены, на лице косметические средства."
+                    class="about__image">
+                </picture>
+              </div>
+              <div class="about__text-wrap">
+                <h2 class="about__subtitle">Эластичность</h2>
+                <p class="about__text">Повышает упругость кожи и делает её более гладкой.</p>
+              </div>
+            </li>
+            <li class="about__item">
+              <div class="about__image-wrap">
+                <picture>
+                  <source type="image/webp"
+                    srcset="../assets/images/about/about-regeneration@1x.webp 1x, ../assets/images/about/about-regeneration@2x.webp 2x">
+                  <img src="../assets/images/about/about-regeneration@1x.png"
+                    srcset="../assets/images/about/about-regeneration@2x.png 2x"
+                    alt="Рисунок лица женщины закрытыми глазами в профиль, волосы распущены, вокруг лица элементы напоминающие ветки и листья."
+                    class="about__image">
+                </picture>
+              </div>
+              <div class="about__text-wrap">
+                <h2 class="about__subtitle">Регенерация</h2>
+                <p class="about__text">Ускоряет обновление клеток, улучшая текстуру кожи.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+  
+      <section class="services-intro">
+        <div class="services-intro__container">
+          <div class="services-intro__subblock">
+            <h2 class="title">Массаж лица</h2>
+            <ul class="services-intro__list">
+              <li class="services-intro__item">
+                <picture class="services-intro__image-wrap">
+                  <source type="image/webp" srcset="../assets/images/services-intro/services-intro-1@1x.webp 1x, ../assets/images/services-intro/services-intro-1@2x.webp 2x">
+                  <img src="../assets/images/services-intro/services-intro-1@1x.jpg" srcset="../assets/images/services-intro/services-intro-1@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами и ей делают массаж лица." class="services-intro__image">
+                </picture>
+                <div class="services-intro__text-wrap">
+                  <h4 class="services-intro__text-title">
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Лифтинг-массаж омоложивающий</span>
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_small">(Лимфодренажный)</span>
+                  </h4>
+                  <ul class="services-intro__table">
+                    <li class="services-intro__table-time">40 мин</li>
+                    <li class="services-intro__table-title">Мастер</li>
+                    <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
+                    <li class="services-intro__table-price">2900 ₽</li>
+                    <li class="services-intro__table-price-top">3360 ₽</li>
+                  </ul>
+                  <div class="services-intro__button-wrap">
+                    <a class="button-link button-link_type_bg-light" href="/services.html#lifting-massage">Подробнее</a>
+                    <a class="button-link button-link_type_bg-dark">Записаться</a>
+                  </div>
+                </div>             
+              </li>
+              <li class="services-intro__item">
+                <picture class="services-intro__image-wrap">
+                  <source type="image/webp" srcset="../assets/images/services-intro/services-intro-2@1x.webp 1x, ../assets/images/services-intro/services-intro-2@2x.webp 2x">
+                  <img src="../assets/images/services-intro/services-intro-2@1x.jpg" srcset="../assets/images/services-intro/services-intro-2@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами и ей делают массаж лица." class="services-intro__image">
+                </picture>
+                <div class="services-intro__text-wrap">
+                  <h4 class="services-intro__text-title">
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Скульптурный массаж</span>
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_small">(Миофасциальный)</span>
+                  </h4>
+                  <ul class="services-intro__table">
+                    <li class="services-intro__table-time">50 мин</li>
+                    <li class="services-intro__table-title">Мастер</li>
+                    <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
+                    <li class="services-intro__table-price">3690 ₽</li>
+                    <li class="services-intro__table-price-top">3990 ₽</li>
+                  </ul>
+                  <div class="services-intro__button-wrap">
+                    <a class="button-link button-link_type_bg-light" href="/services.html#sculpture-massage">Подробнее</a>
+                    <a class="button-link button-link_type_bg-dark">Записаться</a>
+                  </div>
+                </div>
+              </li>
+              <li class="services-intro__item">
+                <picture class="services-intro__image-wrap">
+                  <source type="image/webp" srcset="../assets/images/services-intro/services-intro-3@1x.webp 1x, ../assets/images/services-intro/services-intro-3@2x.webp 2x">
+                  <img src="../assets/images/services-intro/services-intro-3@1x.jpg" srcset="../assets/images/services-intro/services-intro-3@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами и ей делают массаж лица." class="services-intro__image">
+                </picture>
+                <div class="services-intro__text-wrap">
+                  <h4 class="services-intro__text-title">
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Релакс-массаж</span>
+                  </h4>
+                  <ul class="services-intro__table">
+                    <li class="services-intro__table-time">40 мин</li>
+                    <li class="services-intro__table-title">Мастер</li>
+                    <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
+                    <li class="services-intro__table-price">2900 ₽</li>
+                    <li class="services-intro__table-price-top">3360 ₽</li>
+                  </ul>
+                  <div class="services-intro__button-wrap">
+                    <a class="button-link button-link_type_bg-light" href="/services.html#relax-massage">Подробнее</a>
+                    <a class="button-link button-link_type_bg-dark">Записаться</a>
+                  </div> 
+                </div>
               </li>
             </ul>
           </div>
-        </div>
-        <div class="footer__column">
-          <div class="footer__slogan">
-            <h5 class="footer__slogan-text">
-              <span class="footer__slogan-primary">Когда волшебство</span>
-              <span class="footer__slogan-secondary">становится реальностью</span>
-            </h5>
+          <div class="services-intro__subblock">
+            <h3 class="title">Уходы</h3>
+            <ul class="services-intro__list">
+              <li class="services-intro__item">
+                <picture class="services-intro__image-wrap">
+                  <source type="image/webp" srcset="../assets/images/services-intro/services-intro-4@1x.webp 1x, ../assets/images/services-intro/services-intro-4@2x.webp 2x">
+                  <img src="../assets/images/services-intro/services-intro-4@1x.jpg" srcset="../assets/images/services-intro/services-intro-4@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами, на лице дувушки нанесена маска для лица." class="services-intro__image">
+                </picture>
+                <div class="services-intro__text-wrap">
+                  <h4 class="services-intro__text-title">
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Лифтинг-уход от GIGI</span>
+                  </h4>
+                  <ul class="services-intro__table">
+                    <li class="services-intro__table-title">Мастер</li>
+                    <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
+                    <li class="services-intro__table-price">4900 ₽</li>
+                    <li class="services-intro__table-price-top">5400 ₽</li>
+                  </ul>
+                  <div class="services-intro__button-wrap">
+                    <a class="button-link button-link_type_bg-light" href="/services.html#lifting-care">Подробнее</a>
+                    <a class="button-link button-link_type_bg-dark">Записаться</a>
+                  </div> 
+                </div>            
+              </li>
+              <li class="services-intro__item">
+                <picture class="services-intro__image-wrap">
+                  <source type="image/webp" srcset="../assets/images/services-intro/services-intro-5@1x.webp 1x, ../assets/images/services-intro/services-intro-5@2x.webp 2x">
+                  <img src="../assets/images/services-intro/services-intro-5@1x.jpg" srcset="../assets/images/services-intro/services-intro-5@2x.jpg 2x" alt="Девушка лежит, на лице дувушки нанесена маска для лица." class="services-intro__image">
+                </picture>
+                <div class="services-intro__text-wrap">
+                  <h4 class="services-intro__text-title">
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Эликсир молодости от GIGI</span>
+                  </h4>
+                  <ul class="services-intro__table">
+                    <li class="services-intro__table-title">Мастер</li>
+                    <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
+                    <li class="services-intro__table-price">6900 ₽</li>
+                    <li class="services-intro__table-price-top">7200 ₽</li>
+                  </ul>
+                  <div class="services-intro__button-wrap">
+                    <a class="button-link button-link_type_bg-light" href="/services.html#elixir-of-youth">Подробнее</a>
+                    <a class="button-link button-link_type_bg-dark">Записаться</a>
+                  </div> 
+                </div>
+              </li>
+              <li class="services-intro__item">
+                <picture class="services-intro__image-wrap">
+                  <source type="image/webp" srcset="../assets/images/services-intro/services-intro-6@1x.webp 1x, ../assets/images/services-intro/services-intro-6@2x.webp 2x">
+                  <img src="../assets/images/services-intro/services-intro-6@1x.jpg" srcset="../assets/images/services-intro/services-intro-6@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами, на лице дувушки нанесена маска для лица." class="services-intro__image">
+                </picture>
+                <div class="services-intro__text-wrap">
+                  <h4 class="services-intro__text-title">
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Питательный уход от GIGI</span>
+                  </h4>
+                  <ul class="services-intro__table">
+                    <li class="services-intro__table-title">Мастер</li>
+                    <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
+                    <li class="services-intro__table-price">4900 ₽</li>
+                    <li class="services-intro__table-price-top">5400 ₽</li>
+                  </ul>
+                  <div class="services-intro__button-wrap">
+                    <a class="button-link button-link_type_bg-light" href="/services.html#nourishing-care">Подробнее</a>
+                    <a class="button-link button-link_type_bg-dark">Записаться</a>
+                  </div> 
+                </div>
+              </li>
+            </ul>
           </div>
-        </div>
-      </div>
-      <div class="footer__row">
-        <div class="information">
-          <input type="checkbox" class="information__input" id="information-checkbox">
-          <label for="information-checkbox" class="information__label">
-            <h4 class="information__title">Юридическая информация</h4>
-          </label>
-          <div class="information__text">
-            <div class="information__text-wrap">
-              <p class="information__text-column information__text-column_display_grid">
-                <span class="information__text-column-left">ИНН:</span>
-                <span class="information__text-column-right">2308300025</span>
-                <span class="information__text-column-left">КПП:</span>
-                <span class="information__text-column-right">230801001</span>
-                <span class="information__text-column-left">ОГРН:</span>
-                <span class="information__text-column-right">1252300005957</span>
-              </p>
-              <p class="information__text-column information__text-column_display_grid">
-                <span class="information__text-column-left">Наименование предприятия:</span>
-                <span class="information__text-column-right">ООО «ФЭЙС ЛАБ»</span>
-                <span class="information__text-column-left">Юридический адрес:</span>
-                <span class="information__text-column-right">350020, г. Краснодар, ул.Аэродромная, д.4</span>
-                <span class="information__text-column-left">Фактический адрес:</span>
-                <span class="information__text-column-right">350020, г. Краснодар, ул.Аэродромная, д.4</span>
-              </p>
-              <p class="information__text-column information__text-column_display_flex">
-                <span class="information__text-column-left">Лицензия на осуществление медицинской деятельности:</span>
-                <span class="information__text-column-right">Л123-12345-12/12345678 от 01.01.2025</span>
-              </p>
+          <div class="services-intro__subblock">
+            <h3 class="title">Косметология</h3>
+            <ul class="services-intro__list">
+              <li class="services-intro__item">
+                <picture class="services-intro__image-wrap">
+                  <source type="image/webp" srcset="../assets/images/services-intro/services-intro-7@1x.webp 1x, ../assets/images/services-intro/services-intro-7@2x.webp 2x">
+                  <img src="../assets/images/services-intro/services-intro-7@1x.jpg" srcset="../assets/images/services-intro/services-intro-7@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами, на лице дувушки нанесена маска для лица." class="services-intro__image">
+                </picture>
+                <div class="services-intro__text-wrap">
+                  <h4 class="services-intro__text-title">
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Ультразвуковая чистка</span>
+                  </h4>
+                  <ul class="services-intro__table">
+                    <li class="services-intro__table-time">60 мин</li>
+                    <li class="services-intro__table-title">Мастер</li>
+                    <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
+                    <li class="services-intro__table-price">2900 ₽</li>
+                    <li class="services-intro__table-price-top">3200 ₽</li>
+                  </ul>
+                  <div class="services-intro__button-wrap">
+                    <a class="button-link button-link_type_bg-light" href="/services.html#ultrasonic-cleaning">Подробнее</a>
+                    <a class="button-link button-link_type_bg-dark">Записаться</a>
+                  </div> 
+                </div>    
+              </li>
+              <li class="services-intro__item">
+                <picture class="services-intro__image-wrap">
+                  <source type="image/webp" srcset="../assets/images/services-intro/services-intro-8@1x.webp 1x, ../assets/images/services-intro/services-intro-8@2x.webp 2x">
+                  <img src="../assets/images/services-intro/services-intro-8@1x.jpg" srcset="../assets/images/services-intro/services-intro-8@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами, ей делают чистку лица с помощью прибора для чистки лица." class="services-intro__image">
+                </picture>
+                <div class="services-intro__text-wrap">
+                  <h4 class="services-intro__text-title">
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Комбинированная чистка</span>
+                  </h4>
+                  <ul class="services-intro__table">
+                    <li class="services-intro__table-time">90 мин</li>
+                    <li class="services-intro__table-title">Мастер</li>
+                    <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
+                    <li class="services-intro__table-price">3900 ₽</li>
+                    <li class="services-intro__table-price-top">4200 ₽</li>
+                  </ul>
+                  <div class="services-intro__button-wrap">
+                    <a class="button-link button-link_type_bg-light" href="/services.html#combined-cleaning">Подробнее</a>
+                    <a class="button-link button-link_type_bg-dark">Записаться</a>
+                  </div> 
+                </div>
+              </li>
+              <li class="services-intro__item">
+                <picture class="services-intro__image-wrap">
+                  <source type="image/webp" srcset="../assets/images/services-intro/services-intro-9@1x.webp 1x, ../assets/images/services-intro/services-intro-9@2x.webp 2x">
+                  <img src="../assets/images/services-intro/services-intro-9@1x.jpg" srcset="../assets/images/services-intro/services-intro-9@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами, ей делают чистку лица с помощью прибора для чистки лица." class="services-intro__image">
+                </picture>
+                <div class="services-intro__text-wrap">
+                  <h4 class="services-intro__text-title">
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Пилинги</span>
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_small">(Персиковый, мультипилинг, биорепил)</span>
+                  </h4>
+                  <ul class="services-intro__table">
+                    <li class="services-intro__table-time">30 мин</li>
+                    <li class="services-intro__table-title">Мастер</li>
+                    <li class="services-intro__table-title-top">Топ&#8288;-&#8288;мастер</li>
+                    <li class="services-intro__table-price">2900 ₽</li>
+                    <li class="services-intro__table-price-top">3200 ₽</li>
+                  </ul>
+                  <div class="services-intro__button-wrap">
+                    <a class="button-link button-link_type_bg-light" href="/services.html#peelings">Подробнее</a>
+                    <a class="button-link button-link_type_bg-dark">Записаться</a>
+                  </div> 
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="services-intro__subblock">
+            <h3 class="title">Массаж тела</h3>
+            <ul class="services-intro__list">
+              <li class="services-intro__item">
+                <picture class="services-intro__image-wrap">
+                  <source type="image/webp" srcset="../assets/images/services-intro/services-intro-10@1x.webp 1x, ../assets/images/services-intro/services-intro-10@2x.webp 2x">
+                  <img src="../assets/images/services-intro/services-intro-10@1x.jpg" srcset="../assets/images/services-intro/services-intro-10@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами и ей делают массаж спины." class="services-intro__image">
+                </picture>
+                <div class="services-intro__text-wrap">
+                  <h4 class="services-intro__text-title">
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Массаж тела 60 минут</span>
+                  </h4>
+                  <div class="services-intro__text-price">2900 ₽</div>
+                  <div class="services-intro__button-wrap">
+                    <a class="button-link button-link_type_bg-dark">Записаться</a>
+                  </div>  
+                </div>          
+              </li>
+              <li class="services-intro__item">
+                <picture class="services-intro__image-wrap">
+                  <source type="image/webp" srcset="../assets/images/services-intro/services-intro-11@1x.webp 1x, ../assets/images/services-intro/services-intro-11@2x.webp 2x">
+                  <img src="../assets/images/services-intro/services-intro-11@1x.jpg" srcset="../assets/images/services-intro/services-intro-11@2x.jpg 2x" alt="Девушка лежит с закрытыми глазами и ей делают массаж спины." class="services-intro__image">
+                </picture>
+                <div class="services-intro__text-wrap">
+                  <h4 class="services-intro__text-title">
+                    <span class="services-intro__text-title-row services-intro__text-title-row_size_big">Массаж тела 90 минут</span>
+                  </h4>
+                  <div class="services-intro__text-price">3690 ₽</div>
+                  <div class="services-intro__button-wrap">
+                    <a class="button-link button-link_type_bg-dark">Записаться</a>
+                  </div> 
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="services-intro__subblock">
+            <h3 class="title">Забота в удобном формате</h3>
+            <div class="services-intro__row">
+              <div class="services-intro__row-image-wrap">
+                <picture class="services-intro__row-image-container">
+                  <source type="image/webp" srcset="../assets/images/services-intro/services-intro-12@1x.webp 1x, ../assets/images/services-intro/services-intro-12@2x.webp 2x">
+                  <img src="../assets/images/services-intro/services-intro-12@1x.jpg" srcset="../assets/images/services-intro/services-intro-12@2x.jpg 2x" alt="Карточка-абонемент салона Яблочко молодильное, которую держит в руках девушка." class="services-intro__row-image">
+                </picture>
+              </div>
+              <div class="services-intro__row-text-wrap">
+                <div class="services-intro__row-text-container">
+                  <h4 class="services-intro__row-text-title">Абонемент: шаг за шагом к совершенству</h4>
+                  <p class="services-intro__row-text">Регулярный уход — залог заметного результата, глубокого расслабления и естественного сияния вашей кожи. Наши абонементы позволяют вам наслаждаться профессиональным массажем лица на постоянной основе, улучшая тонус, эластичность и общее состояние кожи.</p>
+                  <p class="services-intro__row-text">Выбирайте удобный формат и экономьте на каждом сеансе, при этом получая максимум пользы от системного ухода. Абонемент — это ваш персональный путь к молодости, свежести и гармонии. Позвольте себе роскошь заботы о себе!</p>
+                </div>
+                <div class="services-intro__row-button-wrap">
+                  <a class="button-link button-link_type_bg-light" href="/services.html#subscription">Подробнее</a>
+                  <a class="button-link button-link_type_bg-dark">Купить</a>
+                </div> 
+              </div>
+            </div>
+            <div class="services-intro__row">
+              <div class="services-intro__row-text-wrap">
+                <div class="services-intro__row-text-container">
+                  <h4 class="services-intro__row-text-title">Подарочный сертификат</h4>
+                  <p class="services-intro__row-text">Лучший подарок — это забота и приятные эмоции. Подарочный сертификат на массаж лица — это возможность подарить близким момент расслабления, красоты и ухода. Такой презент подойдет для любого случая: дня рождения, праздника или просто без повода, чтобы порадовать тех, кого вы любите.</p>
+                  <p class="services-intro__row-text">Выберите удобный номинал сертификата, и пусть ваш подарок станет настоящим наслаждением для его обладателя. Подарите близким возможность почувствовать гармонию и заботу!</p>
+                </div>
+                <div class="services-intro__row-button-wrap">
+                  <a class="button-link button-link_type_bg-dark">Купить</a>
+                </div> 
+              </div>
+              <div class="services-intro__row-image-wrap">
+                <picture class="services-intro__row-image-container">
+                  <source type="image/webp" srcset="../assets/images/services-intro/services-intro-13@1x.webp 1x, ../assets/images/services-intro/services-intro-13@2x.webp 2x">
+                  <img src="../assets/images/services-intro/services-intro-13@1x.jpg" srcset="../assets/images/services-intro/services-intro-13@2x.jpg 2x" alt="Карточка-абонемент салона Яблочко молодильное, которую держит в руках девушка." class="services-intro__row-image">
+                </picture>
+              </div>
             </div>
           </div>
         </div>
+      </section>
+  
+      <section class="questions">
+        <div class="questions__wrapper">
+          <h2 class="title">Вопросы и ответы</h2>
+          <div class="questions__container">
+            <div class="questions__column questions__column_type_image questions__column_image-position_top">
+              <picture>
+                <source type="image/webp"
+                  srcset="../assets/images/questions/questions-image-1@1x.webp 1x, ../assets/images/questions/questions-image-1@2x.webp 2x">
+                <img src="../assets/images/questions/questions-image-1@1x.jpg"
+                  srcset="../assets/images/questions/questions-image-1@2x.jpg 2x"
+                  alt="Девушка лежит с закрытыми глазами и ей делают массаж лица." class="questions__image">
+              </picture>
+            </div>
+            <div class="questions__column questions__column_type_text">
+              <div class="questions__row" id="whats">
+                <input type="checkbox" class="questions__input" id="whats-checkbox">
+                <label for="whats-checkbox" class="questions__label">
+                  <h4 class="questions__subtitle">Что такое «ЯБЛОЧКО МОЛОДИЛЬНОЕ»?</h4>
+                  <svg class="questions__label-icon">
+                    <use href="../assets/images/questions/plus-icon.svg#plus"></use>
+                  </svg>
+                </label>
+                <div class="questions__text-wrap">
+                  <div class="questions__text-container">
+                    <p class="questions__text">Это студия массажа лица, где красота сочетается с профессиональным уходом. Мы
+                      используем авторские техники, которые позволяют без инъекций и операций вернуть коже свежесть, упругость
+                      и молодость.<br>Нас выбирают, потому что наши мастера – специалисты с медицинским образованием,
+                      работающие на результат. Мы создаем индивидуальные программы, ориентированные на лифтинг, расслабление и
+                      сияние кожи. Видимый эффект уже после первого сеанса, а с каждым следующим – только лучше!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="questions__row" id="works">
+                <input type="checkbox" class="questions__input" id="works-checkbox">
+                <label for="works-checkbox" class="questions__label">
+                  <h4 class="questions__subtitle">Почему наш массаж лица действительно работает?</h4>
+                  <svg class="questions__label-icon">
+                    <use href="../assets/images/questions/plus-icon.svg#plus"></use>
+                  </svg>
+                </label>
+                <div class="questions__text-wrap">
+                  <div class="questions__text-container">
+                    <p class="questions__text">Наши методики основаны на анатомии и физиологии лица — мы не просто массируем
+                      кожу, а глубоко прорабатываем мышцы, активизируем кровообращение и лимфоток. Это помогает естественным
+                      процессам регенерации, повышает упругость кожи и разглаживает морщины. Уже после первого сеанса вы
+                      увидите результат: свежий цвет лица, тонус и легкий лифтинг. А с регулярными процедурами эффект только
+                      накапливается — без инъекций и пластики!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="questions__row" id="rejuvenation">
+                <input type="checkbox" class="questions__input" id="rejuvenation-checkbox">
+                <label for="rejuvenation-checkbox" class="questions__label">
+                  <h4 class="questions__subtitle">Действительно ли массаж лица — это альтернатива уколам красоты?</h4>
+                  <svg class="questions__label-icon">
+                    <use href="../assets/images/questions/plus-icon.svg#plus"></use>
+                  </svg>
+                </label>
+                <div class="questions__text-wrap">
+                  <div class="questions__text-container">
+                    <p class="questions__text">Да, но с нюансами. В отличие от инъекций, массаж не заполняет морщины и не
+                      блокирует мышцы, а естественным образом стимулирует выработку коллагена и эластина, укрепляет мышцы
+                      лица, улучшает кровообращение и лимфоток. Регулярный массаж помогает продлить молодость кожи, разгладить
+                      морщины, подтянуть овал лица и улучшить цвет лица. Это безопасная, натуральная и приятная альтернатива
+                      инъекциям, особенно если начинать заботиться о коже вовремя!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="questions__row" id="elixir">
+                <input type="checkbox" class="questions__input" id="elixir-checkbox">
+                <label for="elixir-checkbox" class="questions__label">
+                  <h4 class="questions__subtitle">Что такое "Эликсир молодости"?</h4>
+                  <svg class="questions__label-icon">
+                    <use href="../assets/images/questions/plus-icon.svg#plus"></use>
+                  </svg>
+                </label>
+                <div class="questions__text-wrap">
+                  <div class="questions__text-container">
+                    <p class="questions__text">Это не просто уход — это ритуал обновления вашей кожи! "Эликсир молодости"
+                      сочетает в себе глубокий массаж, активные космецевтические компоненты и профессиональные техники
+                      омоложения. Он стимулирует выработку коллагена, улучшает кровообращение, насыщает кожу влагой и
+                      питательными веществами. После процедуры лицо становится подтянутым, свежим и сияющим — без инъекций, но
+                      с реальным лифтинг-эффектом. Почувствуйте, как ваша кожа оживает!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="questions__row" id="gigi">
+                <input type="checkbox" class="questions__input" id="gigi-checkbox">
+                <label for="gigi-checkbox" class="questions__label">
+                  <h4 class="questions__subtitle">Почему наши специалисты работают на израильской космецевтике GIGI?</h4>
+                  <svg class="questions__label-icon">
+                    <use href="../assets/images/questions/plus-icon.svg#plus"></use>
+                  </svg>
+                </label>
+                <div class="questions__text-wrap">
+                  <div class="questions__text-container">
+                    <p class="questions__text">Мы выбираем лучшее для вашей кожи! GIGI — это космецевтика с медицинским
+                      подходом, в составе которой мощные активные компоненты в высоких концентрациях. Она эффективно работает
+                      на клеточном уровне, усиливает результаты массажа и дает стойкий эффект омоложения. Благодаря GIGI кожа
+                      быстрее обновляется, становится упругой, увлажненной и сияющей. Это не просто уход — это наука о
+                      молодости вашей кожи!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="questions__row" id="angiofarm">
+                <input type="checkbox" class="questions__input" id="angiofarm-checkbox">
+                <label for="angiofarm-checkbox" class="questions__label">
+                  <h4 class="questions__subtitle">Почему мы рекомендуем космецевтику ANGIOFARM для домашнего ухода?</h4>
+                  <svg class="questions__label-icon">
+                    <use href="../assets/images/questions/plus-icon.svg#plus"></use>
+                  </svg>
+                </label>
+                <div class="questions__text-wrap">
+                  <div class="questions__text-container">
+                    <p class="questions__text">Продлите эффект профессиональных процедур с космецевтикой ANGIOFARM! Средства
+                      бренда работают на глубоком уровне: улучшают микроциркуляцию, укрепляют сосуды, ускоряют регенерацию и
+                      поддерживают молодость кожи. Благодаря активным формулам, разработанным с учётом научных исследований,
+                      ваш ежедневный уход станет эффективным и результативным. Красота и здоровье кожи — теперь в ваших руках!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="questions__column questions__column_type_image questions__column_image-position_bottom">
+              <picture>
+                <source type="image/webp"
+                  srcset="../assets/images/questions/questions-image-2@1x.webp 1x, ../assets/images/questions/questions-image-2@2x.webp 2x">
+                <img src="../assets/images/questions/questions-image-2@1x.jpg"
+                  srcset="../assets/images/questions/questions-image-2@2x.jpg 2x"
+                  alt="Девушка лежит с закрытыми глазами и ей делают массаж лица." class="questions__image">
+              </picture>
+            </div>
+          </div>
+        </div>    
+      </section>
+  
+      <section class="team">
+        <h2 class="title">Наша команда</h2>
+        <div class="team__slider swiper">
+          <ul class="team__slider-list swiper-wrapper">
+            <li class="team__slider-item swiper-slide">
+              <div class="team__slide">
+                <img src="../assets/images/team/man-1.svg" alt="Нарисованный аватар мужчины." class="team__slide-image">
+                <h3 class="team__slide-title">Александр Морозов</h3>
+                <h4 class="team__slide-subtitle">Мастер массажист</h4>
+                <p class="team__slide-text">Опытный мастер, владеющий различными техниками массажа лица для омоложения и расслабления.</p>
+              </div>
+            </li>
+            <li class="team__slider-item swiper-slide">
+              <div class="team__slide">
+                <img src="../assets/images/team/woman-1.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
+                <h3 class="team__slide-title">Анна Соколова</h3>
+                <h4 class="team__slide-subtitle">Мастер массажист</h4>
+                <p class="team__slide-text">Помогает сохранить молодость и сияние кожи с помощью профессионального массажа.</p>
+              </div>
+            </li>
+            <li class="team__slider-item swiper-slide">
+              <div class="team__slide">
+                <img src="../assets/images/team/woman-2.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
+                <h3 class="team__slide-title">Мария Беляева</h3>
+                <h4 class="team__slide-subtitle">Косметолог</h4>
+                <p class="team__slide-text">Специалист по уходу за кожей лица, восстанавливает её тонус и свежесть.</p>
+              </div>
+            </li>
+            <li class="team__slider-item swiper-slide">
+              <div class="team__slide">
+                <img src="../assets/images/team/woman-3.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
+                <h3 class="team__slide-title">Екатерина Орлова</h3>
+                <h4 class="team__slide-subtitle">Мастер массажист</h4>
+                <p class="team__slide-text">Создаёт комфорт и гармонию с помощью массажных техник, улучшающих состояние кожи.</p>
+              </div>
+            </li>
+            <li class="team__slider-item swiper-slide">
+              <div class="team__slide">
+                <img src="../assets/images/team/man-2.svg" alt="Нарисованный аватар мужчины." class="team__slide-image">
+                <h3 class="team__slide-title">Игорь Смирнов</h3>
+                <h4 class="team__slide-subtitle">Мастер массажист</h4>
+                <p class="team__slide-text">Дарит расслабление и красоту с помощью эффективных массажных методик.</p>
+              </div>
+            </li>
+            <li class="team__slider-item swiper-slide">
+              <div class="team__slide">
+                <img src="../assets/images/team/woman-4.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
+                <h3 class="team__slide-title">Ольга Васильева</h3>
+                <h4 class="team__slide-subtitle">Косметолог</h4>
+                <p class="team__slide-text">Косметолог, который заботится о здоровье и молодости вашей кожи.</p>
+              </div>
+            </li>
+            <li class="team__slider-item swiper-slide">
+              <div class="team__slide">
+                <img src="../assets/images/team/woman-5.svg" alt="Нарисованный аватар женщины." class="team__slide-image">
+                <h3 class="team__slide-title">Дарья Кузнецова</h3>
+                <h4 class="team__slide-subtitle">Мастер массажист</h4>
+                <p class="team__slide-text">Поможет снять напряжение, улучшить кровообращение и придать лицу свежий вид.</p>
+              </div>
+            </li>
+          </ul>
+          <div class="team__slider-button-wrap">
+            <button class="button-arrow team__slider-button team__slider-button_type_prev">
+              <svg class="button-arrow__image">
+                <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-prev"></use>
+              </svg>
+            </button>
+            <button class="button-arrow team__slider-button team__slider-button_type_next">
+              <svg class="button-arrow__image">
+                <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-next"></use>
+              </svg>
+            </button>
+          </div>        
+        </div>
+      </section>
+  
+      <a href="#" class="button-appointment" target="_blank">
+        <div class="button-appointment__wrapper">
+          <div class="button-appointment__container">
+            <picture class="button-appointment__apple-image-wrap">
+              <source type="image/webp"
+                srcset="../assets/images/button-appointment/apple@1x.webp 1x, ../assets/images/button-appointment/apple@2x.webp 2x">
+              <img src="../assets/images/button-appointment/apple@1x.png"
+                srcset="../assets/images/button-appointment/apple@2x.png 2x"
+                alt="Зеленое яблоко." class="button-appointment__apple-image">
+            </picture>
+          </div>
+          <div class="button-appointment__text-wrap">
+            <span class="button-appointment__text">Записаться</span>
+            <span class="button-appointment__text">онлайн</span>
+          </div>
+        </div>
+      </a>
+  
+    </main>
+  
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__row footer__row_type_one">
+          <div class="footer__column">
+            <a href="/" class="logo">
+              <img src="../assets/images/logo/logo.svg" alt="Логотип студии массажа лица и тела Яблочко Молодильное"
+                class="logo__image">
+            </a>
+          </div>
+          <div class="footer__column">
+            <div class="social">
+              <h4 class="social__title">Мы в социальных сетях</h4>
+              <ul class="social__list">
+                <li class="social__item">
+                  <a href="https://vk.com/yamolodoe" class="social__link" target="_blank">
+                    <svg class="social__image">
+                      <use href="../assets/images/social/social-icons.svg#vk"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link" target="_blank">
+                    <svg class="social__image">
+                      <use href="../assets/images/social/social-icons.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="https://wa.me/79933112406" class="social__link" target="_blank">
+                    <svg class="social__image">
+                      <use href="../assets/images/social/social-icons.svg#whatsapp"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="https://t.me/yamolodoe" class="social__link" target="_blank">
+                    <svg class="social__image">
+                      <use href="../assets/images/social/social-icons.svg#telegram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link" target="_blank">
+                    <svg class="social__image">
+                      <use href="../assets/images/social/social-icons.svg#dzen"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__column">
+            <div class="footer__slogan">
+              <h5 class="footer__slogan-text">
+                <span class="footer__slogan-primary">Когда волшебство</span>
+                <span class="footer__slogan-secondary">становится реальностью</span>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="footer__row">
+          <div class="information">
+            <input type="checkbox" class="information__input" id="information-checkbox">
+            <label for="information-checkbox" class="information__label">
+              <h4 class="information__title">Юридическая информация</h4>
+            </label>
+            <div class="information__text">
+              <div class="information__text-wrap">
+                <p class="information__text-column information__text-column_display_grid">
+                  <span class="information__text-column-left">ИНН:</span>
+                  <span class="information__text-column-right">2308300025</span>
+                  <span class="information__text-column-left">КПП:</span>
+                  <span class="information__text-column-right">230801001</span>
+                  <span class="information__text-column-left">ОГРН:</span>
+                  <span class="information__text-column-right">1252300005957</span>
+                </p>
+                <p class="information__text-column information__text-column_display_grid">
+                  <span class="information__text-column-left">Наименование предприятия:</span>
+                  <span class="information__text-column-right">ООО «ФЭЙС ЛАБ»</span>
+                  <span class="information__text-column-left">Юридический адрес:</span>
+                  <span class="information__text-column-right">350020, г. Краснодар, ул.Аэродромная, д.4</span>
+                  <span class="information__text-column-left">Фактический адрес:</span>
+                  <span class="information__text-column-right">350020, г. Краснодар, ул.Аэродромная, д.4</span>
+                </p>
+                <p class="information__text-column information__text-column_display_flex">
+                  <span class="information__text-column-left">Лицензия на осуществление медицинской деятельности:</span>
+                  <span class="information__text-column-right">Л123-12345-12/12345678 от 01.01.2025</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__row">
+          <div class="footer__column">
+            <a href="#" class="footer__link" target="_blank">Политика конфиденциальности</a>
+          </div>
+          <div class="footer__column">
+            <a href="#" class="footer__link" target="_blank">Пользовательское соглашение</a>
+          </div>
+          <div class="footer__column">
+            <span class="footer__copyright">&copy; 2025. Все права защищены</span>
+          </div>
+        </div>
       </div>
-      <div class="footer__row">
-        <div class="footer__column">
-          <a href="#" class="footer__link" target="_blank">Политика конфиденциальности</a>
-        </div>
-        <div class="footer__column">
-          <a href="#" class="footer__link" target="_blank">Пользовательское соглашение</a>
-        </div>
-        <div class="footer__column">
-          <span class="footer__copyright">&copy; 2025. Все права защищены</span>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
+  
 
 </body>
 </html>
