@@ -134,11 +134,11 @@ module.exports = (env) => {
         files: [
           {
             match: /.*\.woff2$/,
-            attributes: { as: 'font', type: '/font/woff2' },
+            attributes: { as: 'font', type: 'font/woff2' },
           },
           {
             match: /.*\.woff$/,
-            attributes: { as: 'font', type: '/font/woff' },
+            attributes: { as: 'font', type: 'font/woff' },
           },
         ],
       }),
