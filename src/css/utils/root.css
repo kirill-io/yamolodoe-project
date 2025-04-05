@@ -20,4 +20,12 @@
   .root:has(.header__menu-input:checked) {
     overflow: hidden;
   }
+
+  .root:has(.header__menu-input:checked) .header {
+    padding-bottom: 15px;
+  }
+
+  .root:has(.noscript) .content::before {
+    height: 0;
+  }
 }
