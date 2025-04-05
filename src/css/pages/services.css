@@ -9,6 +9,12 @@
 @import url('../blocks/contacts/__text/contacts__text.css');
 @import url('../blocks/contacts/__address/contacts__address.css');
 @import url('../blocks/title/title.css');
+@import url('../blocks/button-appointment/button-appointment.css');
+@import url('../blocks/button-appointment/__wrapper/button-appointment__wrapper.css');
+@import url('../blocks/button-appointment/__container/button-appointment__container.css');
+@import url('../blocks/button-appointment/__apple-image-wrap/button-appointment__apple-image-wrap.css');
+@import url('../blocks/button-appointment/__apple-image/button-appointment__apple-image.css');
+@import url('../blocks/button-appointment/__text-wrap/button-appointment__text-wrap.css');
 @import url('../blocks/social/social.css');
 @import url('../blocks/social/__title/social__title.css');
 @import url('../blocks/social/__list/social__list.css');
@@ -49,14 +55,6 @@
 @import url('../blocks/services/__top-price/services__top-price.css');
 @import url('../blocks/services/__time/services__time.css');
 @import url('../blocks/services/__text/services__text.css');
-@import url('../blocks/button-appointment/button-appointment.css');
-@import url('../blocks/button-appointment/__mandala-image-wrap/button-appointment__mandala-image-wrap.css');
-@import url('../blocks/button-appointment/__mandala-image/button-appointment__mandala-image.css');
-@import url('../blocks/button-appointment/__wrapper/button-appointment__wrapper.css');
-@import url('../blocks/button-appointment/__container/button-appointment__container.css');
-@import url('../blocks/button-appointment/__apple-image-wrap/button-appointment__apple-image-wrap.css');
-@import url('../blocks/button-appointment/__apple-image/button-appointment__apple-image.css');
-@import url('../blocks/button-appointment/__text-wrap/button-appointment__text-wrap.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__row/footer__row.css');
