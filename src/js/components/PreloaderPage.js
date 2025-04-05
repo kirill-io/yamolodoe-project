@@ -10,18 +10,14 @@ export default class PreloaderPage {
   }
 
   _pageLoadHandler() {
-    this._preloader.animate(
-      { opacity: [1, 0] },
-      { duration: 500, easing: 'ease-out' },
-    ).onfinish = () => {
+    window.addEventListener('load', () => {
       this._preloader.style.display = 'none';
-    };
-
-    this._content.style.display = 'block';
-    this._content.animate(
-      { opacity: ['0', '1'] },
-      { duration: 1000, easing: 'ease-in' },
-    );
+      this._content.style.display = 'block';
+      this._content.animate(
+        { opacity: ['0', '1'] },
+        { duration: 1000, easing: 'ease-in' },
+      );
+    });
   }
 
   static init({ preloaderSelector, contentSelector }) {
