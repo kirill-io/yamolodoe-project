@@ -1,3 +1,8 @@
+export const preloaderConfig = {
+  preloaderSelector: '#preloader',
+  contentSelector: '#content',
+};
+
 export const headerConfig = {
   headerSelector: '.header',
   checkboxSelector: '#menu-checkbox',

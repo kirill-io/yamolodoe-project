@@ -9,9 +9,10 @@ import {
   Pagination,
   EffectCoverflow,
 } from 'swiper/modules';
-import * as constants from '../utils/constants';
+import PreloaderPage from '../components/PreloaderPage';
 import TransitionFromSliderToCheckbox from '../components/TransitionFromSliderToCheckbox';
 import StickyHeader from '../components/StickyHeader';
+import * as constants from '../utils/constants';
 
 const {
   introContainerSelector,
@@ -25,6 +26,8 @@ const {
   teamButtonPrevSelector,
   teamButtonNextSelector,
 } = constants.teamSliderConfig;
+
+new PreloaderPage(PreloaderPage.init(constants.preloaderConfig));
 
 new Swiper(introContainerSelector, {
   modules: [Autoplay, Navigation, Pagination],
