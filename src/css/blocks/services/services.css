@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   font: var(--secondary-font-size-l) var(--secondary-font-regular);
-  gap: 40px;
+  gap: 50px;
   position: relative;
   scroll-margin-top: 150px;
 }
