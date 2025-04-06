@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   font: var(--secondary-font-size-l) var(--secondary-font-regular);
-  gap: 40px;
+  gap: 50px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -14,7 +14,6 @@
 
 @media screen and (max-width: 767px) {
   .contact-section {
-    gap: 20px;
     font-size: var(--secondary-font-size-m);
   }
 }

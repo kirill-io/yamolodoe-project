@@ -2,17 +2,11 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 50px;
 }
 
 @media screen and (max-width: 1279px) {
   .map {
     gap: 30px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .map {
-    gap: 20px;
   }
 }
