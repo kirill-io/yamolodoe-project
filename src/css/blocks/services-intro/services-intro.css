@@ -4,11 +4,13 @@
   display: flex;
   flex-direction: column;
   font: var(--secondary-font-size-l) var(--secondary-font-regular);
+  margin-bottom: 70px;
 }
 
 @media screen and (max-width: 1279px) {
   .services-intro {
     font-size: var(--secondary-font-size-s);
+    margin-bottom: 50px;
   }
 }
 

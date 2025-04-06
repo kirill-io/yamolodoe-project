@@ -4,10 +4,12 @@
   display: flex;
   flex-direction: column;
   font: var(--secondary-font-size-xl) var(--secondary-font-regular);
+  margin-bottom: 70px;
 }
 
 @media screen and (max-width: 1279px) {
   .intro {
     font-size: var(--secondary-font-size-m);
+    margin-bottom: 50px;
   }
 }

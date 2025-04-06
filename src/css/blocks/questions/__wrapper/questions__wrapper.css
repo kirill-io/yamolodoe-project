@@ -1,7 +1,7 @@
 .questions__wrapper {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 50px;
   max-width: 1780px;
   width: 100%;
 }
@@ -16,11 +16,5 @@
   .questions__wrapper {
     gap: 30px;
     width: 95%;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .questions__wrapper {
-    gap: 20px;
   }
 }

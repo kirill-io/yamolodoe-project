@@ -2,10 +2,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 40px;
-}
-
-.services-intro__subblock:last-child {
   gap: 50px;
 }
 

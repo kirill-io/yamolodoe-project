@@ -18,9 +18,3 @@
     width: 95%;
   }
 }
-
-@media screen and (max-width: 767px) {
-  .services-intro__container {
-    gap: 40px;
-  }
-}
