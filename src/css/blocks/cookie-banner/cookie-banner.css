@@ -1,0 +1,35 @@
+.cookie-banner {
+  background: var(--primary-bg-color);
+  border-radius: 20px;
+  border: 1px solid var(--primary-font-color);
+  box-shadow: var(--primary-font-color) 0 7px 29px 0;
+  box-sizing: border-box;
+  color: var(--primary-font-color);
+  display: flex;
+  flex-direction: column;
+  font: var(--secondary-font-size-xl) var(--secondary-font-regular);
+  gap: 20px;
+  inset: auto 2vw 2vw;
+  opacity: 0;
+  padding: 30px 50px;
+  position: fixed;
+  transform: translateY(calc(2vw + 100%));
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  z-index: 200;
+}
+
+@media screen and (max-width: 1279px) {
+  .cookie-banner {
+    box-shadow: var(--primary-font-color) 0 7px 20px 0;
+    font-size: var(--secondary-font-size-l);
+    padding: 20px 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cookie-banner  {
+    box-shadow: var(--primary-font-color) 0 7px 15px 0;
+    font-size: var(--secondary-font-size-s);
+    padding: 10px 15px;
+  }
+}

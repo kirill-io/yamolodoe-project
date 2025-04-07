@@ -25,3 +25,10 @@ export const teamSliderConfig = {
   teamButtonPrevSelector: '.team__slider-button_type_prev',
   teamButtonNextSelector: '.team__slider-button_type_next',
 };
+
+export const cookieBannerConfig = {
+  cookieBannerSelector: '.cookie-banner',
+  cookieButtonSelector: '.cookie-banner__button',
+  cookieBannerHiddenSelector: 'cookie-banner_hidden',
+  cookieBannerVisibleSelector: 'cookie-banner_visible',
+};

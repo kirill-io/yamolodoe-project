@@ -1,0 +1,15 @@
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(calc(2vw + 100%));
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cookie-banner_visible {
+  animation: slide-up 0.6s ease forwards;
+}

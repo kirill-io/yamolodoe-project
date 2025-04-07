@@ -29,6 +29,9 @@
 @import url('../blocks/information/__text-column/information__text-column.css');
 @import url('../blocks/information/__text-column-left/information__text-column-left.css');
 @import url('../blocks/information/__text-column-right/information__text-column-right.css');
+@import url('../blocks/cookie-banner/cookie-banner.css');
+@import url('../blocks/cookie-banner/__text/cookie-banner__text.css');
+@import url('../blocks/cookie-banner/__button/cookie-banner__button.css');
 @import url('../blocks/page-content/page-content.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__container/header__container.css');
@@ -82,3 +85,5 @@
 @import url('../blocks/services/__button-link/_visible/services__button-link_visible_mobile.css');
 @import url('../blocks/button-appointment/_height-big/button-appointment_height-big.css');
 @import url('../blocks/footer/__row/_type/footer__row_type_one.css');
+@import url('../blocks/cookie-banner/_hidden/cookie-banner_hidden.css');
+@import url('../blocks/cookie-banner/_visible/cookie-banner_visible.css');

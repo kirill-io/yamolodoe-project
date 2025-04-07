@@ -10,6 +10,7 @@ import {
   EffectCoverflow,
 } from 'swiper/modules';
 import PreloaderPage from '../components/PreloaderPage';
+import CookieBanner from '../components/CookieBanner';
 import TransitionFromSliderToCheckbox from '../components/TransitionFromSliderToCheckbox';
 import StickyHeader from '../components/StickyHeader';
 import * as constants from '../utils/constants';
@@ -28,6 +29,8 @@ const {
 } = constants.teamSliderConfig;
 
 new PreloaderPage(PreloaderPage.init(constants.preloaderConfig));
+
+new CookieBanner(constants.cookieBannerConfig);
 
 new Swiper(introContainerSelector, {
   modules: [Autoplay, Navigation, Pagination],
@@ -93,13 +96,3 @@ new Swiper(teamContainerSelector, {
     prevEl: teamButtonNextSelector,
   },
 });
-
-window.onload = () => {
-  const content = document.getElementById('content');
-  document.getElementById('preloader').style.display = 'none';
-  content.style.display = 'block';
-  content.animate(
-    { opacity: ['0', '1'] },
-    { duration: 1000, easing: 'ease-in' },
-  );
-};

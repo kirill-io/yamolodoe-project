@@ -1,0 +1,15 @@
+@keyframes slide-down {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(calc(2vw + 100%));
+  }
+}
+
+.cookie-banner_hidden {
+  animation: slide-down 0.6s ease forwards;
+}
