@@ -1,14 +1,14 @@
-.content_bg-type_privacy-policy {
-  background: url('../../../../assets/images/content/content-bg-left.svg') left 198% / 50% no-repeat,
-              url('../../../../assets/images/content/content-bg-right.svg') right -100% / 50% no-repeat;
+/* .content_bg-type_privacy-policy {
+  background: url('../../../../assets/images/content/content-bg-left.svg') left 810% / 50% no-repeat,
+              url('../../../../assets/images/content/content-bg-right.svg') right -698% / 50% no-repeat;
 }
 
 @media screen and (max-width: 2880px) {
   .content_bg-type_privacy-policy {
-    background: url('../../../../assets/images/content/content-bg-left.svg') left 810% / 50% no-repeat,
-                url('../../../../assets/images/content/content-bg-right.svg') right -698% / 50% no-repeat;
+    background: url('../../../../assets/images/content/content-bg-left.svg') left 198% / 50% no-repeat,
+                url('../../../../assets/images/content/content-bg-right.svg') right -100% / 50% no-repeat;
   }
-}
+} */
 
 @media screen and (max-width: 1920px) {
   .content_bg-type_privacy-policy {

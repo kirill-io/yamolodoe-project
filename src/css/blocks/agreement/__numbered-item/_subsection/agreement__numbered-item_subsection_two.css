@@ -1,0 +1,8 @@
+.agreement__numbered-item_subsection_two {
+  display: block;
+}
+
+.agreement__numbered-item_subsection_two::before {
+  counter-increment: subsection-two; 
+  content: "2." counter(subsection-two) ". ";
+}
