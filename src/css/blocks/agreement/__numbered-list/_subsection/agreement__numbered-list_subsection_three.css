@@ -1,0 +1,4 @@
+.agreement__numbered-list_subsection_three {
+  counter-reset: subsection-three;
+  list-style-type: none;
+}

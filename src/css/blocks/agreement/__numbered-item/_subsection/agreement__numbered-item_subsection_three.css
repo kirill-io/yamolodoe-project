@@ -1,0 +1,8 @@
+.agreement__numbered-item_subsection_three {
+  display: block;
+}
+
+.agreement__numbered-item_subsection_three::before {
+  counter-increment: subsection-three; 
+  content: "3." counter(subsection-three) ". ";
+}

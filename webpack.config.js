@@ -16,6 +16,8 @@ module.exports = (env) => {
     { chunks: ['index'], page: 'index.html', template: path.resolve(__dirname, 'src', 'pages', 'index.html') },
     { chunks: ['services'], page: 'services.html', template: path.resolve(__dirname, 'src', 'pages', 'services.html') },
     { chunks: ['contacts'], page: 'contacts.html', template: path.resolve(__dirname, 'src', 'pages', 'contacts.html') },
+    { chunks: ['privacy-policy'], page: 'privacy-policy.html', template: path.resolve(__dirname, 'src', 'pages', 'privacy-policy.html') },
+    { chunks: ['user-agreement'], page: 'user-agreement.html', template: path.resolve(__dirname, 'src', 'pages', 'user-agreement.html') },
   ];
 
   const htmlPlugins = pages.map((page) => new HtmlWebpackPlugin({
@@ -101,6 +103,8 @@ module.exports = (env) => {
       index: path.resolve(__dirname, 'src', 'js', 'pages', 'index.js'),
       services: path.resolve(__dirname, 'src', 'js', 'pages', 'services.js'),
       contacts: path.resolve(__dirname, 'src', 'js', 'pages', 'contacts.js'),
+      'privacy-policy': path.resolve(__dirname, 'src', 'js', 'pages', 'privacy-policy.js'),
+      'user-agreement': path.resolve(__dirname, 'src', 'js', 'pages', 'user-agreement.js'),
     },
     output: {
       path: path.resolve(__dirname, 'build'),

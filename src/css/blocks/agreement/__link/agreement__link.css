@@ -1,0 +1,31 @@
+.agreement__link {
+  color: inherit;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+
+.agreement__link::before {
+  background: var(--primary-font-color);
+  bottom: 0;
+  content: '';
+  height: 1px;
+  position: absolute;
+  right: 0;
+  transition: width .3s ease-out;
+  width: 0;
+}
+
+@media (hover: hover) {
+  .agreement__link:hover::before {
+    left: 0;
+    width: 100%;
+  }
+}
+
+@media (hover: none) {
+  .agreement__link:active::before {
+    left: 0;
+    width: 100%;
+  }
+}

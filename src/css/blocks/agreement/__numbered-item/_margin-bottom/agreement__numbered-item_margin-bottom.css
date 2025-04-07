@@ -1,0 +1,9 @@
+.agreement__numbered-item_margin-bottom {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1279px) {
+  .agreement__numbered-item_margin-bottom {
+    margin-bottom: 15px;
+  }
+}

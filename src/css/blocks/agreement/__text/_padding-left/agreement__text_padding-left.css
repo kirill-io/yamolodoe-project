@@ -1,0 +1,9 @@
+.agreement__text_padding-left {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .agreement__text_padding-left {
+    padding-left: 10px;
+  }
+}

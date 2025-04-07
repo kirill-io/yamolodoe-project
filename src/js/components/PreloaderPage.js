@@ -12,7 +12,7 @@ export default class PreloaderPage {
   _pageLoadHandler() {
     window.addEventListener('load', () => {
       this._preloader.style.display = 'none';
-      this._content.style.display = 'block';
+      this._content.style.display = 'flex';
       this._content.animate(
         { opacity: ['0', '1'] },
         { duration: 1000, easing: 'ease-in' },

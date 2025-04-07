@@ -1,0 +1,10 @@
+.agreement__bulleted-list {
+  list-style: disc;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .agreement__bulleted-list {
+    padding-left: 25px;
+  }
+}

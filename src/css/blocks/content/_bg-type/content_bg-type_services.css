@@ -1,7 +1,6 @@
 .content_bg-type_services {
   background: url('../../../../assets/images/content/content-bg-left.svg') left -1% / 50% no-repeat,
               url('../../../../assets/images/content/content-bg-right.svg') right 270% / 50% no-repeat;
-  gap: 50px;
 }
 
 @media screen and (max-width: 2880px) {
@@ -27,7 +26,6 @@
                 url('../../../../assets/images/content/content-bg-left.svg') left 53% / 50% no-repeat,
                 url('../../../../assets/images/content/content-bg-right.svg') right 80% / 50% no-repeat,
                 url('../../../../assets/images/content/content-bg-left.svg') left 107% / 50% no-repeat;
-    gap: 40px;
   }
 }
 
@@ -47,9 +45,5 @@
                 url('../../../../assets/images/content/content-bg-right.svg') right 89% / 50% no-repeat,
                 url('../../../../assets/images/content/content-bg-left.svg') left 97% / 50% no-repeat,
                 url('../../../../assets/images/content/content-bg-right.svg') right 105% / 50% no-repeat;
-  }
-
-  .content::before {
-    margin-bottom: 0;
   }
 }

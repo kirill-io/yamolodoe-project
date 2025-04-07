@@ -1,0 +1,9 @@
+.agreement__block {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .agreement__block {
+    padding-left: 10px;
+  }
+}

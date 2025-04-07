@@ -1,0 +1,20 @@
+.agreement__container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 1780px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1919px) {
+  .agreement__container {
+    width: 92.71%;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .agreement__container {
+    gap: 30px;
+    width: 95%;
+  }
+}

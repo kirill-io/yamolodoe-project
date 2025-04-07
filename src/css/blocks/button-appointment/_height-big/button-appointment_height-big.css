@@ -1,0 +1,7 @@
+.button-appointment_height-big {
+  padding-bottom: 130px;
+}
+
+.button-appointment_height-big .button-appointment__link {
+  bottom: 15%;
+}

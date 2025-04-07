@@ -1,0 +1,9 @@
+.agreement__text_margin-bottom {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1279px) {
+  .agreement__text_margin-bottom {
+    margin-bottom: 15px;
+  }
+}

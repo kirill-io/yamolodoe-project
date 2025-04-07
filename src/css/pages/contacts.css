@@ -29,6 +29,7 @@
 @import url('../blocks/information/__text-column/information__text-column.css');
 @import url('../blocks/information/__text-column-left/information__text-column-left.css');
 @import url('../blocks/information/__text-column-right/information__text-column-right.css');
+@import url('../blocks/page-content/page-content.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__container/header__container.css');
 @import url('../blocks/header/__column/header__column.css');

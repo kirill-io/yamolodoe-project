@@ -1,0 +1,15 @@
+.agreement__numbered-item {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.agreement__numbered-item::before {
+  counter-increment: numbered; 
+  content: counter(numbered) ". ";
+}
+
+@media screen and (max-width: 1279px) {
+  .agreement__numbered-item {
+    margin-bottom: 5px;
+  }
+}
