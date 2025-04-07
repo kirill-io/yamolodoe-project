@@ -73,7 +73,7 @@
 @import url('../blocks/information/__text-column/_display/information__text-column_display_grid.css');
 @import url('../blocks/information/__text-column/_display/information__text-column_display_flex.css');
 @import url('../blocks/header/__menu-item/_active/header__menu-item_active.css');
-@import url('../blocks/content/_bg-type/content_bg-type_services.css');
+@import url('../blocks/content/_bg-type/content_bg-type_left.css');
 @import url('../blocks/services/__master-type/_visible/services__master-type_visible_desktop.css');
 @import url('../blocks/services/__master-type/_visible/services__master-type_visible_mobile.css');
 @import url('../blocks/services/_no-block-master/services_no-block-master.css');
