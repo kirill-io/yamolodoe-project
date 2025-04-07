@@ -2,7 +2,7 @@
   display: grid;
   gap: 5px 15px;
   grid-template-columns: repeat(3, minmax(min-content, 1fr));
-  justify-items: end;
+  justify-items: center;
   list-style: none;
   margin: 0 0 20px;
   padding: 0;

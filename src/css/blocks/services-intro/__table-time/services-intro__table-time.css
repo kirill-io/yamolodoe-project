@@ -1,12 +1,12 @@
 .services-intro__table-time {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
-  place-self: end start;
 }
 
 @media screen and (max-width: 1279px) {
   .services-intro__table-time {
     font-size: var(--secondary-font-size-xxs);
+    place-self: center;
   }
 }
 
