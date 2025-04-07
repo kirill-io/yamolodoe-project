@@ -16,6 +16,6 @@
 
 @media screen and (max-width: 767px) {
   .agreement {
-    font-size: var(--secondary-font-size-l);
+    font-size: var(--secondary-font-size-m);
   }
 }

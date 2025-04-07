@@ -1,6 +1,5 @@
 .information__title {
   font: var(--primary-font-size-s) var(--primary-font-regular);
-  margin: 0;
   text-transform: uppercase;
 }
 

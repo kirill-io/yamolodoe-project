@@ -69,17 +69,7 @@
 @import url('../blocks/content/_bg-type/content_bg-type_left.css');
 @import url('../blocks/agreement/__text/_margin-bottom/agreement__text_margin-bottom.css');
 @import url('../blocks/agreement/__numbered-item/_margin-bottom/agreement__numbered-item_margin-bottom.css');
-@import url('../blocks/agreement/__numbered-item/_last-child/agreement__numbered-item_last-child.css');
 @import url('../blocks/agreement/__numbered-list/_padding-left/agreement__numbered-list_padding-left.css');
-@import url('../blocks/agreement/__numbered-list/_subsection/agreement__numbered-list_subsection_one.css');
-@import url('../blocks/agreement/__numbered-item/_subsection/agreement__numbered-item_subsection_one.css');
-@import url('../blocks/agreement/__numbered-list/_subsection/agreement__numbered-list_subsection_three.css');
-@import url('../blocks/agreement/__numbered-item/_subsection/agreement__numbered-item_subsection_three.css');
-@import url('../blocks/agreement/__numbered-list/_subsection/agreement__numbered-list_subsection_four.css');
-@import url('../blocks/agreement/__numbered-item/_subsection/agreement__numbered-item_subsection_four.css');
-@import url('../blocks/agreement/__numbered-list/_subsection/agreement__numbered-list_subsection_six.css');
-@import url('../blocks/agreement/__numbered-item/_subsection/agreement__numbered-item_subsection_six.css');
-@import url('../blocks/agreement/__text/_padding-left/agreement__text_padding-left.css');
 @import url('../blocks/button-appointment/_height-big/button-appointment_height-big.css');
 @import url('../blocks/footer/__row/_type/footer__row_type_one.css');
 @import url('../blocks/cookie-banner/_hidden/cookie-banner_hidden.css');

@@ -1,8 +1,0 @@
-.agreement__numbered-item_subsection_six {
-  display: block;
-}
-
-.agreement__numbered-item_subsection_six::before {
-  counter-increment: subsection-six; 
-  content: "6." counter(subsection-six) ". ";
-}
