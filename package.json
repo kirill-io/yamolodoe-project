@@ -35,6 +35,7 @@
     "@babel/preset-env": "^7.26.0",
     "@principalstudio/html-webpack-inject-preload": "^1.2.7",
     "babel-loader": "^9.2.1",
+    "copy-webpack-plugin": "^13.0.0",
     "css-loader": "^7.1.2",
     "css-minimizer-webpack-plugin": "^7.0.2",
     "eslint": "^8.57.1",

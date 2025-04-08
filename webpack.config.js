@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackInjectPreload = require('@principalstudio/html-webpack-inject-preload');
+const CopyPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
@@ -144,6 +145,11 @@ module.exports = (env) => {
             match: /.*\.woff$/,
             attributes: { as: 'font', type: 'font/woff' },
           },
+        ],
+      }),
+      new CopyPlugin({
+        patterns: [
+          { from: 'public/images', to: 'images' },
         ],
       }),
       new webpack.HotModuleReplacementPlugin(),
