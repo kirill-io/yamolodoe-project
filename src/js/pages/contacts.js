@@ -4,6 +4,6 @@ import CookieBanner from '../components/CookieBanner';
 import StickyHeader from '../components/StickyHeader';
 import * as constants from '../utils/constants';
 
-new PreloaderPage(PreloaderPage.init(constants.preloaderConfig));
+new PreloaderPage(constants.preloaderConfig);
 new CookieBanner(constants.cookieBannerConfig);
-new StickyHeader(StickyHeader.init(constants.headerConfig));
+new StickyHeader(constants.headerConfig);

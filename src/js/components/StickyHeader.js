@@ -1,65 +1,61 @@
 export default class StickyHeader {
-  constructor({ headerElement, checkboxElement }) {
-    this._header = headerElement;
-    this._checkbox = checkboxElement;
-    this._headerState = true;
-    this._lastScroll = 0;
-    this._setStateCheckbox();
-    this._enableStickyHeader();
+  constructor({ headerSelector, checkboxSelector }) {
+    this._header = document.querySelector(headerSelector);
+    this._checkbox = document.querySelector(checkboxSelector);
+
+    if (!this._header || !this._checkbox) return;
+
+    this._headerVisible = true;
+    this._lastScrollY = 0;
+    this.#setStateCheckbox();
+    this.#init();
   }
 
-  _enableStickyHeader() {
-    this._setHeaderHeight();
-    this._pageScrollHandler();
-  }
-
-  _setStateCheckbox() {
+  #setStateCheckbox() {
     this._checkboxState = this._checkbox.checked;
   }
 
-  _setHeaderHeight() {
+  #setHeaderHeight() {
     this._headerHeight = this._header.offsetHeight;
   }
 
-  _setScrollPosition() {
+  #setScrollPosition() {
     return window.pageYOffset || document.documentElement.scrollTop;
   }
 
-  _hideHeader() {
+  #hideHeader() {
     this._header.style.transform = `translateY(-${this._headerHeight}px)`;
-    this._headerState = false;
+    this._headerVisible = false;
   }
 
-  _showHeader() {
+  #showHeader() {
     this._header.style.transform = 'translateY(0px)';
-    this._headerState = true;
+    this._headerVisible = true;
   }
 
-  _pageScrollHandler() {
+  #pageScrollHandler() {
     window.addEventListener('scroll', () => {
-      this._setStateCheckbox();
-      this._setHeaderHeight();
+      this.#setStateCheckbox();
+      this.#setHeaderHeight();
       if (
-        this._setScrollPosition() > this._lastScroll
-        && this._headerState
-        && this._setScrollPosition() > this._headerHeight
+        this.#setScrollPosition() > this._lastScrollY
+        && this._headerVisible
+        && this.#setScrollPosition() > this._headerHeight
         && !this._checkboxState
       ) {
-        this._hideHeader();
+        this.#hideHeader();
       } else if (
-        this._setScrollPosition() < this._lastScroll
-        && !this._headerState
+        this.#setScrollPosition() < this._lastScrollY
+        && !this._headerVisible
       ) {
-        this._showHeader();
+        this.#showHeader();
       }
-      this._lastScroll = this._setScrollPosition();
+      this._lastScrollY = this.#setScrollPosition();
     });
   }
 
-  static init({ headerSelector, checkboxSelector }) {
-    return {
-      headerElement: document.querySelector(headerSelector),
-      checkboxElement: document.querySelector(checkboxSelector),
-    };
+  #init() {
+    this.#setHeaderHeight();
+    this.#pageScrollHandler();
   }
 }

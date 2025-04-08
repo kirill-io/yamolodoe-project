@@ -1,29 +1,31 @@
 export default class PreloaderPage {
-  constructor({ preloaderElement, contentElement }) {
-    this._preloader = preloaderElement;
-    this._content = contentElement;
-    this._enablePreloaderPage();
+  constructor({ preloaderSelector, contentSelector }) {
+    this._preloader = document.querySelector(preloaderSelector);
+    this._content = document.querySelector(contentSelector);
+
+    if (!this._preloader || !this._content) return;
+
+    this.#init();
   }
 
-  _enablePreloaderPage() {
-    this._pageLoadHandler();
+  #init() {
+    window.addEventListener('load', this.#handlePageLoad.bind(this));
   }
 
-  _pageLoadHandler() {
-    window.addEventListener('load', () => {
-      this._preloader.style.display = 'none';
-      this._content.style.display = 'flex';
-      this._content.animate(
-        { opacity: ['0', '1'] },
-        { duration: 1000, easing: 'ease-in' },
-      );
-    });
+  #handlePageLoad() {
+    this.#hidePreloader();
+    this.#showContent();
   }
 
-  static init({ preloaderSelector, contentSelector }) {
-    return {
-      preloaderElement: document.querySelector(preloaderSelector),
-      contentElement: document.querySelector(contentSelector),
-    };
+  #hidePreloader() {
+    this._preloader.style.display = 'none';
+  }
+
+  #showContent() {
+    this._content.style.display = 'flex';
+    this._content.animate(
+      { opacity: ['0', '1'] },
+      { duration: 1000, easing: 'ease-in' },
+    );
   }
 }

@@ -28,7 +28,7 @@ const {
   teamButtonNextSelector,
 } = constants.teamSliderConfig;
 
-new PreloaderPage(PreloaderPage.init(constants.preloaderConfig));
+new PreloaderPage(constants.preloaderConfig);
 
 new CookieBanner(constants.cookieBannerConfig);
 
@@ -55,7 +55,7 @@ new TransitionFromSliderToCheckbox(
   TransitionFromSliderToCheckbox.init(constants.questionsConfig),
 );
 
-new StickyHeader(StickyHeader.init(constants.headerConfig));
+new StickyHeader(constants.headerConfig);
 
 new Swiper(teamContainerSelector, {
   modules: [EffectCoverflow, Navigation],
