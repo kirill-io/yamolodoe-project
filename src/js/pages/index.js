@@ -32,24 +32,6 @@ new PreloaderPage(constants.preloaderConfig);
 
 new CookieBanner(constants.cookieBannerConfig);
 
-new Swiper(introContainerSelector, {
-  modules: [Autoplay, Navigation, Pagination],
-  slidesPerView: 1,
-  loop: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-    pauseOnMouseEnter: true,
-  },
-  pagination: {
-    el: introPaginationSelector,
-  },
-  navigation: {
-    nextEl: introButtonNextSelector,
-    prevEl: introButtonPrevSelector,
-  },
-});
-
 new TransitionFromSliderToCheckbox(
   constants.questionsConfig,
   TransitionFromSliderToCheckbox.init(constants.questionsConfig),
@@ -57,42 +39,62 @@ new TransitionFromSliderToCheckbox(
 
 new StickyHeader(constants.headerConfig);
 
-new Swiper(teamContainerSelector, {
-  modules: [EffectCoverflow, Navigation],
-  effect: 'coverflow',
-  centeredSlides: true,
-  slidesPerView: 3,
-  initialSlide: 1,
-  loop: true,
-  spaceBetween: 50,
-  coverflowEffect: {
-    rotate: 0,
-    stretch: 0,
-    depth: 100,
-    scale: 0.9,
-    modifier: 1,
-    slideShadows: false,
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1.5,
-      spaceBetween: 20,
+window.addEventListener('load', () => {
+  new Swiper(introContainerSelector, {
+    modules: [Autoplay, Navigation, Pagination],
+    slidesPerView: 1,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
     },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 50,
+    pagination: {
+      el: introPaginationSelector,
     },
-    1280: {
-      slidesPerView: 3,
-      spaceBetween: 100,
+    navigation: {
+      nextEl: introButtonNextSelector,
+      prevEl: introButtonPrevSelector,
     },
-    1921: {
-      slidesPerView: 4,
-      spaceBetween: 150,
+  });
+
+  new Swiper(teamContainerSelector, {
+    modules: [EffectCoverflow, Navigation],
+    effect: 'coverflow',
+    centeredSlides: true,
+    slidesPerView: 3,
+    initialSlide: 1,
+    loop: true,
+    spaceBetween: 50,
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 100,
+      scale: 0.9,
+      modifier: 1,
+      slideShadows: false,
     },
-  },
-  navigation: {
-    nextEl: teamButtonPrevSelector,
-    prevEl: teamButtonNextSelector,
-  },
+    breakpoints: {
+      320: {
+        slidesPerView: 1.5,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 50,
+      },
+      1280: {
+        slidesPerView: 3,
+        spaceBetween: 100,
+      },
+      1921: {
+        slidesPerView: 4,
+        spaceBetween: 150,
+      },
+    },
+    navigation: {
+      nextEl: teamButtonPrevSelector,
+      prevEl: teamButtonNextSelector,
+    },
+  });
 });
