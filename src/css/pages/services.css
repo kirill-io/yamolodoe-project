@@ -48,7 +48,6 @@
 @import url('../blocks/services/services.css');
 @import url('../blocks/services/__container/services__container.css');
 @import url('../blocks/services/__master-type/services__master-type.css');
-@import url('../blocks/services/__list/services__list.css');
 @import url('../blocks/services/__item/services__item.css');
 @import url('../blocks/services/__item-row/services__item-row.css');
 @import url('../blocks/services/__title-wrap/services__title-wrap.css');

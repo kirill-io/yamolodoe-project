@@ -142,7 +142,7 @@
     </div>
   </div>
 
-  <div class="page-content" id="content" style="display: none;">
+  <main class="page-content" id="content" style="display: none;">
     <header class="header">
       <div class="header__container">
         <div class="header__column">
@@ -191,17 +191,17 @@
       </div>
     </header>
   
-    <main class="content content_bg-type_left">    
+    <div class="content content_bg-type_left">    
       <div class="container">
-        <section class="services">
-          <h1 class="title title_type_sevices">Массаж лица</h1>
+        <section class="services" aria-labelledby="facial-massage">
+          <h1 class="title title_type_sevices" id="facial-massage">Массаж лица</h1>
           <div class="services__container">
             <ul class="services__master-type services__master-type_visible_desktop">
               <li class="services__master-type-item">Мастер</li>
               <li class="services__master-type-item">Топ-мастер</li>
             </ul>
-            <ul class="services__list">
-              <li class="services__item" id="lifting-massage">
+            <div class="services__list">
+              <article class="services__item" id="lifting-massage">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Лифтинг-массаж омолаживающий</h3>
@@ -221,8 +221,8 @@
                 </div>
                 <p class="services__text">Лифтинг-массаж — это уникальная техника массажа не только моделирует овал лица, но и способствует активному выведению лишней жидкости, устраняя отёки и придавая лицу более чёткие и утончённые черты. Глубокое воздействие улучшает микроциркуляцию, разглаживает морщины и стимулирует естественные процессы омоложения кожи.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на лифтинг-массаж омоложивающий" aria-label="Записаться на лифтинг-массаж омоложивающий">Записаться</a>
-              </li>
-              <li class="services__item" id="sculpture-massage">
+              </article>
+              <article class="services__item" id="sculpture-massage">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Скульптурный массаж</h3>
@@ -242,8 +242,8 @@
                 </div>
                 <p class="services__text">Скульптурный массаж — это самая глубокая техника, которая прорабатывает мышцы, фасции и связки, возвращая лицу чёткие и гармоничные контуры. Процедура устраняет хронические спазмы, расслабляет зажимы и эффективно борется с возрастными изменениями, делая кожу более упругой и подтянутой.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" title="Записаться на скульптурный массаж" aria-label="Записаться на скульптурный массаж">Записаться</a>
-              </li>
-              <li class="services__item" id="relax-massage">
+              </article>
+              <article class="services__item" id="relax-massage">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Релакс-массаж</h3>
@@ -262,21 +262,21 @@
                 </div>
                 <p class="services__text">Релакс-массаж — это нежное прикосновение к вашему внутреннему комфорту. Глубокое расслабление мышц и нервной системы помогает снять напряжение, уменьшить отёчность и вернуть коже свежий, подтянутый вид. Идеально для тех, кто хочет подарить себе момент абсолютного спокойствия.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на релакс-массаж" aria-label="Записаться на релакс-массаж">Записаться</a>
-              </li>
-            </ul>
+              </article>
+            </div>
           </div>
           <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_desktop" target="_blank" title="Записаться на массаж лица" aria-label="Записаться на массаж лица">Записаться</a>
         </section>
   
-        <section class="services">
-          <h2 class="title title_type_sevices">Косметологические услуги</h2>
+        <section class="services" aria-labelledby="cosmetology-services">
+          <h2 class="title title_type_sevices" id="cosmetology-services">Косметологические услуги</h2>
           <div class="services__container">
             <ul class="services__master-type services__master-type_visible_desktop">
               <li class="services__master-type-item">Мастер</li>
               <li class="services__master-type-item">Топ-мастер</li>
             </ul>
-            <ul class="services__list">
-              <li class="services__item" id="ultrasonic-cleaning">
+            <div class="services__list">
+              <article class="services__item" id="ultrasonic-cleaning">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Ультразвуковая чистка</h3>
@@ -295,8 +295,8 @@
                 </div>
                 <p class="services__text">Ультразвуковая чистка — это мягкая, но эффективная процедура, идеально подходящая для нормальной кожи. Она глубоко очищает поры, устраняя загрязнения и излишки себума, возвращая коже здоровое сияние и ощущение свежести. Отличный выбор перед важным событием или выходом, когда нужно выглядеть безупречно и уверенно.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на ультразвуковую чистку лица" aria-label="Записаться на ультразвуковую чистку лица">Записаться</a>
-              </li>
-              <li class="services__item" id="combined-cleaning">
+              </article>
+              <article class="services__item" id="combined-cleaning">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Комбинированная чистка</h3>
@@ -315,8 +315,8 @@
                 </div>
                 <p class="services__text">Комбинированная чистка — это комплексный подход к решению проблем с кожей, таких как закупоренные поры, чёрные точки, воспаления, жировики и подкожные образования. Процедура сочетает в себе несколько методов для глубокого очищения и восстановления кожи, обеспечивая ей чистоту, свежесть и здоровый вид. Идеальный выбор для тех, кто борется с проблемной кожей.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на комбинированную чистку лица" aria-label="Записаться на комбинированную чистку лица">Записаться</a>
-              </li>
-              <li class="services__item" id="peelings">
+              </article>
+              <article class="services__item" id="peelings">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Мультипилинг GIGI</h3>
@@ -335,21 +335,21 @@
                 </div>
                 <p class="services__text">Мультипилинг GIGI — это универсальная процедура, подходящая как для решения конкретных кожных проблем, так и для профилактики и обновления кожи. Он комбинирует различные активные компоненты, которые эффективно воздействуют на кожу, восстанавливая её здоровье, улучшая текстуру и предотвращая возрастные изменения. Отличный выбор для регулярного ухода и поддержания красоты кожи.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на пилинг" aria-label="Записаться на пилинг">Записаться</a>
-              </li>
-            </ul>
+              </article>
+            </div>
           </div>
           <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_desktop" target="_blank" title="Записаться на косметологические услуги" aria-label="Записаться на косметологические услуги">Записаться</a>
         </section>
   
-        <section class="services">
-          <h2 class="title  title_type_sevices">Уходы</h2>
+        <section class="services" aria-labelledby="cares">
+          <h2 class="title  title_type_sevices" id="cares">Уходы</h2>
           <div class="services__container">
             <ul class="services__master-type services__master-type_visible_desktop">
               <li class="services__master-type-item">Мастер</li>
               <li class="services__master-type-item">Топ-мастер</li>
             </ul>
-            <ul class="services__list">
-              <li class="services__item" id="lifting-care">
+            <div class="services__list">
+              <article class="services__item" id="lifting-care">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Лифтинг-уход от GIGI</h3>
@@ -367,8 +367,8 @@
                 </div>
                 <p class="services__text">Лифтинг-уход — это многоэтапная процедура, направленная на мгновенное улучшение тонуса кожи. Особая мусс-маска с мощным подтягивающим эффектом обеспечивает выраженный лифтинг, заметный уже после первого сеанса, а результат сохраняется до трех дней.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на лифтинг-уход от GIGI" aria-label="Записаться на лифтинг-уход от GIGI">Записаться</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Осветляющий уход от GIGI</h3>
@@ -386,8 +386,8 @@
                 </div>
                 <p class="services__text">Осветляющий уход — этот уход создан для тех, кто мечтает о безупречно ровном цвете лица! Процедура деликатно осветляет кожу, борется с пигментацией и дарит здоровое сияние, помогая вашей коже выглядеть свежей и ухоженной.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на осветляющий уход от GIGI" aria-label="Записаться на осветляющий уход от GIGI">Записаться</a>
-              </li>
-              <li class="services__item" id="nourishing-care">
+              </article>
+              <article class="services__item" id="nourishing-care">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Питательный уход от GIGI</h3>
@@ -405,8 +405,8 @@
                 </div>
                 <p class="services__text">Питательный уход — это настоящее спасение для сухой, обезвоженной и поврежденной кожи. Он глубоко восстанавливает, насыщает полезными компонентами и укрепляет защитный барьер, устраняя сухость, стянутость и дискомфорт после воздействия мороза, ветра или солнца.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на питательный уход от GIGI" aria-label="Записаться на питательный уход от GIGI">Записаться</a>
-              </li>
-              <li class="services__item" id="elixir-of-youth">
+              </article>
+              <article class="services__item" id="elixir-of-youth">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Эликсир молодости от GIGI</h3>
@@ -424,8 +424,8 @@
                 </div>
                 <p class="services__text">Эликсир молодости — это уникальная эксклюзивная процедура, доступная только в "Яблочке Молодильном"!  Наш топовый уход для мгновенного омоложения и сияния кожи!  Комбинируя мощный лифтинг-эффект и осветление, процедура подтягивает контуры лица, повышает тонус и дарит безупречно ровный цвет. Особая мусс-маска заметно омолаживает кожу уже после первого сеанса, а эффект сохраняется до трёх дней. Результат: упругая, подтянутая, сияющая кожа без следов усталости!</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на эликсир молодости от GIGI" aria-label="Записаться на эликсир молодости от GIGI">Записаться</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Подростковый уход от GIGI</h3>
@@ -443,17 +443,17 @@
                 </div>
                 <p class="services__text">Подростковый уход — это процедура разработана специально для подростковой кожи, склонной к акне. Она глубоко очищает, успокаивает воспаленные участки и нормализует работу сальных желез, помогая коже восстановиться и выглядеть здоровой и ухоженной.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на подростковый уход от GIGI" aria-label="Записаться на подростковый уход от GIGI">Записаться</a>
-              </li>
-            </ul>
+              </article>
+            </div>
           </div>
           <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_desktop" target="_blank" title="Записаться на уходы" aria-label="Записаться на уходы">Записаться</a>
         </section>
   
-        <section class="services services_no-block-master">
-          <h2 class="title  title_type_sevices">Дополнительные процедуры после массажа</h2>
+        <section class="services services_no-block-master" aria-labelledby="additional-procedures">
+          <h2 class="title  title_type_sevices" id="additional-procedures">Дополнительные процедуры после массажа</h2>
           <div class="services__container">
-            <ul class="services__list">
-              <li class="services__item">
+            <div class="services__list">
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Буккальный массаж</h3>
@@ -466,8 +466,8 @@
                 </div>
                 <p class="services__text">Буккальный массаж — это глубинная проработка мышц лица, устраняющая провисания, брыли и заломы. Эта уникальная техника помогает вернуть чёткий овал лица, разгладить носогубные складки и даже снять спазмы и напряжение челюсти при бруксизме или после оперативных и стоматологических вмешательств.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на буккальный массаж" aria-label="Записаться на буккальный массаж">Записаться</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Кремовая маска на выбор</h3>
@@ -481,8 +481,8 @@
                 </div>
                 <p class="services__text">Кремовые маски — это интенсивный уход, который глубоко питает, увлажняет и восстанавливает кожу. Делает её мягкой, гладкой и сияющей, разглаживая мелкие морщины и укрепляя защитный барьер.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на кремовую маску" aria-label="Записаться на кремовую маску">Записаться</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Альгинатная маска</h3>
@@ -495,8 +495,8 @@
                 </div>
                 <p class="services__text">Альгинатная маска — это мощный коктейль увлажнения и лифтинга. Она глубоко насыщает кожу влагой, укрепляет овал лица и дарит эффект свежести и упругости уже после первого применения. Идеальный финальный штрих для завершения ухода!</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на альгинатную маску" aria-label="Записаться на альгинатную маску">Записаться</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Лифтинг-мусс</h3>
@@ -509,8 +509,8 @@
                 </div>
                 <p class="services__text">Лифтинг-мусс — это экспресс-решение для мгновенной подтяжки кожи. Его активные компоненты разглаживают морщины, укрепляют овал лица и придают коже упругость уже после первого применения. Отличное решение перед важным событием!</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на лифтинг-мусс" aria-label="Записаться на лифтинг-мусс">Записаться</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Массаж головы</h3>
@@ -523,8 +523,8 @@
                 </div>
                 <p class="services__text">Массаж головы — это расслабляющая процедура, снимающая напряжение и улучшающая кровообращение. Стимулирует рост волос, укрепляет корни и помогает избавиться от стресса.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на массаж головы" aria-label="Записаться на массаж головы">Записаться</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Микротоки</h3>
@@ -537,17 +537,17 @@
                 </div>
                 <p class="services__text">Микротоки — это высокоэффективная процедура, которая с помощью аппарата воздействует на мышцы и сосуды лица, стимулируя их работу. Этот метод способствует выведению лишней жидкости, активирует кровообращение и нормализует тонус кожи, придавая лицу свежий и здоровый вид. Микротоки прекрасно помогают вернуть коже упругость и сияние, борясь с отечностью и тусклым цветом лица.</p>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на микротоки" aria-label="Записаться на микротоки">Записаться</a>
-              </li>
-            </ul>
+              </article>
+            </div>
           </div>
           <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_desktop" target="_blank" title="Записаться на дополнительные процедуры после массажа" aria-label="Записаться на дополнительные процедуры после массажа">Записаться</a>
         </section>
   
-        <section class="services services_no-block-master services_big-padding-row">
-          <h2 class="title  title_type_sevices">Массаж тела</h2>
+        <section class="services services_no-block-master services_big-padding-row" aria-labelledby="body-massage">
+          <h2 class="title  title_type_sevices" id="body-massage">Массаж тела</h2>
           <div class="services__container">
-            <ul class="services__list">
-              <li class="services__item">
+            <div class="services__list">
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Массаж тела</h3>
@@ -560,8 +560,8 @@
                   </div>                
                 </div>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на массаж тела 60 минут" aria-label="Записаться на массаж тела 60 минут">Записаться</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Массаж тела</h3>
@@ -574,17 +574,17 @@
                   </div>                
                 </div>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Записаться на массаж тела 90 минут" aria-label="Записаться на массаж тела 90 минут">Записаться</a>
-              </li>
-            </ul>
+              </article>
+            </div>
           </div>
           <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_desktop" target="_blank" title="Записаться на массаж тела" aria-label="Записаться на массаж тела">Записаться</a>
         </section>
   
-        <section class="services services_no-block-master services_big-padding-row" id="subscription">
-          <h2 class="title  title_type_sevices">Абонементы на массаж лица</h2>
+        <section class="services services_no-block-master services_big-padding-row" id="subscription" aria-labelledby="subscriptions-face">
+          <h2 class="title  title_type_sevices" id="subscriptions-face">Абонементы на массаж лица</h2>
           <div class="services__container">
-            <ul class="services__list">
-              <li class="services__item">
+            <div class="services__list">
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Абонемент на 5 лифтинг-массажей</h3>
@@ -596,8 +596,8 @@
                   </div>                
                 </div>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Купить абонемент на 5 лифтинг-массажей" aria-label="Купить абонемент на 5 лифтинг-массажей">Купить</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Абонемент на 10 лифтинг-массажей</h3>
@@ -609,8 +609,8 @@
                   </div>                
                 </div>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Купить абонемент на 10 лифтинг-массажей" aria-label="Купить абонемент на 10 лифтинг-массажей">Купить</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Абонемент на 5 релакс-массажей</h3>
@@ -622,8 +622,8 @@
                   </div>                
                 </div>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Купить абонемент на 5 релакс-массажей" aria-label="Купить абонемент на 5 релакс-массажей">Купить</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Абонемент на 10 релакс-массажей</h3>
@@ -635,8 +635,8 @@
                   </div>                
                 </div>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Купить абонемент на 10 релакс-массажей" aria-label="Купить абонемент на 10 релакс-массажей">Купить</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Абонемент на 5 скульптурных массажей</h3>
@@ -648,8 +648,8 @@
                   </div>                
                 </div>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Купить абонемент на 5 скульптурных массажей" aria-label="Купить абонемент на 5 скульптурных массажей">Купить</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Абонемент на 10 скульптурных массажей</h3>
@@ -661,17 +661,17 @@
                   </div>                
                 </div>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Купить абонемент на 10 скульптурных массажей" aria-label="Купить абонемент на 10 скульптурных массажей">Купить</a>
-              </li>
-            </ul>
+              </article>
+            </div>
           </div>
           <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_desktop" target="_blank" title="Купить абонементы на массаж лица" aria-label="Купить абонементы на массаж лица">Купить</a>
         </section>
   
-        <section class="services services_no-block-master services_big-padding-row">
-          <h2 class="title  title_type_sevices">Абонементы на массаж тела</h2>
+        <section class="services services_no-block-master services_big-padding-row" aria-labelledby="subscriptions-body">
+          <h2 class="title  title_type_sevices" id="subscriptions-body">Абонементы на массаж тела</h2>
           <div class="services__container">
-            <ul class="services__list">
-              <li class="services__item">
+            <div class="services__list">
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Абонемент на 5 массажей тела по 60 минут</h3>
@@ -683,8 +683,8 @@
                   </div>                
                 </div>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Купить абонемент на 5 массажей тела по 60 минут" aria-label="Купить абонемент на 5 массажей тела по 60 минут">Купить</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Абонемент на 10 массажей тела по 60 минут</h3>
@@ -696,8 +696,8 @@
                   </div>                
                 </div>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Купить абонемент на 10 массажей тела по 60 минут" aria-label="Купить абонемент на 10 массажей тела по 60 минут">Купить</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Абонемент на 5 массажей тела по 90 минут</h3>
@@ -709,8 +709,8 @@
                   </div>                
                 </div>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Купить абонемент на 5 массажей тела по 90 минут" aria-label="Купить абонемент на 5 массажей тела по 90 минут">Купить</a>
-              </li>
-              <li class="services__item">
+              </article>
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Абонемент на 10 массажей тела по 90 минут</h3>
@@ -722,17 +722,17 @@
                   </div>                
                 </div>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" title="Купить абонемент на 10 массажей тела по 90 минут" aria-label="Купить абонемент на 10 массажей тела по 90 минут">Купить</a>
-              </li>
-            </ul>
+              </article>
+            </div>
           </div>
           <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_desktop" title="Купить абонементы на массаж тела" aria-label="Купить абонементы на массаж тела">Купить</a>
         </section>
   
-        <section class="services services_no-block-master services_big-padding-row" id="certificate">
-          <h2 class="title  title_type_sevices">Подарочные сертификаты</h2>
+        <section class="services services_no-block-master services_big-padding-row" id="certificate" aria-labelledby="certificate-labelledby">
+          <h2 class="title  title_type_sevices" id="certificate-labelledby">Подарочные сертификаты</h2>
           <div class="services__container">
-            <ul class="services__list">
-              <li class="services__item">
+            <div class="services__list">
+              <article class="services__item">
                 <div class="services__item-row">
                   <div class="services__title-wrap">
                     <h3 class="services__title">Подарочные сертификаты на любые услуги </h3>
@@ -744,8 +744,8 @@
                   </div>                
                 </div>
                 <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_mobile" target="_blank" title="Купить подарочный сертификат" aria-label="Купить подарочный сертификат">Купить</a>
-              </li>
-            </ul>
+              </article>
+            </div>
           </div>
           <a class="button-link button-link_type_bg-dark button-link_type_services services__button-link services__button-link_visible_desktop" target="_blank" title="Купить подарочный сертификат" aria-label="Купить подарочный сертификат">Купить</a>
         </section>
@@ -772,7 +772,7 @@
         </a>
       </div>
   
-    </main>
+    </div>
   
     <footer class="footer">
       <div class="footer__container">
@@ -886,7 +886,7 @@
       <button class="cookie-banner__button" title="Принять использование cookie" aria-label="Принять использование cookie">Принять</button>
     </div>
 
-  </div>
+  </main>
 
 </body>
 </html>
