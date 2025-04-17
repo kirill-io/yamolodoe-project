@@ -160,8 +160,24 @@ module.exports = (env) => {
       isDev && new ESLintPlugin(),
       new FaviconsWebpackPlugin({
         logo: path.resolve(__dirname, 'src', 'assets', 'images', 'favicon', 'favicon.png'),
-        outputPath: path.resolve(__dirname, 'build', 'images', 'favicon'),
-        prefix: 'images/favicon/',
+        prefix: '/',
+        cache: true,
+        inject: true,
+        favicons: {
+          appName: 'Яблочко Молодильное',
+          appShortName: 'Яблочко',
+          appDescription: 'Студия массажа и омоложения в Краснодаре',
+          developerName: 'Яблочко Молодильное',
+          background: '#ffffff',
+          theme_color: '#163b21',
+          icons: {
+            android: true,
+            appleIcon: true,
+            favicons: true,
+            windows: true,
+            yandex: true,
+          },
+        },
       }),
     ].filter(Boolean),
     module: {
