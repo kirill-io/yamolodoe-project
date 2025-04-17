@@ -142,7 +142,7 @@
     </div>
   </div>
 
-  <div class="page-content" id="content" style="display: none;">
+  <main class="page-content" id="content" style="display: none;">
     <header class="header">
       <div class="header__container">
         <div class="header__column">
@@ -191,9 +191,10 @@
       </div>
     </header>
   
-    <main class="content content_bg-type_right">
+    <div class="content content_bg-type_right">
   
-      <section class="intro">
+      <section class="intro" aria-labelledby="intro-heading">
+        <h2 id="intro-heading" class="intro__heading">Преимущества и предложения студии</h2>
         <div class="intro__container">
           <div class="intro__slider-container swiper">
             <ul class="intro__slider-list swiper-wrapper">
@@ -207,10 +208,10 @@
                       alt="Лицо девушки крупным планом, которой делают массаж лица.">
                   </picture>
                   <div class="intro__slide-wrap">
-                    <h2 class="intro__slide-title">Яблочко Молодильное.</h2>
-                    <h3 class="intro__slide-subtitle">Релакс. Гармония. Любовь к себе.</h3>
+                    <h3 class="intro__slide-title">Яблочко Молодильное.</h3>
+                    <h4 class="intro__slide-subtitle">Релакс. Гармония. Любовь к себе.</h4>
                     <p class="intro__slide-text">Здесь рождается красота — в атмосфере уюта, заботы и профессионализма.</p>
-                    <button class="button-link button-link_type_intro intro__slide-button" data-id="whats-checkbox" title="Узнать подробнее о студии Яблочко Молодильное" aria-label="Подробнее о студии Яблочко Молодильное">Подробнее</button>
+                    <button type="button" class="button-link button-link_type_intro intro__slide-button" data-id="whats-checkbox" title="Узнать подробнее о студии Яблочко Молодильное" aria-label="Подробнее о студии Яблочко Молодильное">Подробнее</button>
                   </div>
                 </div>
               </li>
@@ -224,9 +225,9 @@
                       alt="Лицо девушки крупным планом, которая лежит и ей делают массаж лица.">
                   </picture>
                   <div class="intro__slide-wrap">
-                    <h2 class="intro__slide-title">Массаж, который реально работает.</h2>
+                    <h3 class="intro__slide-title">Массаж, который реально работает.</h3>
                     <p class="intro__slide-text">Четкий овал лица, заметное сияние и свежесть — результат, который видно уже после первых процедур.</p>
-                    <button class="button-link button-link_type_intro intro__slide-button" data-id="works-checkbox" title="Узнайте больше о наших методиках массажа" aria-label="Подробнее о методиках массажа лица">Подробнее</button>                    
+                    <button type="button" class="button-link button-link_type_intro intro__slide-button" data-id="works-checkbox" title="Узнайте больше о наших методиках массажа" aria-label="Подробнее о методиках массажа лица">Подробнее</button>                    
                   </div>
                 </div>
               </li>
@@ -240,7 +241,7 @@
                       alt="Карточка-абонемент салона Яблочко молодильное, которую держит в руках девушка.">
                   </picture>
                   <div class="intro__slide-wrap">
-                    <h2 class="intro__slide-title">Абонемент: шаг за шагом к совершенству.</h2>
+                    <h3 class="intro__slide-title">Абонемент: шаг за шагом к совершенству.</h3>
                     <p class="intro__slide-text">Регулярный уход для заметного результата, расслабления и сияющей красоты.</p>
                     <a class="button-link button-link_type_intro intro__slide-button" href="/services.html#subscription" title="Посмотреть прайс на абонементы на наши массажи" aria-label="Прайс на абонементы на массажи">Подробнее</a>
                   </div>
@@ -256,9 +257,9 @@
                       alt="Лицо девушки крупным планом, которая лежит и ей делают массаж лица.">
                   </picture>
                   <div class="intro__slide-wrap">
-                    <h2 class="intro__slide-title">Омоложение без инъекций.</h2>
+                    <h3 class="intro__slide-title">Омоложение без инъекций.</h3>
                     <p class="intro__slide-text">Авторские техники массажа для упругости, лифтинга и сияния кожи.</p>
-                    <button class="button-link button-link_type_intro intro__slide-button" data-id="rejuvenation-checkbox" title="Узнайте, как массаж лица может быть альтернативой инъекциям" aria-label="Подробнее о массаже лица как альтернативе инъекциям">Подробнее</button>
+                    <button type="button" class="button-link button-link_type_intro intro__slide-button" data-id="rejuvenation-checkbox" title="Узнайте, как массаж лица может быть альтернативой инъекциям" aria-label="Подробнее о массаже лица как альтернативе инъекциям">Подробнее</button>
                   </div>
                 </div>
               </li>
@@ -271,9 +272,9 @@
                       srcset="../assets/images/intro/slide-5-desktop@2x.jpg 2x" alt="Набор косметики GIGI.">
                   </picture>
                   <div class="intro__slide-wrap">
-                    <h2 class="intro__slide-title">Косметика GIGI.</h2>
+                    <h3 class="intro__slide-title">Косметика GIGI.</h3>
                     <p class="intro__slide-text">Из Израиля с доказанной эффективностью. Инновационные формулы для видимого результата.</p>
-                    <button class="button-link button-link_type_intro intro__slide-button" data-id="gigi-checkbox" title="Узнайте, почему мы выбираем косметику GIGI для ухода за кожей" aria-label="Подробнее о косметике GIGI и её эффективности">Подробнее</button>
+                    <button type="button" class="button-link button-link_type_intro intro__slide-button" data-id="gigi-checkbox" title="Узнайте, почему мы выбираем косметику GIGI для ухода за кожей" aria-label="Подробнее о косметике GIGI и её эффективности">Подробнее</button>
                   </div>
                 </div>
               </li>
@@ -287,7 +288,7 @@
                       alt="Улыбающаяся девушка держит в руках подарок, перевязанный красной лентой с бантом.">
                   </picture>
                   <div class="intro__slide-wrap">
-                    <h2 class="intro__slide-title">Подарочный сертификат.</h2>
+                    <h3 class="intro__slide-title">Подарочный сертификат.</h3>
                     <p class="intro__slide-text">Позаботься о тех, кого любишь.</p>
                     <a class="button-link button-link_type_intro intro__slide-button" href="/services.html#certificate" title="Посмотреть прайс на подарочные сертификаты" aria-label="Прайс на подарочные сертификаты">Подробнее</a>
                   </div>
@@ -303,9 +304,9 @@
                       alt="Лицо девушки крупным планом, у которой на лице косметическая маска.">
                   </picture>
                   <div class="intro__slide-wrap">
-                    <h2 class="intro__slide-title">Эликсир молодости.</h2>
+                    <h3 class="intro__slide-title">Эликсир молодости.</h3>
                     <p class="intro__slide-text">Больше, чем уход – ваш ритуал красоты.</p>
-                    <button class="button-link button-link_type_intro intro__slide-button" data-id="elixir-checkbox" title="Узнайте, что такое 'Эликсир молодости' и как он омолаживает кожу" aria-label="Подробнее о ритуале 'Эликсир молодости' для омоложения">Подробнее</button>
+                    <button type="button" class="button-link button-link_type_intro intro__slide-button" data-id="elixir-checkbox" title="Узнайте, что такое 'Эликсир молодости' и как он омолаживает кожу" aria-label="Подробнее о ритуале 'Эликсир молодости' для омоложения">Подробнее</button>
                   </div>
                 </div>
               </li>
@@ -318,19 +319,19 @@
                       srcset="../assets/images/intro/slide-8-desktop@2x.jpg 2x" alt="Набор косметики ANGIOFARM.">
                   </picture>
                   <div class="intro__slide-wrap">
-                    <h2 class="intro__slide-title">ANGIOFARM – космецевтика будущего.</h2>
+                    <h3 class="intro__slide-title">ANGIOFARM – космецевтика будущего.</h3>
                     <p class="intro__slide-text">Продуманный уход для здоровья и красоты вашей кожи.</p>
-                    <button class="button-link button-link_type_intro intro__slide-button" data-id="angiofarm-checkbox" title="Узнайте, почему мы рекомендуем космецевтику ANGIOFARM для ухода за кожей" aria-label="Подробнее о космецевтике ANGIOFARM для домашнего ухода">Подробнее</button>
+                    <button type="button" class="button-link button-link_type_intro intro__slide-button" data-id="angiofarm-checkbox" title="Узнайте, почему мы рекомендуем космецевтику ANGIOFARM для ухода за кожей" aria-label="Подробнее о космецевтике ANGIOFARM для домашнего ухода">Подробнее</button>
                   </div>
                 </div>
               </li>
             </ul>
-            <button class="button-arrow intro__slider-button intro__slider-button_type_prev" title="Предыдущий слайд" aria-label="Перейти к предыдущему слайду"> 
+            <button type="button" class="button-arrow intro__slider-button intro__slider-button_type_prev" title="Предыдущий слайд" aria-label="Перейти к предыдущему слайду"> 
               <svg class="button-arrow__image">
                 <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-prev"></use>
               </svg>
             </button>
-            <button class="button-arrow intro__slider-button intro__slider-button_type_next" title="Следующий слайд" aria-label="Перейти к следующему слайду">
+            <button type="button" class="button-arrow intro__slider-button intro__slider-button_type_next" title="Следующий слайд" aria-label="Перейти к следующему слайду">
               <svg class="button-arrow__image">
                 <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-next"></use>
               </svg>
@@ -977,12 +978,12 @@
             </li>
           </ul>
           <div class="team__slider-button-wrap">
-            <button class="button-arrow team__slider-button team__slider-button_type_prev" title="Предыдущий слайд" aria-label="Перейти к предыдущему слайду">
+            <button type="button" class="button-arrow team__slider-button team__slider-button_type_prev" title="Предыдущий слайд" aria-label="Перейти к предыдущему слайду">
               <svg class="button-arrow__image">
                 <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-prev"></use>
               </svg>
             </button>
-            <button class="button-arrow team__slider-button team__slider-button_type_next" title="Следующий слайд" aria-label="Перейти к следующему слайду">
+            <button type="button" class="button-arrow team__slider-button team__slider-button_type_next" title="Следующий слайд" aria-label="Перейти к следующему слайду">
               <svg class="button-arrow__image">
                 <use href="../assets/images/button-arrow/button-arrow-icon.svg#arrow-next"></use>
               </svg>
@@ -1011,7 +1012,7 @@
         </a>
       </div>
   
-    </main>
+    </div>
   
     <footer class="footer">
       <div class="footer__container">
@@ -1121,10 +1122,10 @@
 
     <div class="cookie-banner">
       <p class="cookie-banner__text">Мы используем файлы cookie и аналитические сервисы, чтобы улучшать работу сайта и предлагать вам более удобный пользовательский опыт. Оставаясь на сайте, вы соглашаетесь с использованием cookie.</p>
-      <button class="cookie-banner__button" title="Принять использование cookie" aria-label="Принять использование cookie">Принять</button>
+      <button type="button" class="cookie-banner__button" title="Принять использование cookie" aria-label="Принять использование cookie">Принять</button>
     </div>
 
-  </div>
+  </main>
   
 
 </body>
