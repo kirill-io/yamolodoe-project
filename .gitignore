@@ -1,2 +1,5 @@
 build
 node_modules
+/public/meta/robots.txt
+/public/meta/sitemap.xml
+/public/meta/yandex-browser-manifest.json
