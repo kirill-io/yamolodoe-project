@@ -7,7 +7,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
-const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = (env) => {
   const isDev = env.mode === 'development';
@@ -31,6 +30,27 @@ module.exports = (env) => {
   const htmlLoader = {
     test: /\.html$/i,
     loader: 'html-loader',
+    options: {
+      sources: {
+        list: [
+          {
+            tag: 'img',
+            attribute: 'src',
+            type: 'src',
+          },
+          {
+            tag: 'source',
+            attribute: 'srcset',
+            type: 'srcset',
+          },
+          {
+            tag: 'use',
+            attribute: 'href',
+            type: 'src',
+          },
+        ],
+      },
+    },
   };
 
   const postCssLoader = {
@@ -150,6 +170,8 @@ module.exports = (env) => {
       new CopyPlugin({
         patterns: [
           { from: 'public/images', to: 'images' },
+          { from: 'public/favicon', to: '.' },
+          { from: 'public/manifest', to: '.' },
         ],
       }),
       new webpack.HotModuleReplacementPlugin(),
@@ -158,27 +180,6 @@ module.exports = (env) => {
         chunkFilename: 'css/[name].[contenthash:8].css',
       }),
       isDev && new ESLintPlugin(),
-      new FaviconsWebpackPlugin({
-        logo: path.resolve(__dirname, 'src', 'assets', 'images', 'favicon', 'favicon.png'),
-        prefix: '/',
-        cache: true,
-        inject: true,
-        favicons: {
-          appName: 'Яблочко Молодильное',
-          appShortName: 'Яблочко',
-          appDescription: 'Студия массажа и омоложения в Краснодаре',
-          developerName: 'Яблочко Молодильное',
-          background: '#ffffff',
-          theme_color: '#163b21',
-          icons: {
-            android: true,
-            appleIcon: true,
-            favicons: true,
-            windows: true,
-            yandex: true,
-          },
-        },
-      }),
     ].filter(Boolean),
     module: {
       rules: [

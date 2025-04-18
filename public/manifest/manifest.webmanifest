@@ -2,18 +2,18 @@
   "name": "Яблочко Молодильное",
   "short_name": "ЯМолодильное",
   "description": "Студия массажа лица и тела 'Яблочко Молодильное' в Краснодаре – косметологические услуги, профессиональный массаж и уход за кожей. Окунитесь в мир расслабления и молодости с натуральными маслами и индивидуальным подходом!",
-  "start_url": "/",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#163b21",
   "icons": [
     {
-      "src": "https://yamolodoe.ru/images/icon-192x192.png",
+      "src": "/favicon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://yamolodoe.ru/images/icon-512x512.png",
+      "src": "/favicon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
