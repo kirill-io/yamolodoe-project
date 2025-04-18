@@ -171,7 +171,7 @@ module.exports = (env) => {
         patterns: [
           { from: 'public/images', to: 'images' },
           { from: 'public/favicon', to: '.' },
-          { from: 'public/manifest', to: '.' },
+          { from: 'public/meta', to: '.' },
         ],
       }),
       new webpack.HotModuleReplacementPlugin(),
