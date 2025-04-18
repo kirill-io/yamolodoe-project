@@ -37,6 +37,7 @@
     <style>
       .root {
         margin: 0;
+        overflow: hidden;
       }
     
       .root:has(.noscript) .preloader {
@@ -64,9 +65,9 @@
         align-items: center;
         background: #fff;
         display: flex;
-        height: 100vh;
+        inset: 0;
         justify-content: center;
-        width: 100vw;
+        position: absolute;
       }
 
       .loader {
@@ -161,7 +162,7 @@
     </div>
   </div>
 
-  <main class="page-content" id="content" style="display: none;">
+  <main class="page-content" id="content" style="opacity: 0; pointer-events: none;">
     <header class="header">
       <div class="header__container">
         <div class="header__column">

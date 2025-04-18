@@ -1,4 +1,5 @@
 export const preloaderConfig = {
+  rootSelector: '.root',
   preloaderSelector: '#preloader',
   contentSelector: '#content',
 };
@@ -6,6 +7,11 @@ export const preloaderConfig = {
 export const headerConfig = {
   headerSelector: '.header',
   checkboxSelector: '#menu-checkbox',
+};
+
+export const mobileMenuConfig = {
+  rootSelector: '.root',
+  menuInputSelector: '.header__menu-input',
 };
 
 export const introSliderConfig = {

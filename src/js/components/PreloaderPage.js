@@ -1,5 +1,6 @@
 export default class PreloaderPage {
-  constructor({ preloaderSelector, contentSelector }) {
+  constructor({ rootSelector, preloaderSelector, contentSelector }) {
+    this._root = document.querySelector(rootSelector);
     this._preloader = document.querySelector(preloaderSelector);
     this._content = document.querySelector(contentSelector);
 
@@ -22,7 +23,9 @@ export default class PreloaderPage {
   }
 
   #showContent() {
-    this._content.style.display = 'flex';
+    this._content.style.pointerEvents = 'auto';
+    this._content.style.opacity = '1';
+    this._root.style.overflow = 'auto';
     this._content.animate(
       { opacity: ['0', '1'] },
       { duration: 1000, easing: 'ease-in' },
