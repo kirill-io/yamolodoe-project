@@ -19,7 +19,7 @@ export default class PreloaderPage {
   }
 
   #hidePreloader() {
-    this._preloader.style.display = 'none';
+    // this._preloader.style.display = 'none';
   }
 
   #showContent() {
