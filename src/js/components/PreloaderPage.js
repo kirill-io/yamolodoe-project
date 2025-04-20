@@ -19,14 +19,26 @@ export default class PreloaderPage {
   }
 
   #hidePreloader() {
-    this._preloader.style.display = 'none';
+    const animation = this._preloader.animate(
+      { opacity: ['1', '0'] },
+      {
+        duration: 300,
+        easing: 'ease-in',
+        fill: 'forwards',
+      },
+    );
+
+    animation.finished.then(() => {
+      this._preloader.style.zIndex = '-9999';
+      this._preloader.style.pointerEvents = 'none';
+    });
   }
 
   #showContent() {
     this._root.style.overflow = 'auto';
-    // this._content.animate(
-    //   { opacity: ['0', '1'] },
-    //   { duration: 1000, easing: 'ease-in' },
-    // );
+    this._content.animate(
+      { opacity: ['.5', '1'] },
+      { duration: 1000, easing: 'ease-in' },
+    );
   }
 }
