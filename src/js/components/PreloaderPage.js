@@ -19,14 +19,14 @@ export default class PreloaderPage {
   }
 
   #hidePreloader() {
-    // this._preloader.style.display = 'none';
+    this._preloader.style.display = 'none';
   }
 
   #showContent() {
     this._root.style.overflow = 'auto';
-    this._content.animate(
-      { opacity: ['0', '1'] },
-      { duration: 1000, easing: 'ease-in' },
-    );
+    // this._content.animate(
+    //   { opacity: ['0', '1'] },
+    //   { duration: 1000, easing: 'ease-in' },
+    // );
   }
 }
