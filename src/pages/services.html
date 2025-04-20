@@ -37,7 +37,6 @@
     <style>
       .root {
         margin: 0;
-        overflow: hidden;
       }
     
       .root:has(.noscript) .preloader {
@@ -63,12 +62,12 @@
     
       .preloader {
         align-items: center;
-        background: #fff;
+        background: rgba(255 255 255 / 99.99%);
         display: flex;
         inset: 0;
         justify-content: center;
         position: fixed;
-        z-index: 1000;
+        z-index: 9999;
       }
 
       .loader {

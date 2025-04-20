@@ -22,7 +22,7 @@ export default class PreloaderPage {
     const animation = this._preloader.animate(
       { opacity: ['1', '0'] },
       {
-        duration: 300,
+        duration: 1000,
         easing: 'ease-in',
         fill: 'forwards',
       },
@@ -35,7 +35,7 @@ export default class PreloaderPage {
   }
 
   #showContent() {
-    this._root.style.overflow = 'auto';
+    window.scrollTo(0, 0);
     this._content.animate(
       { opacity: ['.5', '1'] },
       { duration: 1000, easing: 'ease-in' },
