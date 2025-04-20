@@ -10,12 +10,7 @@ export default class PreloaderPage {
   }
 
   #init() {
-    // window.addEventListener('load', this.#handlePageLoad.bind(this));
-    window.addEventListener('DOMContentLoaded', () => {
-      setTimeout(() => {
-        this.#handlePageLoad();
-      }, 300);
-    });
+    window.addEventListener('load', this.#handlePageLoad.bind(this));
   }
 
   #handlePageLoad() {
