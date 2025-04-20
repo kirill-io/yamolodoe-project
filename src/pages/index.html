@@ -67,7 +67,8 @@
         display: flex;
         inset: 0;
         justify-content: center;
-        position: absolute;
+        position: fixed;
+        z-index: 1000;
       }
 
       .loader {
@@ -162,7 +163,7 @@
     </div>
   </div>
 
-  <main class="page-content" id="content" style="opacity: 0; pointer-events: none;">
+  <main class="page-content" id="content">
     <header class="header">
       <div class="header__container">
         <div class="header__column">

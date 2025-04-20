@@ -23,8 +23,6 @@ export default class PreloaderPage {
   }
 
   #showContent() {
-    this._content.style.pointerEvents = 'auto';
-    this._content.style.opacity = '1';
     this._root.style.overflow = 'auto';
     this._content.animate(
       { opacity: ['0', '1'] },
