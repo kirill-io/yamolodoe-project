@@ -10,7 +10,12 @@ export default class PreloaderPage {
   }
 
   #init() {
-    window.addEventListener('load', this.#handlePageLoad.bind(this));
+    // window.addEventListener('load', this.#handlePageLoad.bind(this));
+    window.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => {
+        this.#handlePageLoad();
+      }, 300);
+    });
   }
 
   #handlePageLoad() {
@@ -19,10 +24,7 @@ export default class PreloaderPage {
   }
 
   #hidePreloader() {
-    // this._preloader.style.display = 'none';
-    this._preloader.style.pointerEvents = 'none';
-    this._preloader.style.opacity = '0';
-    this._preloader.style.zIndex = '-1000';
+    this._preloader.style.display = 'none';
   }
 
   #showContent() {
