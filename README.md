@@ -10,9 +10,10 @@
 
 ![Превью сайта "Яблочко Молодильное"](./src/assets/images/preview.jpg)
 
-## Ссылка на демо
+## Ссылка на сайт
 
-- [Посмотреть сайт](https://yamolodoe-project.vercel.app/)
+- **Основной хостинг:** [yamolodoe.ru](https://yamolodoe.ru/)
+- **Демо-версия:** [yamolodoe-project.vercel.app](https://yamolodoe-project.vercel.app/)
 
 ## Статус проекта
 
