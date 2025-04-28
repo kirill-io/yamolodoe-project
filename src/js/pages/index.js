@@ -1,5 +1,6 @@
 import 'css/pages/index.css';
 import 'swiper/css';
+import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import Swiper from 'swiper';
@@ -8,6 +9,7 @@ import {
   Navigation,
   Pagination,
   EffectCoverflow,
+  EffectFade,
 } from 'swiper/modules';
 import PreloaderPage from '../components/PreloaderPage';
 import CookieBanner from '../components/CookieBanner';
@@ -43,16 +45,21 @@ new MenuOverflowLocker(constants.mobileMenuConfig);
 new StickyHeader(constants.headerConfig);
 
 new Swiper(introContainerSelector, {
-  modules: [Autoplay, Navigation, Pagination],
+  modules: [Autoplay, Navigation, Pagination, EffectFade],
   slidesPerView: 1,
   loop: true,
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true,
+  },
   autoplay: {
-    delay: 3000,
+    delay: 5000,
     disableOnInteraction: false,
     pauseOnMouseEnter: true,
   },
   pagination: {
     el: introPaginationSelector,
+    clickable: true,
   },
   navigation: {
     nextEl: introButtonNextSelector,
