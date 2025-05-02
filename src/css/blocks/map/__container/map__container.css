@@ -3,7 +3,7 @@
   border-radius: 20px;
   border: 1px solid var(--primary-font-color);
   box-shadow: var(--primary-font-color) 0 7px 29px 0;
-  height: 25vw;
+  height: 30vw;
   overflow: hidden;
   width: 70%;
 }
