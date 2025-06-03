@@ -6,19 +6,19 @@
   justify-items: center;
 }
 
-.information__text-column_display_grid:first-child {  
+.information__text-column_display_grid:first-child {
   justify-content: normal;
   justify-items: center;
 }
 
 @media screen and (max-width: 1279px) {
-  .information__text-column_display_grid:first-child {  
-    max-width: 400px;
+  .information__text-column_display_grid:first-child {
+    max-width: 200px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .information__text-column_display_grid {  
+  .information__text-column_display_grid {
     align-items: center;
     column-gap: 5px;
     display: flex;

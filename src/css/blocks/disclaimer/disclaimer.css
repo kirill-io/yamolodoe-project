@@ -1,0 +1,7 @@
+.disclaimer {
+  color: var(--primary-font-color);
+  display: flex;
+  font: var(--secondary-font-size-l) var(--secondary-font-regular);
+  justify-content: center;
+  margin-bottom: 30px;
+}

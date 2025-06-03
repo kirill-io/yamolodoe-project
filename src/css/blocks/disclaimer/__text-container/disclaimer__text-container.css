@@ -1,0 +1,10 @@
+.disclaimer__text-container {
+  overflow: hidden;
+}
+
+.disclaimer__text-container::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10px;
+}

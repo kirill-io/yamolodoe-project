@@ -7,6 +7,14 @@
 @import url("../blocks/contacts/__image/contacts__image.css");
 @import url("../blocks/contacts/__text/contacts__text.css");
 @import url("../blocks/contacts/__address/contacts__address.css");
+@import url("../blocks/disclaimer/disclaimer.css");
+@import url("../blocks/disclaimer/__container/disclaimer__container.css");
+@import url("../blocks/disclaimer/__input/disclaimer__input.css");
+@import url("../blocks/disclaimer/__label/disclaimer__label.css");
+@import url("../blocks/disclaimer/__label-icon/disclaimer__label-icon.css");
+@import url("../blocks/disclaimer/__text-wrap/disclaimer__text-wrap.css");
+@import url("../blocks/disclaimer/__text-container/disclaimer__text-container.css");
+@import url("../blocks/disclaimer/__text/disclaimer__text.css");
 @import url("../blocks/button-arrow/button-arrow.css");
 @import url("../blocks/button-arrow/__image/button-arrow__image.css");
 @import url("../blocks/button-link/button-link.css");
@@ -149,3 +157,4 @@
 @import url("../blocks/footer/__row/_type/footer__row_type_one.css");
 @import url("../blocks/cookie-banner/_hidden/cookie-banner_hidden.css");
 @import url("../blocks/cookie-banner/_visible/cookie-banner_visible.css");
+@import url("../blocks/services-intro/__item/_type/services-intro__item_type_soon.css");

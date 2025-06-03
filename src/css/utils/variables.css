@@ -1,13 +1,13 @@
 :root {
-  --primary-font-regular: 'Philosopher-Regular', 'Calibri', sans-serif;
-  --primary-font-bold: 'Philosopher-Bold', 'Calibri', sans-serif;
-  --secondary-font-regular: 'Montserrat-Regular', 'Arial', sans-serif;
-  --secondary-font-bold: 'Montserrat-Bold', 'Arial', sans-serif;
+  --primary-font-regular: "Philosopher-Regular", "Calibri", sans-serif;
+  --primary-font-bold: "Philosopher-Bold", "Calibri", sans-serif;
+  --secondary-font-regular: "Montserrat-Regular", "Arial", sans-serif;
+  --secondary-font-bold: "Montserrat-Bold", "Arial", sans-serif;
   --primary-font-color: #163b21;
-  --secondary-font-color: #FFF;
-  --primary-bg-color: #FFF;
+  --secondary-font-color: #fff;
+  --primary-bg-color: #fff;
   --secondary-bg-color: #e6e7e9;
-  --primary-hover-color: #FFF;
+  --primary-hover-color: #fff;
   --secondary-hover-color: #8ce35c;
   --primary-font-size-xxxs: 12px;
   --primary-font-size-xxs: 14px;

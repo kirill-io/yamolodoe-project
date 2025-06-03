@@ -26,12 +26,6 @@ export const questionsConfig = {
   buttonSlector: '.intro__slide-button',
 };
 
-export const teamSliderConfig = {
-  teamContainerSelector: '.team__slider',
-  teamButtonPrevSelector: '.team__slider-button_type_prev',
-  teamButtonNextSelector: '.team__slider-button_type_next',
-};
-
 export const cookieBannerConfig = {
   cookieBannerSelector: '.cookie-banner',
   cookieButtonSelector: '.cookie-banner__button',

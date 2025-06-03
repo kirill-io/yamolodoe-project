@@ -1,0 +1,27 @@
+.disclaimer__input {
+  position: absolute;
+  scroll-margin-top: 30px;
+  visibility: hidden;
+}
+
+.disclaimer__input:checked + .disclaimer__label > .disclaimer__label-icon {
+  transform: translateY(-50%) rotate(405deg);
+}
+
+.disclaimer__input:checked + .disclaimer__label + .disclaimer__text-wrap {
+  grid-template-rows: 1fr;
+}
+
+.disclaimer__input:checked
+  + .disclaimer__label
+  + .disclaimer__text-wrap
+  > .disclaimer__text-container
+  > .disclaimer__text {
+  padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .disclaimer__input {
+    scroll-margin-top: 135px;
+  }
+}
