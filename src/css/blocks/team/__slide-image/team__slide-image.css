@@ -3,6 +3,11 @@
   width: 55%;
 }
 
+.team__slide-image-pic {
+  display: block;
+  width: 100%;
+}
+
 @media screen and (max-width: 1279px) {
   .team__slide-image {
     width: 50%;
